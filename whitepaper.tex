@@ -8,9 +8,17 @@
 \usepackage{hyperref}
 \usepackage{titling}
 \usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{listings}
+%\graphicspath{ {/} }
 
 \pagestyle{fancy}
 \fancyhf{}
+
+\lstset{basicstyle=\ttfamily,
+escapeinside={||},
+mathescape=true}
 
 % last page seems to need two runs, which I assume actually means you need to create the bulid and render files in a
 % certain order
@@ -280,9 +288,9 @@
 				\paragraph{}
 					Users must provide liquidity on both sides of the book to qualify for rewards and they must provide liquidity consistently over time. The scoring algorithm is:
 
-				\begin{verbatim}
-					LiquidityPoints = NetBidVolume x NetAskVolume
-				\end{verbatim}
+				\begin{lstlisting}
+	LiquidityPoints = NetBidVolume x NetAskVolume
+				\end{lstlisting}
 
 				\paragraph{}
 					Every hour the account with the most LiquidityPoints receives 1200 STEEM and then has its LiquidityPoints reset to 0. An account that goes a week without earning any LiquidityPoints also has its points reset to 0. This means that whether you provide a large amount of liquidity or a small amount over a long period of time everyone gets a proportional amount of the rewards. If either NetBidVolume or NetAskVolume is negative, then LiquidityPoints is considered to be 0.
@@ -404,7 +412,6 @@
 					\paragraph{}
 						The use of negative-voting to keep people from abusing the system leverages the crab mentality that many people have when it is perceived that one individual is pro ting at the expense of everyone else. While crab mentality normally refers to short-sighted people keeping good people down, it is also what allows good people to keep bad people down. The only "problem" with crab mentality is when people wrongly believe someone is profiting at everyone else's expense.
 
-				%\begin{addmargin}[3em]{2em}
 				\begin{quote}
 
 				\subsubsubsection[The Story of the Crab Bucket]{The Story of the Crab Bucket\protect\footnote{The Story of the Crab Bucket, \url{http://guidezone.e-guiding.com/jmstory_crabs.htm}}}
@@ -421,7 +428,6 @@
 					\paragraph{}
 						So it is with people. If one tries to do something different, get better grades, improve herself, escape her environment, or dream big dreams, other people will try to drag her back down to share their fate.
 
-					%\end{addmargin}
 					\end{quote}
 
 					\paragraph{}
@@ -429,5 +435,481 @@
 
 					\paragraph{}
 						The goal of building a community currency is to get more "crabs in the bucket". Going to extreme measures to eliminate all abuse is like attempting to put a lid on the bucket to prevent a few crabs from escaping and comes at the expense of making it harder to add new crabs to the bucket. It is sufficient to make the walls slippery and give the other crabs suf cient power to prevent others from escaping.
+
+			\subsubsection{Rate Limited Voting}
+
+				\paragraph{}
+					A major part of minimizing abuse is the rate-limiting of voting. Individual users can only read and evaluate so many work items per day. Any attempt to vote more frequently than this is a sign of automation and potential abuse. Through rate limiting, stakeholders who vote more frequently have each vote count for less than stakeholders who vote less frequently. Attempts to divide tokens among multiple accounts also divides in uence and therefore does not result in a net increase in in uence nor bypass the rate-limit imposed on voting.
+
+				\includegraphics[width=11cm]{img_voting_rate_limiting}
+
+				\paragraph{}
+					The charts above shows how a user's voting power decreases every time they vote and then regenerates as time passes without voting. These charts use nominal time unit and could be made to scale to any targeted voting rate. Note that voting power rapidly drops off during periods of continuous voting, and then slowly recovers.
+				
+				\paragraph{}
+					Voting power is multiplied by a user's vesting tokens to determine how much share in the reward pool should be allocated to a given work item.
+
+			\subsubsection{Delayed Payouts}
+
+				\begin{wrapfigure}{r}{0.5\textwidth}
+                    \centering
+                    \includegraphics[width=0.5\textwidth]{img_change_voting_period_eg}
+                \end{wrapfigure}
+
+				\paragraph{}
+					To further prevent abuse, all payouts are delayed a stake-weighted average of 24 hours from the time each vote was cast. This ensures that large stakeholders cannot snipe payouts by voting at the last second before other voters (aka crabs) have a chance to negate the potential abuse. Once a payout is made to the user all votes are reset to 0. If votes come in after the payout then the process begins again.
+
+				\paragraph{}
+					This chart shows how the voting period expiration changes in response to new positive and negative votes being applied. New votes extend the payout period in proportion to how large they are relative to all votes that have gone before. Around time 40 a large number of new votes were added which extended the voting period by 12 hours, subsequent smaller votes had far less impact on the voting period.
+
+			\subsubsection{Payout Distribution}
+
+				\begin{wrapfigure}{r}{0.5\textwidth}
+					\centering
+					\includegraphics[width=0.5\textwidth]{img_the_new_marketplace}
+				\end{wrapfigure}
+
+				\paragraph{}
+					One of the primary goals of Steem's reward system is to produce the best discussions on the internet. Each and every year 10\% of the market capitalization of Steem is distributed to users submitting, voting on, and discussing content. At the size of Bitcoin this could be as much as \$1.75 million dollars per day being given to top contributors.
+
+				\paragraph{}
+					The actual distribution will depend upon the voting patterns of users, but we suspect that the vast majority of the rewards will be distributed to the most popular content. Steem weighs payouts proportional to n2 the amount of Steem Power voting for a post. In other words, post x would receive a payout proportional to:
+
+				\begin{lstlisting}
+		votes[x$]^{2}$ / sum(votes[0...n]$^{2}$)
+                \end{lstlisting}
+
+                \paragraph{}
+                	Zipf's Law\footnote{Zipf's Law \url{https://en.wikipedia.org/wiki/Zipf\%27s_law}} is one of those empirical rules that characterize a surprising range of real-world phenomena remarkably well. It says that if we order some large collection by size or popularity, the second element in the collection will be about half the measure of the first one, the third one will be about one-third the measure of the first one, and so on. In general, the $k^{th}$-ranked item will measure about 1/k of the first one.
+
+                \paragraph{}
+                	Taking popularity as a rough measure of value, then the value of each individual item is given by Zipf’s Law. That is, if we have a million items, then the most popular 100 will contribute a third of the total value, the next 10,000 another third, and the remaining 989,900 the  nal third. The value of the collection of n items is proportional to log( n ).
+
+                \paragraph{}
+                	The impact of this voting and payout distribution is to offer large bounties for good content while still rewarding smaller players for their long-tail contribution.
+
+                \paragraph{}
+                	The economic effect of this is similar to a lottery where people over-estimate their probability of getting votes and thus do more work than the expected value of their reward and thereby maximize the total amount of work performed in service of the community. The fact that everyone “wins something” plays on the same psychology that casinos use to keep people gambling. In other words, small rewards help reinforce the idea that it is possible to earn bigger rewards.
+
+				\subsubsubsection{Rewarding Parent Posts}
+
+					\paragraph{}
+						Good discussion requires back and forth posting. When you reply to someone else, they get 50\% of any payout you receive in that thread. This rule applies up to 6 levels deep. Starting a big discussion greatly rewards the parent poster.
+
+					\paragraph{}
+						Failure to properly nest your posts in the discussion is a good way to get down voted.
+
+					\paragraph{}
+						This incentive structure motivates people to contribute in a way that motivates others to get involved. It encourages people to ask good questions so that others can provide valuable answers.
+			\subsubsection{Payouts}
+
+				\paragraph{}
+					When a post receives a payout it takes the form of 50\% SMD and 50\% SP. The Steem Power give the user increased voting and transaction power while the SMD gives the user an immediate benefit in a stable currency. As we’ve already discussed at length, both SP and SMD are designed to encourage long-term holding rather than short-term selling.
+
+	\section{Consensus Algorithm}
+
+		\paragraph{}
+			Consensus is the process by which a community comes to a universally recognized, unambiguous agreement on piece of information. There are many algorithms society has developed for reaching consensus about who owns what. Every government on earth is a primitive consensus algorithm whereby the population agrees to abide by a certain set of rules enshrined in a constitution. Governments establish courts, judges, and juries to interpret the subjective facts and render a final decision. Most of the time people abide by the decision even if it was wrong.
+
+		\paragraph{}
+			The algorithms used by cryptocurrencies provide a better way to reach consensus. Cryptographically signed testimony from individuals is recorded in a public ledger that establishes the absolute global order of events. A deterministic computer algorithm can then process this ledger to derive a universally accepted conclusion. So long as the members of a community agree on the processing algorithm, the result of the algorithm is authoritative.
+
+		\paragraph{}
+			The primary consideration is determining what testimony is allowed to enter the public record. Systems should be designed to minimize the potential for censorship. Censorship on the public ledger is similar to preventing someone from voting in an election. In both cases an individual is prevented from impacting the global consensus.
+
+		\subsection{Consensus in Steem}
+
+			\paragraph{}
+				Conceptually, the consensus algorithm adopted by Steem is similar to the consensus algorithm adopted by companies throughout the world. People with a vested interest in the future value of Steem vote to select individuals responsible for including testimony in the public record. Voting is weighted proportional to each individual's vested interest.
+
+			\paragraph{}
+				In the world of cryptocurrencies, the public record is commonly referred to as a \textit{blockchain}. A \textit{block} is a group of signed transactions.
+
+			\paragraph{}
+				With Steem, block production is done in rounds. Each round 21 witnesses are selected to create and sign blocks of transactions. Nineteen (19) of these witnesses are selected by approval voting, one is selected by a computational proof-of-work, and one is timeshared by every witness that didn’t make it into the top 19 proportional to their total votes. The 21 active witnesses are shuffled every round to prevent any one witness from constantly ignoring blocks produced by the same witness placed before.
+
+			\paragraph{}
+				This process is designed to provide the best reliability while ensuring that everyone has the potential to participate in block production regardless of whether they are popular enough to get voted to the top. People have three options to overcome censorship by the top 19 elected witnesses: patiently wait in line with everyone else not in the top 19, purchase enough computational power to solve a proof of work faster than others, or purchase more SP to improve voting power. Generally speaking, applying censorship is a good way for elected witnesses to lose their job and therefore, it is unlikely to be a real problem on the Steem network.
+
+			\paragraph{}
+				Because the active witnesses are known in advance, Steem is able to schedule witnesses to produce blocks every 3 seconds. Witnesses synchronize their block production via the NTP protocol. A variation of this algorithm has been in use by the BitShares network for over a year where it has been proven to be reliable.
+
+		\subsection{Mining in Steem}
+
+			\paragraph{}
+				Traditional proof of work blockchains combine block production with the solving of a proof of work. Because the process of solving a proof of work takes an unpredictable amount of time, the result is unpredictable block production times. Steem aims to have consistent and reliable block production every 3 seconds with almost no potential for forks.
+
+			\paragraph{}
+				To achieve this Steem separates block production from solving of proof of work. When a miner solves a proof of work for Steem, they broadcast a transaction containing the work. The next scheduled witness includes the transaction into the blockchain. When the transaction is included the miner is added to the queue of miners scheduled to produce blocks. Each round one miner is popped from the queue and included in the active set of witnesses. The miner gets paid when they produce a block at the time they are scheduled.
+
+			\paragraph{}
+				The difficulty of the proof of work doubles every time the queue length grows by 4. Because one miner is popped from the queue every round, and each round takes 21 * 3 = 63 seconds, the dif culty automatically halves if no proof of work is found in no more than 21 * 3 * 4 = 252 seconds.
+
+			\subsubsection{Mining Rewards require Steem Power}
+
+				\paragraph{}
+
+				\paragraph{}
+
+			\subsubsection{Mining Algorithm}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				%\begin{lstlisting}
+				%\end{lstlisting}
+
+			\subsubsection{Botnet Resistant}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\paragraph{}
+
+			\subsubsection{Mining Pool Resistant}
+
+				\paragraph{}
+
+				\paragraph{}
+
+	\section{Eliminating Transaction Fees}
+
+		\paragraph{}
+
+		\paragraph{}
+
+		\subsection{The Problem With Fees}
+
+			\paragraph{}
+
+			\paragraph{}
+
+			\subsubsection{Micropayments Don’t Work}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\begin{quote}
+
+					\paragraph{}
+
+					\paragraph{}
+
+					\paragraph{}
+
+				\end{quote}
+
+				\paragraph{}
+
+				\paragraph{}
+
+			\subsubsection{Fees are a Barrier to Entry}
+
+				\paragraph{}
+
+			\subsubsection{Changing Fees}
+
+				\paragraph{}
+
+			\subsubsection{Sybil Attacks}
+
+				\paragraph{}
+
+				\paragraph{}
+
+			\subsubsection{Full Reserve vs Fractional Reserve}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\paragraph{}
+
+		%Note, this sub section is missing from the original doc contents
+		\subsection{Bandwidth Instead of Micropayment Channels}
+
+			\paragraph{}
+
+			\paragraph{}
+
+			\paragraph{}
+
+			\subsubsection{Example Implementation}
+
+				\paragraph{}
+
+				%\begin{lstlisting}
+				%\end{lstlisting}
+
+				\paragraph{}
+
+				%\begin{lstlisting}
+				%\end{lstlisting}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\paragraph{}
+
+			\subsubsection{Case Study: Bitcoin}
+
+				\paragraph{}
+
+				%\begin{lstlisting}
+				%\end{lstlisting}
+
+				\paragraph{}
+
+				% TOOD : insert extra spacing or horizontal rule
+
+				\paragraph{}
+
+				\subsubsubsection{Impact of Capacity}
+
+					\paragraph{}
+
+				\subsubsubsection{Maximum Number of Unique Users}
+
+					\paragraph{}
+
+				\subsubsubsection{Comparison to Fees}
+
+					\paragraph{}
+
+			\subsubsection{Account Creation}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\paragraph{}
+
+			\subsubsection{Justifying Minimum Balances}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\paragraph{}
+
+			\subsubsection{Adjusting the Reserve Ratio}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\paragraph{}
+
+			\subsubsection{Effectiveness Relative to Fees}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\paragraph{}
+
+			\subsubsection{Renting vs. Buying vs. Time Sharing}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\paragraph{}
+
+	\section{Performance and Scalability}
+
+		\paragraph{}
+
+		\subsection{Reddit Scale}
+
+			\paragraph{}
+
+			\paragraph{}
+
+			%\begin{enumerate}
+			%\end{enumerate}
+
+			\paragraph{}
+
+			\paragraph{}
+
+	\section{Allocation & Supply}
+
+		\paragraph{}
+
+		\paragraph{}
+
+		%\begin{itemize}
+		%\end{itemize}
+
+		\paragraph{}
+
+		%\begin{itemize}
+		%\end{itemize}
+
+		\paragraph{}
+
+		%\begin{itemize}
+		%\end{itemize}
+
+		\paragraph{}
+
+		\paragraph{}
+
+		\paragraph{}
+
+		\subsection{Impact of Token Creation Rate}
+
+			\paragraph{}
+
+			\paragraph{}
+
+			\paragraph{}
+
+			\paragraph{}
+
+			\paragraph{}
+
+			\paragraph{}
+
+			\paragraph{}
+
+			\paragraph{}
+
+			\paragraph{}
+
+			\subsubsection{Impact of Token Creation Rate Greater than Ninety-Percent}
+
+				\paragraph{}
+
+				\paragraph{}
+
+			\subsubsection{Accounting In Steem}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\paragraph{}
+
+				\paragraph{}
+
+	\section{The Power of Steem}
+
+		\paragraph{}
+
+		\paragraph{}
+
+		\paragraph{}
+
+		\subsection{No Micropayments, Tips Optional}
+
+			\paragraph{}
+
+			\paragraph{}
+
+			\paragraph{}
+
+			\paragraph{}
+
+			%\begin{quote}
+
+				\paragraph{}
+
+				\paragraph{}
+
+			%\end{quote}
+
+			\paragraph{}
+
+			\paragraph{}
+
+		\subsection{Value is in the Links}
+
+			\paragraph{}
+
+			\paragraph{}
+
+			\paragraph{}
+
+			\paragraph{}
+
+		\subsection{Solving the Cryptocurrency Onboarding Problem}
+
+			\paragraph{}
+
+			\paragraph{}
+
+		\subsection{Solving the Cryptocurrency Liquidation Problem}
+
+			\paragraph{}
+
+			\paragraph{}
+
+			\paragraph{}
+
+			\paragraph{}
+
+		\subsection{Censorship}
+
+			\paragraph{}
+
+			\paragraph{}
+
+			\paragraph{}
+
+		\subsection{Solving Organic Discovery via Search Engine Optimization}
+
+			\paragraph{}
+
+		\subsection{Shifting Toward Blockchain-based Attribution}
+
+			\paragraph{}
+
+			\paragraph{}
+
+			\paragraph{}
+
+		\subsection{Replacing Advertising with Blockchain-based Content Rewards}
+
+			\paragraph{}
+
+			\paragraph{}
+
+	\section{Conclusion}
 
 \end{document}
