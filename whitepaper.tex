@@ -6,6 +6,7 @@
 \usepackage{fancyhdr}
 \usepackage{lastpage}
 \usepackage{hyperref}
+\usepackage{titling}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -15,10 +16,31 @@
 % https://tex.stackexchange.com/questions/28708/why-does-pagereflastpage-give-me-rather-than-page-number-of-the-last-pag
 \rfoot{\thepage \hspace{1pt} of \pageref{LastPage}}
 
+% define subtitle command
+\newcommand{\subtitle}[1]{%
+  \posttitle{%
+    \par\end{center}
+    \begin{center}\large#1\end{center}
+    \vskip0.5em}%
+}
 
-\title{Steem. An incentivized, blockchain-based social media platform.}
+
+\title{Steem}
+\subtitle{An incentivized, blockchain-based social media platform.}
 \date{March 2016}
-\author{Daniel Larimer, Ned Scott, Valentine Zavgorodnev, Benjamin Johnson, James Calfee, Michael Vandeberg}
+\author{
+    Daniel Larimer\
+    \and
+    Ned Scott\
+    \and
+    Valentine Zavgorodnev\
+    \and
+    Benjamin Johnson\
+    \and
+    James Calfee\
+    \and
+    Michael Vandeberg
+    }
 
 \pagenumbering{arabic}
 
