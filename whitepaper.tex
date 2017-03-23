@@ -1,0 +1,66 @@
+\documentclass{article}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{hyperref}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+% last page seems to need two runs, which I assume actually means you need to create the bulid and render files in a
+% certain order
+% https://tex.stackexchange.com/questions/28708/why-does-pagereflastpage-give-me-rather-than-page-number-of-the-last-pag
+\rfoot{\thepage \hspace{1pt} of \pageref{LastPage}}
+
+
+\title{Steem. An incentivized, blockchain-based social media platform.}
+\date{March 2016}
+\author{Daniel Larimer, Ned Scott, Valentine Zavgorodnev, Benjamin Johnson, James Calfee, Michael Vandeberg}
+
+\begin{document}
+  \maketitle
+
+  \newpage
+
+    \section{Abstract}
+
+    Steem is a blockchain database that supports community building and social interaction with cryptocurrency rewards. Steem combines concepts from social media with lessons learned from building cryptocurrencies and their communities. An important key to inspiring participation in any community, currency or free market economy is a fair accounting system that consistently re ects each person's contribution. Steem is the  rst cryptocurrency that attempts to accurately and transparently reward an unbounded number of individuals who make subjective contributions to its community.
+
+  \newpage
+
+    \tableofcontents
+
+  \newpage
+
+    \section{Introduction}
+
+        \paragraph{}
+            Collectively, user-generated content has created billions of dollars worth of value for the shareholders of social media companies, such as Reddit, Facebook, and Twitter. \textbf{In 2014, Reddit hypothesized that its platform would be improved if everyone who contributed to reddit.com by posting stories, adding comments or voting were rewarded with a fair share in Reddit, Inc\footnote{Reddit's Cryptocurrency, Forbes, Erika Morphy, October 2014,\newline\url{http://www.forbes.com/sites/erikamorphy/2014/10/01/reddits-cryptocurrency-could-have-many-uses/\#4e07b05332b9}}}. Steem aims to support social media and online communities by returning much of its value to the people who provide valuable contributions by rewarding them with cryptocurrency, and through this process create a currency that is able to reach a broad market, including people who have yet to participate in any cryptocurrency economy.
+
+        \paragraph{}
+            There are some key principles that have been used to guide the design of Steem. The most important principle is that everyone who contributes to a venture should receive pro-rata ownership, payment or debt from the venture. This principle is the same principle that is applied to all startups as they allocate shares at founding and during subsequent funding rounds.
+
+        \paragraph{}
+            The second principle is that all forms of capital are equally valuable. This means that those who contribute their scarce time and attention toward producing and curating content for others are just as valuable as those who contribute their scarce cash. This is the sweat equity principle\footnote{Sweat Equity, Investopedia,\newline\url{http://www.investopedia.com/terms/s/sweatequity.asp}} and is a concept that prior cryptocurrencies have often had trouble providing to more than a few dozen individuals.
+
+        \paragraph{}
+            The third principle is that the community produces products to serve its members. This principle is exempli ed by credit unions, food co-ops, and health sharing plans, which serve the members of their community rather than sell products or services to people outside the community.
+
+        \paragraph{}
+            The Steem community provides the following services to its members:
+
+        \begin{enumerate}
+            \item A source of curated news and commentary.
+            \item A means to get high quality answers to personalized questions.
+            \item A stable cryptocurrency pegged to the U.S. dollar.
+            \item Free payments.
+            \item Jobs providing above services to other members.
+        \end{enumerate}
+
+        \paragraph{}
+            Steem's purposeful realignment of economic incentives has the potential to produce fairer and more inclusive results for everyone involved than the social media and cryptocurrency platforms that have gone before it. This paper will explore the existing economic incentives and demonstrate how Steem's incentives may result in better outcomes for most participants.
+
+\end{document}
