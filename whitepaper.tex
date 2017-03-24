@@ -12,6 +12,7 @@
 \usepackage{wrapfig}
 \usepackage{listings}
 \usepackage{textcomp}
+\usepackage{scrextend}
 %\graphicspath{ {/} }
 
 \pagestyle{fancy}
@@ -622,16 +623,11 @@ Let POW	= SHA256( K )
 					Imagine if the websites we use every day charged us a fee every time we modify our accounts by changing the password. Users expect certain things to be free. Requiring users to make a decision on whether or not an action is worth a small fee creates anxiety that causes users to leave.
 
 				\begin{quote}
+						A transaction can't be worth so much as to require a decision but worth so little that that decision is automatic. There is a certain amount of anxiety involved in any decision to buy, no matter how small, and it derives not from the interface used or the time required, but from the very act of deciding.\\
 
-					\paragraph{}
-						A transaction can't be worth so much as to require a decision but worth so little that that decision is automatic. There is a certain amount of anxiety involved in any decision to buy, no matter how small, and it derives not from the interface used or the time required, but from the very act of deciding.
-
-					\paragraph{}
 						Micropayments, like all payments, require a comparison: "Is this much of X worth that much of Y?" There is a minimum mental transaction cost created by this fact that cannot be optimized away, because the only transaction a user will be willing to approve with no thought will be one that costs them nothing, which is no transaction at all.
 
-					\paragraph{}
-						– Clay Shirky\footnote{Clay Shirky, The Case Against Micropayments\newline\url{http://www.openp2p.com/pub/a/p2p/2000/12/19/micropayments.html}}
-
+						- Clay Shirky\protect\footnote{Clay Shirky, The Case Against Micropayments\newline\url{http://www.openp2p.com/pub/a/p2p/2000/12/19/micropayments.html}}\\
 				\end{quote}
 
 				\paragraph{}
@@ -687,7 +683,7 @@ Let POW	= SHA256( K )
 					Let B equal a user's average bandwidth at time T. Let W equal the number of seconds per week, and let N equal the size of the new transaction that occurred S seconds after T. Given this information the blockchain can calculate the new average bandwidth for a user as:
 
 				\begin{lstlisting}
-Bnew = MIN(0,B * (W­S) / W) + N * S / W
+Bnew = MIN(0,B * (W-S) / W) + N * S / W
 Tnew = T + S
 				\end{lstlisting}
 
@@ -802,7 +798,7 @@ CLR/S = 2869 bytes per week, or about 5 transactions/week per BTC
 					There must be a slow constant upward pressure on the reserve ratio any time network usage is below 50\% until the network hits the maximum reserve ratio. The maximum reserve ratio determines the minimum required stake to flood the network in short bursts.
 
 				\paragraph{}
-					Any user with fewer than TOTAL_TOKENS / (2*RESERVE_RATIO) will be unable to produce enough transactions to fill even a single block. With a reserve ratio of 200, this means any user with less than 0.25\% of the currency cannot create enough transactions to delay anyone's service.
+					Any user with fewer than TOTAL\_TOKENS / (2*RESERVE\_RATIO) will be unable to produce enough transactions to fill even a single block. With a reserve ratio of 200, this means any user with less than 0.25\% of the currency cannot create enough transactions to delay anyone's service.
 
 			\subsubsection{Effectiveness Relative to Fees}
 
@@ -869,9 +865,9 @@ CLR/S = 2869 bytes per week, or about 5 transactions/week per BTC
 				By following these simple rules, Steem is able to process 10,000 transactions per second without any significant effort devoted to optimization.
 
 			\paragraph{}
-				Keeping everything in memory is increasingly viable given the recent introduction of Optane\texttrademark technology from Intel\footnote{Introducing Intel Optane Technology – Bringing 3D XPoint Memory to Storage and Memory Products\newline\url{https://newsroom.intel.com/press-kits/introducing-intel-optane-technology-bringing-3d-xpoint-memory-to-storage-and-memory-products/}}. It should be possible for commodity hardware to handle all of the business logic associated with Steem in a single thread with all posts kept in memory for rapid indexing. Even Google keeps their index of the entire internet in RAM. The use of blockchain technology makes it trivial to replicate the database to many machines to prevent loss of data. As Optane\texttrademark technology takes over, RAM will become even faster while gaining persistence. In other words, Steem is designed for the architectures of the future and is designed to scale.
+				Keeping everything in memory is increasingly viable given the recent introduction of Optane\texttrademark technology from Intel\footnote{Introducing Intel Optane Technology - Bringing 3D XPoint Memory to Storage and Memory Products\newline\url{https://newsroom.intel.com/press-kits/introducing-intel-optane-technology-bringing-3d-xpoint-memory-to-storage-and-memory-products/}}. It should be possible for commodity hardware to handle all of the business logic associated with Steem in a single thread with all posts kept in memory for rapid indexing. Even Google keeps their index of the entire internet in RAM. The use of blockchain technology makes it trivial to replicate the database to many machines to prevent loss of data. As Optane\texttrademark technology takes over, RAM will become even faster while gaining persistence. In other words, Steem is designed for the architectures of the future and is designed to scale.
 
-	\section{Allocation & Supply}
+	\section{Allocation \& Supply}
 
 		\paragraph{}
 			The Steem network starts with a currency supply of 0 and allocates STEEM via proof of work at a rate of approximately 40 STEEM per minute to miners, with an additional 40 STEEM per minute being created to seed the content and curation reward pools (for a total of 80 STEEM per minute). Then the network starts rewarding users who convert to SP. At this point, STEEM grows at a rate of approximately 800 STEEM per minute due to the combined effects of the various Contribution Rewards summarized below:
@@ -915,7 +911,7 @@ CLR/S = 2869 bytes per week, or about 5 transactions/week per BTC
 		\subsection{Impact of Token Creation Rate}
 
 			\paragraph{}
-				At first glance, 100\% annual increase in the STEEM supply may appear to be hyper-in ationary and unsustainable. Those who follow the Quantity Theory of Money16 may even conclude that the value of STEEM must fall by approximately 5.6\% per month. We know from countless real-world examples that the quantity of money does not have a direct and immediate impact on its value, though it certainly plays a role.
+				At first glance, 100\% annual increase in the STEEM supply may appear to be hyper-in ationary and unsustainable. Those who follow the Quantity Theory of Money\footnote{Quantity Theory of Money,\newline\url{http://www.investopedia.com/articles/05/010705.asp}} may even conclude that the value of STEEM must fall by approximately 5.6\% per month. We know from countless real-world examples that the quantity of money does not have a direct and immediate impact on its value, though it certainly plays a role.
 
 			\paragraph{}
 				Because 90\% of all STEEM created is distributed back to holders of SP, the result is similar to having a 2:1 "split" every year rather true inflation. The total rate of expenditures used to reward contributors is about 10\% of the market capitalization per year, a rate well below what Bitcoin sustained for the first 7 years after it launched.
@@ -989,13 +985,9 @@ CLR/S = 2869 bytes per week, or about 5 transactions/week per BTC
 				The mental energy associated with making an economic decision becomes a barrier to participation for most people.
 
 			\begin{quote}
+					\textit{We already face a multitude of choices everyday with regards to what to access online in this digital era of the information explosion, and every additional decision that we must make simply adds on to the uncertainty and anxiety we face. Micropayment supporters believe that a simpli ed implementation can minimize the intrusiveness of micropayments and improve user experience, but their argument only creates double standards for the decision making process [2]. A transaction cannot simultaneously be worth enough to warrant a decision and worth so little that the decision is automatic. \textbf{The only transactions that users can approve without thought are ones that cost them nothing}, thus any micro-transaction of positive value will incur mental costs through its requiring a decision. Furthermore, mental transaction costs actually rise below a certain threshold value, a phenomenon that places micropayments at an even greater disadvantage. For instance, it is easy to think that a copy of today's newspapers costs \$1, but readers face much more dif culty and anxiety in deciding on the value of each article or word. Such a dilemma will only be replicated and exacerbated if all online content were to be broken down into their components and individually valued within a micropayment system.}\\
 
-				\paragraph{}
-					\textit{We already face a multitude of choices everyday with regards to what to access online in this digital era of the information explosion, and every additional decision that we must make simply adds on to the uncertainty and anxiety we face. Micropayment supporters believe that a simpli ed implementation can minimize the intrusiveness of micropayments and improve user experience, but their argument only creates double standards for the decision making process [2]. A transaction cannot simultaneously be worth enough to warrant a decision and worth so little that the decision is automatic. \textbf{The only transactions that users can approve without thought are ones that cost them nothing}, thus any micro-transaction of positive value will incur mental costs through its requiring a decision. Furthermore, mental transaction costs actually rise below a certain threshold value, a phenomenon that places micropayments at an even greater disadvantage. For instance, it is easy to think that a copy of today's newspapers costs \$1, but readers face much more dif culty and anxiety in deciding on the value of each article or word. Such a dilemma will only be replicated and exacerbated if all online content were to be broken down into their components and individually valued within a micropayment system.}
-
-				\paragraph{}
 					\textit{- Micropayments: A Viable Business Model\footnote{Micropayments: A Viable Business Model\newline\url{http://cs.stanford.edu/people/eroberts/cs181/projects/2010-11/Microp}}}
-
 			\end{quote}
 
 			\paragraph{}
