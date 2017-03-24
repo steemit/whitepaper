@@ -484,13 +484,13 @@ mathescape=true}
                 	Zipf's Law\footnote{Zipf's Law \url{https://en.wikipedia.org/wiki/Zipf\%27s_law}} is one of those empirical rules that characterize a surprising range of real-world phenomena remarkably well. It says that if we order some large collection by size or popularity, the second element in the collection will be about half the measure of the first one, the third one will be about one-third the measure of the first one, and so on. In general, the $k^{th}$-ranked item will measure about 1/k of the first one.
 
                 \paragraph{}
-                	Taking popularity as a rough measure of value, then the value of each individual item is given by Zipf’s Law. That is, if we have a million items, then the most popular 100 will contribute a third of the total value, the next 10,000 another third, and the remaining 989,900 the  nal third. The value of the collection of n items is proportional to log( n ).
+                	Taking popularity as a rough measure of value, then the value of each individual item is given by Zipf's Law. That is, if we have a million items, then the most popular 100 will contribute a third of the total value, the next 10,000 another third, and the remaining 989,900 the  nal third. The value of the collection of n items is proportional to log( n ).
 
                 \paragraph{}
                 	The impact of this voting and payout distribution is to offer large bounties for good content while still rewarding smaller players for their long-tail contribution.
 
                 \paragraph{}
-                	The economic effect of this is similar to a lottery where people over-estimate their probability of getting votes and thus do more work than the expected value of their reward and thereby maximize the total amount of work performed in service of the community. The fact that everyone “wins something” plays on the same psychology that casinos use to keep people gambling. In other words, small rewards help reinforce the idea that it is possible to earn bigger rewards.
+                	The economic effect of this is similar to a lottery where people over-estimate their probability of getting votes and thus do more work than the expected value of their reward and thereby maximize the total amount of work performed in service of the community. The fact that everyone "wins something" plays on the same psychology that casinos use to keep people gambling. In other words, small rewards help reinforce the idea that it is possible to earn bigger rewards.
 
 				\subsubsubsection{Rewarding Parent Posts}
 
@@ -505,7 +505,7 @@ mathescape=true}
 			\subsubsection{Payouts}
 
 				\paragraph{}
-					When a post receives a payout it takes the form of 50\% SMD and 50\% SP. The Steem Power give the user increased voting and transaction power while the SMD gives the user an immediate benefit in a stable currency. As we’ve already discussed at length, both SP and SMD are designed to encourage long-term holding rather than short-term selling.
+					When a post receives a payout it takes the form of 50\% SMD and 50\% SP. The Steem Power give the user increased voting and transaction power while the SMD gives the user an immediate benefit in a stable currency. As we've already discussed at length, both SP and SMD are designed to encourage long-term holding rather than short-term selling.
 
 	\section{Consensus Algorithm}
 
@@ -527,7 +527,7 @@ mathescape=true}
 				In the world of cryptocurrencies, the public record is commonly referred to as a \textit{blockchain}. A \textit{block} is a group of signed transactions.
 
 			\paragraph{}
-				With Steem, block production is done in rounds. Each round 21 witnesses are selected to create and sign blocks of transactions. Nineteen (19) of these witnesses are selected by approval voting, one is selected by a computational proof-of-work, and one is timeshared by every witness that didn’t make it into the top 19 proportional to their total votes. The 21 active witnesses are shuffled every round to prevent any one witness from constantly ignoring blocks produced by the same witness placed before.
+				With Steem, block production is done in rounds. Each round 21 witnesses are selected to create and sign blocks of transactions. Nineteen (19) of these witnesses are selected by approval voting, one is selected by a computational proof-of-work, and one is timeshared by every witness that didn't make it into the top 19 proportional to their total votes. The 21 active witnesses are shuffled every round to prevent any one witness from constantly ignoring blocks produced by the same witness placed before.
 
 			\paragraph{}
 				This process is designed to provide the best reliability while ensuring that everyone has the potential to participate in block production regardless of whether they are popular enough to get voted to the top. People have three options to overcome censorship by the top 19 elected witnesses: patiently wait in line with everyone else not in the top 19, purchase enough computational power to solve a proof of work faster than others, or purchase more SP to improve voting power. Generally speaking, applying censorship is a good way for elected witnesses to lose their job and therefore, it is unlikely to be a real problem on the Steem network.
@@ -549,15 +549,15 @@ mathescape=true}
 			\subsubsection{Mining Rewards require Steem Power}
 
 				\paragraph{}
-					After the first month, Steem miners are paid in Steem Power (SP). SP is liquidated through the two-year process of “powering down.” This means that miners must wait for a long time, likely many months, before sufficient mining rewards have been powered down to allow them to recover the cost of electricity and computational resources. The powering down process discourages creation of mining pools because the pool operator would have to spread payouts over years.
+					After the first month, Steem miners are paid in Steem Power (SP). SP is liquidated through the two-year process of "powering down." This means that miners must wait for a long time, likely many months, before sufficient mining rewards have been powered down to allow them to recover the cost of electricity and computational resources. The powering down process discourages creation of mining pools because the pool operator would have to spread payouts over years.
 
 				\paragraph{}
-					The effect of paying mining rewards in SP is to prevent miners from using today’s price to determine the pro tability of mining. Few people will agree on what the future price will be. This means mining difficulty will be driven by those who place the highest estimate on future value. Miners without a long-term interest in the platform will be discouraged from competing. Ultimately this means that the proceeds of mining are less likely to be dumped on the market because they will accrue to long-term believers in the platform.
+					The effect of paying mining rewards in SP is to prevent miners from using today's price to determine the pro tability of mining. Few people will agree on what the future price will be. This means mining difficulty will be driven by those who place the highest estimate on future value. Miners without a long-term interest in the platform will be discouraged from competing. Ultimately this means that the proceeds of mining are less likely to be dumped on the market because they will accrue to long-term believers in the platform.
 
 			\subsubsection{Mining Algorithm}
 
 				\paragraph{}
-					The mining algorithm adopted by Steem requires the miner to have access to the private key of the account that will receive the rewards. This requirement has several important consequences. First it encourages optimization of elliptic curve signature veri cation algorithms needed by Steem. Second it makes it challenging to set up mining pools because the pool operator would have to share control over the reward with all of the “anonymous” miners. Third, it makes it dif cult to use botnets because the botnet operator would have to distribute their private key to all compromised machines.
+					The mining algorithm adopted by Steem requires the miner to have access to the private key of the account that will receive the rewards. This requirement has several important consequences. First it encourages optimization of elliptic curve signature veri cation algorithms needed by Steem. Second it makes it challenging to set up mining pools because the pool operator would have to share control over the reward with all of the "anonymous" miners. Third, it makes it dif cult to use botnets because the botnet operator would have to distribute their private key to all compromised machines.
 
 				\paragraph{}
 					The following pseudocode describes how the proof-of-work hash value is calculated:
@@ -611,12 +611,12 @@ Let POW	= SHA256( K )
 				Blockchains are decentralized networks where all transactions are broadcast to all peers. Every so often a block is produced that includes some or all of the pending transactions. All blockchains must find a solution to prevent malicious users from consuming all of the available network capacity with worthless transactions. These worthless transactions can prevent other valuable transactions from being processed and ultimately destroy the network.
 
 			\paragraph{}
-				The solution adopted by most blockchains thus far is to charge a minimum transaction fee. A fee worth just a few cents is enough to make attacking the network expensive and unprofitable. While this approach solves the spam problem, it introduces new problems. Imagine solving the email spam problem by introducing a small fee on every email; people wouldn’t use email.
+				The solution adopted by most blockchains thus far is to charge a minimum transaction fee. A fee worth just a few cents is enough to make attacking the network expensive and unprofitable. While this approach solves the spam problem, it introduces new problems. Imagine solving the email spam problem by introducing a small fee on every email; people wouldn't use email.
 
-			\subsubsection{Micropayments Don’t Work}
+			\subsubsection{Micropayments Don't Work}
 
 				\paragraph{}
-					The fundamental problem with charging transaction fees is that micropayments don’t work, especially for low-value user actions. When a fee is charged on every transaction, it limits the types of transactions that a decentralized network can process. Regardless of how rational the argument for the necessity of fees, users still hate the experience of being nickeled and dimed for everything that they do.
+					The fundamental problem with charging transaction fees is that micropayments don't work, especially for low-value user actions. When a fee is charged on every transaction, it limits the types of transactions that a decentralized network can process. Regardless of how rational the argument for the necessity of fees, users still hate the experience of being nickeled and dimed for everything that they do.
 
 				\paragraph{}
 					Imagine if the websites we use every day charged us a fee every time we modify our accounts by changing the password. Users expect certain things to be free. Requiring users to make a decision on whether or not an action is worth a small fee creates anxiety that causes users to leave.
@@ -624,10 +624,10 @@ Let POW	= SHA256( K )
 				\begin{quote}
 
 					\paragraph{}
-						A transaction can’t be worth so much as to require a decision but worth so little that that decision is automatic. There is a certain amount of anxiety involved in any decision to buy, no matter how small, and it derives not from the interface used or the time required, but from the very act of deciding.
+						A transaction can't be worth so much as to require a decision but worth so little that that decision is automatic. There is a certain amount of anxiety involved in any decision to buy, no matter how small, and it derives not from the interface used or the time required, but from the very act of deciding.
 
 					\paragraph{}
-						Micropayments, like all payments, require a comparison: “Is this much of X worth that much of Y?” There is a minimum mental transaction cost created by this fact that cannot be optimized away, because the only transaction a user will be willing to approve with no thought will be one that costs them nothing, which is no transaction at all.
+						Micropayments, like all payments, require a comparison: "Is this much of X worth that much of Y?" There is a minimum mental transaction cost created by this fact that cannot be optimized away, because the only transaction a user will be willing to approve with no thought will be one that costs them nothing, which is no transaction at all.
 
 					\paragraph{}
 						– Clay Shirky\footnote{Clay Shirky, The Case Against Micropayments\newline\url{http://www.openp2p.com/pub/a/p2p/2000/12/19/micropayments.html}}
@@ -638,12 +638,12 @@ Let POW	= SHA256( K )
 					In the world of financial payments, small fees are acceptable because the value of the transaction is extremely high relative to the fee charged, and the buyer has already made a decision to buy. The world of potential blockchain applications is far greater than just financial payments and includes many necessary transactions for which fees are simply unacceptable to users.
 
 				\paragraph{}
-					Systems like BitShares, Nxt, Ripple, Counter Party and Stellar all allow users to place limit orders on the blockchain and all of them charge users a small fee to perform this action. Later if the user wishes to cancel their order, another fee is charged. Systems like Ethereum take micropayments to a whole new level: charging per calculation. All of these systems struggle to attract new mainstream users for the same reasons that a decentralized search engine would struggle to attract users from Google if it charged a small fee for every search. It doesn’t matter how good the service is, people expect certain things to be free. This is true even if a user ends up paying more overall under a different fee structure.
+					Systems like BitShares, Nxt, Ripple, Counter Party and Stellar all allow users to place limit orders on the blockchain and all of them charge users a small fee to perform this action. Later if the user wishes to cancel their order, another fee is charged. Systems like Ethereum take micropayments to a whole new level: charging per calculation. All of these systems struggle to attract new mainstream users for the same reasons that a decentralized search engine would struggle to attract users from Google if it charged a small fee for every search. It doesn't matter how good the service is, people expect certain things to be free. This is true even if a user ends up paying more overall under a different fee structure.
 
 			\subsubsection{Fees are a Barrier to Entry}
 
 				\paragraph{}
-					Any fee creates a barrier to entry for new users. Before someone can experiment with Ethereum they must acquire some ETH tokens. Anyone wanting to build a decentralized application on Ethereum must pass on the cost to their customers. Buying a crypto currency is not an easy task and rarely makes sense for amounts less than $10. This means that new users wanting to try out a new decentralized application must first be convinced to part with $10.
+					Any fee creates a barrier to entry for new users. Before someone can experiment with Ethereum they must acquire some ETH tokens. Anyone wanting to build a decentralized application on Ethereum must pass on the cost to their customers. Buying a crypto currency is not an easy task and rarely makes sense for amounts less than \$10. This means that new users wanting to try out a new decentralized application must first be convinced to part with \$10.
 
 			\subsubsection{Changing Fees}
 
@@ -661,10 +661,10 @@ Let POW	= SHA256( K )
 			\subsubsection{Full Reserve vs Fractional Reserve}
 
 				\paragraph{}
-					Let’s view a blockchain like an Internet Service Provider (ISP) co-op which owns all of the cables in the town and has a maximum amount of bandwidth that it can provide at any time. People living in the town can buy shares in the ISP and in exchange they are entitled to utilize a portion of the available bandwidth.
+					Let's view a blockchain like an Internet Service Provider (ISP) co-op which owns all of the cables in the town and has a maximum amount of bandwidth that it can provide at any time. People living in the town can buy shares in the ISP and in exchange they are entitled to utilize a portion of the available bandwidth.
 
 				\paragraph{}
-					The ISP has two choices, run a “full reserve” or “fractional reserve” system. Under a full reserve system each user is only allowed a fraction of the maximum bandwidth proportional to her shares. Because not everyone uses the Internet at the same time, the town’s network would be significantly underutilized.
+					The ISP has two choices, run a "full reserve" or "fractional reserve" system. Under a full reserve system each user is only allowed a fraction of the maximum bandwidth proportional to her shares. Because not everyone uses the Internet at the same time, the town's network would be significantly underutilized.
 
 				\paragraph{}
 					Under a fractional reserve system the individual users could utilize more bandwidth than they are entitled to at any given point in time so long as not everyone uses the Internet at the same time. The problem with operating a fractional reserve is that congestion occurs anytime too many people wish to use the network at the same time. The ISP needs a way to prioritize bandwidth during congested periods. In the most extreme case, a fully congested network must revert to a full reserve system. The challenge is setting the proper fractional reserve ratio.
@@ -679,12 +679,12 @@ Let POW	= SHA256( K )
 				Bandwidth used by an individual user should be measured over a suitably long period of time to allow that user to time-shift their usage. Users tend to login, do many things at once, then logout. This means that their bandwidth over a short period of time may appear much higher than if viewed over a longer period of time. If the time window is stretched too far then the reserve ratio will not adjust fast enough to respond to short-term surges, if the window is too short then clustering usage will have too big of an impact on normal users.
 
 			\paragraph{}
-				In our estimate it should be sufficient to measure the average weekly bandwidth usage of users. Every time a user signs a transaction, that transaction is factored into their own individual moving average. Any time a user’s moving average exceeds the current network limit their transaction is delayed until their average falls below the limit.
+				In our estimate it should be sufficient to measure the average weekly bandwidth usage of users. Every time a user signs a transaction, that transaction is factored into their own individual moving average. Any time a user's moving average exceeds the current network limit their transaction is delayed until their average falls below the limit.
 
 			\subsubsection{Example Implementation}
 
 				\paragraph{}
-					Let B equal a user’s average bandwidth at time T. Let W equal the number of seconds per week, and let N equal the size of the new transaction that occurred S seconds after T. Given this information the blockchain can calculate the new average bandwidth for a user as:
+					Let B equal a user's average bandwidth at time T. Let W equal the number of seconds per week, and let N equal the size of the new transaction that occurred S seconds after T. Given this information the blockchain can calculate the new average bandwidth for a user as:
 
 				\begin{lstlisting}
 Bnew = MIN(0,B * (W­S) / W) + N * S / W
@@ -695,7 +695,7 @@ Tnew = T + S
 					Each user is entitled to an average weekly bandwidth of:
 
 				\begin{lstlisting}
-Let U = the user’s SP
+Let U = the user's SP
 Let S = the total number of SP
 Let R = the current reserve ratio between 1 and Rmax
 Let C = the maximum block size capacity set by witnesses
@@ -705,7 +705,7 @@ Allocation= M * U / S
 				\end{lstlisting}
 
 				\paragraph{}
-					A user would be entitled to an average bandwidth of M * U / S. Any time a transaction would cause the user’s average to go above this threshold they would be unable to transact until enough time passes to lower the average.
+					A user would be entitled to an average bandwidth of M * U / S. Any time a transaction would cause the user's average to go above this threshold they would be unable to transact until enough time passes to lower the average.
 
 				\paragraph{}
 					The network can increase the reserve ratio, anytime blocks are less than half the target capacity and decrease it anytime they are more than half. The algorithm used to adjust R is designed to react quickly to decrease the reserve ratio when there is a surge in demand, while acting slowly to increase the reserve ratio in period of low demand.
@@ -722,13 +722,13 @@ Allocation= M * U / S
 Let C = 1MB = 1024*1024
 Let L = 1008 (blocks per week)
 Let R = 38
-Let S = 14000000 BTC (supply minus Satoshi’s unmoving coins)
+Let S = 14000000 BTC (supply minus Satoshi's unmoving coins)
 Let U = 1 BTC
 CLR/S = 2869 bytes per week, or about 5 transactions/week per BTC
 				\end{lstlisting}
 
 				\paragraph{}
-					Since R = 38 is a lower bound on the reserve ratio, CLR/S is a lower bound on the permitted bandwidth. This simple case study suggests a user will require at most 0.20 BTC (over \$80 as ofthiswriting)totransactonceperweek. However,thisisalooseupperboundderivedfrom the assumption that all BTC are equally mobile. This is not the case -- users with dozens or hundreds of bitcoins do not necessarily transact dozens or hundreds of times a week! The “leftover” transactions that those users “should” have made will increase the reserve ratio, allowing their unused bandwidth to be “recycled” for smaller users.
+					Since R = 38 is a lower bound on the reserve ratio, CLR/S is a lower bound on the permitted bandwidth. This simple case study suggests a user will require at most 0.20 BTC (over \$80 as ofthiswriting)totransactonceperweek. However,thisisalooseupperboundderivedfrom the assumption that all BTC are equally mobile. This is not the case -- users with dozens or hundreds of bitcoins do not necessarily transact dozens or hundreds of times a week! The "leftover" transactions that those users "should" have made will increase the reserve ratio, allowing their unused bandwidth to be "recycled" for smaller users.
 
 				% TOOD : insert extra spacing or horizontal rule
 
@@ -738,7 +738,7 @@ CLR/S = 2869 bytes per week, or about 5 transactions/week per BTC
 				\subsubsubsection{Impact of Capacity}
 
 					\paragraph{}
-						Blockchain capacity isn’t necessarily capped. It is well within the technological capability of internet infrastructure to increase the Bitcoin block size to 10MB which in turn will reduce the minimum required balance by a factor of 10. While Bitcoin currently supports about 3 transactions per second, alternative implementations are capable of over 1000 transactions per second. This changes our conservative upper bound to 0.0006 BTC or about $0.25, meaning that an account holding $0.25 would be able to transact at least once per week on average (and likely many more times because we’re dealing with a fairly loose upper bound).
+						Blockchain capacity isn't necessarily capped. It is well within the technological capability of internet infrastructure to increase the Bitcoin block size to 10MB which in turn will reduce the minimum required balance by a factor of 10. While Bitcoin currently supports about 3 transactions per second, alternative implementations are capable of over 1000 transactions per second. This changes our conservative upper bound to 0.0006 BTC or about \$0.25, meaning that an account holding \$0.25 would be able to transact at least once per week on average (and likely many more times because we're dealing with a fairly loose upper bound).
 
 				\subsubsubsection{Maximum Number of Unique Users}
 
@@ -748,12 +748,12 @@ CLR/S = 2869 bytes per week, or about 5 transactions/week per BTC
 				\subsubsubsection{Comparison to Fees}
 
 					\paragraph{}
-						If we assume a user with $25 dollars worth of BTC transacts once per week and pays a $0.04 cent fee each time then they would pay over $2.00 in fees per year. A user would have to earn a 8\% rate of return on their $25 dollars just to break even with paying fees. Chances are that users were going to hold their money on the blockchain anyway, so this user with $25 worth of BTC just saved $2 over the course of a year by adopting a rate-limiting approach rather than a fee-based approach. With just $175 they could transact every single day and save $14 per year.
+						If we assume a user with \$25 dollars worth of BTC transacts once per week and pays a \$0.04 cent fee each time then they would pay over \$2.00 in fees per year. A user would have to earn a 8\% rate of return on their \$25 dollars just to break even with paying fees. Chances are that users were going to hold their money on the blockchain anyway, so this user with \$25 worth of BTC just saved \$2 over the course of a year by adopting a rate-limiting approach rather than a fee-based approach. With just \$175 they could transact every single day and save \$14 per year.
 
 			\subsubsection{Account Creation}
 
 				\paragraph{}
-					Steem’s account-based system with publicly known balances simpli es the implementation of the bandwidth-based rate limiting algorithm. Any account with a balance below the minimum required to transact once per week would be unable to transact. This implies that all new accounts should be funded with at least this minimum balance. It also implies that users wishing to transact in smaller amounts can, so long as they hold a larger balance and reuse the account.
+					Steem's account-based system with publicly known balances simpli es the implementation of the bandwidth-based rate limiting algorithm. Any account with a balance below the minimum required to transact once per week would be unable to transact. This implies that all new accounts should be funded with at least this minimum balance. It also implies that users wishing to transact in smaller amounts can, so long as they hold a larger balance and reuse the account.
 
 				\paragraph{}
 					It is possible for a low-balance account created during a time of low usage to become inaccessible if the network usage picks up. The funds could be recovered at any time by transferring a larger balance into the account.
@@ -767,19 +767,19 @@ CLR/S = 2869 bytes per week, or about 5 transactions/week per BTC
 			\subsubsection{Justifying Minimum Balances}
 
 				\paragraph{}
-					The concept of forcing users to maintain a minimum balance flows naturally from the value of a user\footnote{Forbes, Tristan Louis, “How Much is a User Worth?”\newline\url{http://www.forbes.com/sites/tristanlouis/2013/08/31/how-much-is-a-us}}. Anyone running a business knows that every single user has significant value. Businesses spend anywhere from $30 to $200 to acquire a user. Sometimes they pay users directly, other times they pay for advertizing, and still other times entire companies are bought just for their user base. After a company acquires a user they often given them many \textit{free services} just to keep them around long enough to monetize them through some other means.
+					The concept of forcing users to maintain a minimum balance flows naturally from the value of a user\footnote{Forbes, Tristan Louis, "How Much is a User Worth?"\newline\url{http://www.forbes.com/sites/tristanlouis/2013/08/31/how-much-is-a-us}}. Anyone running a business knows that every single user has significant value. Businesses spend anywhere from \$30 to \$200 to acquire a user. Sometimes they pay users directly, other times they pay for advertizing, and still other times entire companies are bought just for their user base. After a company acquires a user they often given them many \textit{free services} just to keep them around long enough to monetize them through some other means.
 
 				\paragraph{}
-					Ripple uses a minimum balance\footnote{Ripple, Account Reserves\newline\url{https://ripple.com/build/reserves/}} that scales with account resource use and requires that new accounts get funded with at least this minimum balance. Currently this minimum balance is about $0.15 which is greater than the $0.10 we estimated would allow someone to transact freely at least once per week.
+					Ripple uses a minimum balance\footnote{Ripple, Account Reserves\newline\url{https://ripple.com/build/reserves/}} that scales with account resource use and requires that new accounts get funded with at least this minimum balance. Currently this minimum balance is about \$0.15 which is greater than the \$0.10 we estimated would allow someone to transact freely at least once per week.
 
 				\paragraph{}
-					A blockchain can enforce a minimum value per user through the simple process of requiring a minimum balance. Any business that wishes to bring a new customer to the blockchain can pre-fund that user’s account with the minimum balance that would allow them to transact. Requiring a relatively large fee ($1.00) to sign up new users will naturally force anyone offering free accounts to vet the quality and uniqueness of each account before registering them with the blockchain.
+					A blockchain can enforce a minimum value per user through the simple process of requiring a minimum balance. Any business that wishes to bring a new customer to the blockchain can pre-fund that user's account with the minimum balance that would allow them to transact. Requiring a relatively large fee (\$1.00) to sign up new users will naturally force anyone offering free accounts to vet the quality and uniqueness of each account before registering them with the blockchain.
 
 				\paragraph{}
 					Maintaining a minimum balance is effectively the same as making users pay transaction fees with the interest they could have earned on their balance. The minimum balance is simply the balance required to earn enough interest to pay a fee in a relatively short period of time.
 
 				\paragraph{}
-					Fortunately, the minimum balance required can be as low as a dollar and this is something users can understand and appreciate. The opportunity cost of lost interest doesn’t incur the cognitive cost of a micro-fee and is far more acceptable to users.
+					Fortunately, the minimum balance required can be as low as a dollar and this is something users can understand and appreciate. The opportunity cost of lost interest doesn't incur the cognitive cost of a micro-fee and is far more acceptable to users.
 
 				\paragraph{}
 					The STEEM used to pre-fund an account is Powered Up in the new account (i.e., converted to Steem Power).
@@ -787,13 +787,13 @@ CLR/S = 2869 bytes per week, or about 5 transactions/week per BTC
 			\subsubsection{Adjusting the Reserve Ratio}
 
 				\paragraph{}
-					Rate limiting requires that the network adjust the reserve ratio quickly enough to mitigate the impact of an attacker attempting to  ood the network. Let’s assume the attacker has a large balance, say 1\% of the available tokens. If we also assume that the network targets 50\% utilization, then a sustained attack should  nd this user throttled to 25\% of network capacity assuming everyone else is also using 25\% of the capacity. Stated another way, the largest single user should never be able to consume more than 50\% of the target capacity unless they own more than 50\% of the SP.
+					Rate limiting requires that the network adjust the reserve ratio quickly enough to mitigate the impact of an attacker attempting to  ood the network. Let's assume the attacker has a large balance, say 1\% of the available tokens. If we also assume that the network targets 50\% utilization, then a sustained attack should  nd this user throttled to 25\% of network capacity assuming everyone else is also using 25\% of the capacity. Stated another way, the largest single user should never be able to consume more than 50\% of the target capacity unless they own more than 50\% of the SP.
 
 				\paragraph{}
-					Let’s use an initial reserve ratio of 200x. Due to fractional reserves, this means someone holding 1\% of the tokens has the right to demand transactions totalling 2x the maximum block size. In order to bring the network usage of the attacker down to 25\% the reserve ratio would have to fall to 25x. This would cause the minimum balance required to transact once per week to grow by 8x.
+					Let's use an initial reserve ratio of 200x. Due to fractional reserves, this means someone holding 1\% of the tokens has the right to demand transactions totalling 2x the maximum block size. In order to bring the network usage of the attacker down to 25\% the reserve ratio would have to fall to 25x. This would cause the minimum balance required to transact once per week to grow by 8x.
 
 				\paragraph{}
-					The blockchain can establish a response rate that says any sustained increase in usage should be brought down to the target capacity in within a short period of time (say 30 seconds). An attacker attempting to spam the network shouldn’t be able to disrupt service for normal users for more than a minute.
+					The blockchain can establish a response rate that says any sustained increase in usage should be brought down to the target capacity in within a short period of time (say 30 seconds). An attacker attempting to spam the network shouldn't be able to disrupt service for normal users for more than a minute.
 
 				\paragraph{}
 					While reductions in the reserve ratio must be quick and non-linear to counter abuse, increases in the reserve ratio should be slow and linear. If the network adjusted in both directions in just 30 seconds then an attacker could pulse the network. A flood of transactions should be corrected in 30 seconds and then take a hour to return to their pre-attack levels. Under this model the attacker could flood the network for 30 seconds per hour or less than 1\% of the time.
@@ -802,15 +802,15 @@ CLR/S = 2869 bytes per week, or about 5 transactions/week per BTC
 					There must be a slow constant upward pressure on the reserve ratio any time network usage is below 50\% until the network hits the maximum reserve ratio. The maximum reserve ratio determines the minimum required stake to flood the network in short bursts.
 
 				\paragraph{}
-					Any user with fewer than TOTAL_TOKENS / (2*RESERVE_RATIO) will be unable to produce enough transactions to fill even a single block. With a reserve ratio of 200, this means any user with less than 0.25\% of the currency cannot create enough transactions to delay anyone’s service.
+					Any user with fewer than TOTAL_TOKENS / (2*RESERVE_RATIO) will be unable to produce enough transactions to fill even a single block. With a reserve ratio of 200, this means any user with less than 0.25\% of the currency cannot create enough transactions to delay anyone's service.
 
 			\subsubsection{Effectiveness Relative to Fees}
 
 				\paragraph{}
-					To compare the effectiveness of rate limiting to fees we must consider how the two systems react to intentional network flooding by an attacker. Under Bitcoin an attacker with $10,000 dollars could disrupt service for an entire day by filling every single block. The same attacker would be unable to disrupt service for even a single block under the dynamic fractional reserve rate limiting approach.
+					To compare the effectiveness of rate limiting to fees we must consider how the two systems react to intentional network flooding by an attacker. Under Bitcoin an attacker with \$10,000 dollars could disrupt service for an entire day by filling every single block. The same attacker would be unable to disrupt service for even a single block under the dynamic fractional reserve rate limiting approach.
 
 				\paragraph{}
-					If we go to a more extreme case and assume the attacker holds 1\% of all coins then we presume an attacker with $60 million dollars. Such an attacker could deny the Bitcoin blockchain service for 16 years unless the miners increased fees or capacity. Even if fees were raised to $15 per transaction, the attacker could still keep the network flooded for 16 days.
+					If we go to a more extreme case and assume the attacker holds 1\% of all coins then we presume an attacker with \$60 million dollars. Such an attacker could deny the Bitcoin blockchain service for 16 years unless the miners increased fees or capacity. Even if fees were raised to \$15 per transaction, the attacker could still keep the network flooded for 16 days.
 
 				\paragraph{}
 					Under the rate limiting approach, someone who holds 1\% of all coins with an intent to flood the network would achieve their goal for less than 30 seconds.
@@ -836,7 +836,7 @@ CLR/S = 2869 bytes per week, or about 5 transactions/week per BTC
 					We can conclude from this that a blockchain is best served by not using usage fees at all. If a usage fee were to be charged as an alternative to rate limiting, then it should be the equivalent of buying enough timeshares and committing to hold them long enough to gain the right use it once.
 
 				\paragraph{}
-					Stated another way, a transaction fee should be equal to the minimum account balance necessary to transact once per week and it should be refunded at the end of the week. Assume the minimum account balance is $1 and allows someone to transact once per week. If someone with a $1 balance that wishes to perform 5 transactions at once they will have to increase their balance to $5 for a week either before or after their transactions.
+					Stated another way, a transaction fee should be equal to the minimum account balance necessary to transact once per week and it should be refunded at the end of the week. Assume the minimum account balance is \$1 and allows someone to transact once per week. If someone with a \$1 balance that wishes to perform 5 transactions at once they will have to increase their balance to \$5 for a week either before or after their transactions.
 
 				\paragraph{}
 					In theory a market could form where users can borrow the stake required. In practice it is more ef cient for users to simply buy and sell the timeshares necessary to meet their desired usage rate. In other words, the cost of negotiating micro-loans is greater than the cost of maintaining a balance suitable for your maximum weekly usage.
@@ -852,7 +852,7 @@ CLR/S = 2869 bytes per week, or about 5 transactions/week per BTC
 		\subsection{Reddit Scale}
 
 			\paragraph{}
-				Steem is capable of handling a larger userbase than Reddit. In 2015 Reddit’s 8.7 million users generated an average of 23 comments per second\footnote{Reddit Statistics, Number of Users and Comments per Second\newline\url{http://expandedramblings.com/index.php/reddit-stats/2/}}, with an average of 83 comments per year per user. There were 73 million top-level posts, for an average of 2 new posts per second. There were about 7 billion up votes creating an average voting rate of 220 votes per second. All told, if Reddit were operating on a blockchain it would require an average of 250 transactions per second.
+				Steem is capable of handling a larger userbase than Reddit. In 2015 Reddit's 8.7 million users generated an average of 23 comments per second\footnote{Reddit Statistics, Number of Users and Comments per Second\newline\url{http://expandedramblings.com/index.php/reddit-stats/2/}}, with an average of 83 comments per year per user. There were 73 million top-level posts, for an average of 2 new posts per second. There were about 7 billion up votes creating an average voting rate of 220 votes per second. All told, if Reddit were operating on a blockchain it would require an average of 250 transactions per second.
 
 			\paragraph{}
 				To achieve this industry-leading performance, Steem has borrowed lessons learned from the LMAX Exchange\footnote{Martin Fowler, The LMAX Architecture\newline\url{http://martinfowler.com/articles/lmax.html}}, which is able to process 6 million transactions per second. Among these lessons are the following key points:
@@ -904,13 +904,13 @@ CLR/S = 2869 bytes per week, or about 5 transactions/week per BTC
 		\end{itemize}
 
 		\paragraph{}
-			The percentage constraints effectively ensure the incentives for rewards do not become meaninglessly small over time, which is intended to prevent the system from experiencing the “speed bump” in the growth pattern of many other blockchains, where an initial growth spurt fueled by high incentives for early participants is followed by prolonged stagnation as the continually falling incentives drop below the level necessary to induce newcomers to join.
+			The percentage constraints effectively ensure the incentives for rewards do not become meaninglessly small over time, which is intended to prevent the system from experiencing the "speed bump" in the growth pattern of many other blockchains, where an initial growth spurt fueled by high incentives for early participants is followed by prolonged stagnation as the continually falling incentives drop below the level necessary to induce newcomers to join.
 
 		\paragraph{}
-			The overall effect of these percentage constants on allocation and supply is that the (approximately) 800 STEEM per minute rate remains in effect for some time (i.e. units of STEEM), but drops in percentage terms (i.e., 800 STEEM is a smaller and smaller fraction of the total supply as the total supply grows larger and larger). When the various individual components of the 800 STEEM per minute rate reach their respective percentage-based floors, each floor halts the fall in its component of the rate. This in turn means that, over the long term, the nominal rate will rise from 800 STEEM per minute to the (time-varying, supply-dependent) value needed to maintain a constant annualized growth rate of 10\% for the Contribution Incentives, and a constant annualized growth rate of 100\% for the combined effect of the Contribution Incentives and the Power Incentives. The overall effect is a doubling of the STEEM supply each year (but, as detailed in the next section, if most users Power Up then much of this doubling is effectively a “split” which does not transfer ownership).
+			The overall effect of these percentage constants on allocation and supply is that the (approximately) 800 STEEM per minute rate remains in effect for some time (i.e. units of STEEM), but drops in percentage terms (i.e., 800 STEEM is a smaller and smaller fraction of the total supply as the total supply grows larger and larger). When the various individual components of the 800 STEEM per minute rate reach their respective percentage-based floors, each floor halts the fall in its component of the rate. This in turn means that, over the long term, the nominal rate will rise from 800 STEEM per minute to the (time-varying, supply-dependent) value needed to maintain a constant annualized growth rate of 10\% for the Contribution Incentives, and a constant annualized growth rate of 100\% for the combined effect of the Contribution Incentives and the Power Incentives. The overall effect is a doubling of the STEEM supply each year (but, as detailed in the next section, if most users Power Up then much of this doubling is effectively a "split" which does not transfer ownership).
 
 		\paragraph{}
-			The overall supply picture is complicated by the effect of SMD operations, which may result in large-scale creation or destruction of STEEM through feed rate following and SMD rewards, as discussed in the SMD section. Other, smaller-scale complicating effects also exist, including unclaimed incentives (e.g. block rewards for missed blocks), noise due to miner luck in proof-of-work production, and the effects of changes in the miner queue length due to a change in the network’s total hashpower.
+			The overall supply picture is complicated by the effect of SMD operations, which may result in large-scale creation or destruction of STEEM through feed rate following and SMD rewards, as discussed in the SMD section. Other, smaller-scale complicating effects also exist, including unclaimed incentives (e.g. block rewards for missed blocks), noise due to miner luck in proof-of-work production, and the effects of changes in the miner queue length due to a change in the network's total hashpower.
 
 		\subsection{Impact of Token Creation Rate}
 
@@ -918,13 +918,13 @@ CLR/S = 2869 bytes per week, or about 5 transactions/week per BTC
 				At first glance, 100\% annual increase in the STEEM supply may appear to be hyper-in ationary and unsustainable. Those who follow the Quantity Theory of Money16 may even conclude that the value of STEEM must fall by approximately 5.6\% per month. We know from countless real-world examples that the quantity of money does not have a direct and immediate impact on its value, though it certainly plays a role.
 
 			\paragraph{}
-				Because 90\% of all STEEM created is distributed back to holders of SP, the result is similar to having a 2:1 “split” every year rather true inflation. The total rate of expenditures used to reward contributors is about 10\% of the market capitalization per year, a rate well below what Bitcoin sustained for the first 7 years after it launched.
+				Because 90\% of all STEEM created is distributed back to holders of SP, the result is similar to having a 2:1 "split" every year rather true inflation. The total rate of expenditures used to reward contributors is about 10\% of the market capitalization per year, a rate well below what Bitcoin sustained for the first 7 years after it launched.
 
 			\paragraph{}
-				Creating new STEEM to pay an incentive to a particular user or group has a negative effect on every other user’s balance in terms of their percentage of the STEEM supply. If exactly 90\% of the STEEM supply is held in SP, then the negative effect of Contribution Incentives on SP holders’ balances is exactly balanced by the positive effect of Power Incentives; SP holders get more STEEM (in nominal terms) but their percentage of the chain (in terms of fraction of the total supply) is unchanged. If less (more) than 90\% of the STEEM supply is held as SP, the two effects still point in opposite directions, but the positive (negative) effect becomes greater and the sum of these two effects will tend to pull the SP balance toward 90\%. This “pull” does not mean that the SP value must hold at 90\% over the long term, because incentive recipients will (and in some cases must) put their STEEM in SP, which means the “pull” towards 90\% is not the only force on the percentage of STEEM supply held as SP.
+				Creating new STEEM to pay an incentive to a particular user or group has a negative effect on every other user's balance in terms of their percentage of the STEEM supply. If exactly 90\% of the STEEM supply is held in SP, then the negative effect of Contribution Incentives on SP holders' balances is exactly balanced by the positive effect of Power Incentives; SP holders get more STEEM (in nominal terms) but their percentage of the chain (in terms of fraction of the total supply) is unchanged. If less (more) than 90\% of the STEEM supply is held as SP, the two effects still point in opposite directions, but the positive (negative) effect becomes greater and the sum of these two effects will tend to pull the SP balance toward 90\%. This "pull" does not mean that the SP value must hold at 90\% over the long term, because incentive recipients will (and in some cases must) put their STEEM in SP, which means the "pull" towards 90\% is not the only force on the percentage of STEEM supply held as SP.
 
 			\paragraph{}
-				From August 2008 through January 2009 the U.S. money supply\footnote{United States Money Supply, 2009\newline\url{https://research.stlouisfed.org/fred2/graph/?s\%5B1\%5D\%5Bid\%5D=AMBNS}} grew from $871B to $1,737B, a rate of over 100\% per year and then continued to grow at about 20\% per year for the next 6 years. All told the money supply in the U.S. has grown by 4.59x over less than 7 years. During that same time, the value of the dollar relative to goods and services has fallen less than 10\% according to the government's price index\footnote{CPI Inflation Index, United States Dollar 2008-2016\newline\url{http://data.bls.gov/cgi-bin/cpicalc.pl?cost1=1&year1=2008&year2=2016}}. This real-world example demonstrates that supply is only one component of price.
+				From August 2008 through January 2009 the U.S. money supply\footnote{United States Money Supply, 2009\newline\url{https://research.stlouisfed.org/fred2/graph/?s\%5B1\%5D\%5Bid\%5D=AMBNS}} grew from \$871B to \$1,737B, a rate of over 100\% per year and then continued to grow at about 20\% per year for the next 6 years. All told the money supply in the U.S. has grown by 4.59x over less than 7 years. During that same time, the value of the dollar relative to goods and services has fallen less than 10\% according to the government's price index\footnote{CPI Inflation Index, United States Dollar 2008-2016\newline\url{http://data.bls.gov/cgi-bin/cpicalc.pl?cost1=1&year1=2008&year2=2016}}. This real-world example demonstrates that supply is only one component of price.
 
 			\paragraph{}
 				The price of a digital commodity, like STEEM, is driven by both supply and demand. If new STEEM is allocated to those who are holding long-term then the increase in supply is offset by the corresponding demand to hold. The impact of this change in supply is postponed until a future date when the long-term holder decides to sell. The sell pressure is then distributed over 2 years.
@@ -933,13 +933,13 @@ CLR/S = 2869 bytes per week, or about 5 transactions/week per BTC
 				When a long-term holder decides to exit, the supply of STEEM on the market will increase and push the price down. This downward pressure is countered when a new long-term holder decides to buy up the STEEM and convert it back into SP. We can therefore conclude that the price will mostly be impacted by a change in demand for holding STEEM long-term.
 
 			\paragraph{}
-				Of the 100\% annual increase in the virtual STEEM supply, 5\% of it is in the form of Steem Dollars (SMD). SMD represents a commitment to create a dollar’s worth of STEEM in the future and does not impact the amount of STEEM on the market today. The change in debt-to-ownership ratio may impact the perceived value of STEEM, but it does not map directly into a fall in the value of STEEM. If the value of Steem rises over time, then the amount of STEEM that may be created in the future will be less and the corresponding “in ation” never actually happened.
+				Of the 100\% annual increase in the virtual STEEM supply, 5\% of it is in the form of Steem Dollars (SMD). SMD represents a commitment to create a dollar's worth of STEEM in the future and does not impact the amount of STEEM on the market today. The change in debt-to-ownership ratio may impact the perceived value of STEEM, but it does not map directly into a fall in the value of STEEM. If the value of Steem rises over time, then the amount of STEEM that may be created in the future will be less and the corresponding "in ation" never actually happened.
 
 			\paragraph{}
-				All told the total “spending” Steem does to fund content, curation, mining, and liquidity rewards amounts to just 10\% APR or 1.2\% per month. The same wealth transfer could be implemented without any change in the STEEM supply by implementing a negative interest rate on liquid STEEM of around 10\% per month. Stated another way, it could be implemented by charging a 3\% fee (similar to credit cards) on every transfer and having 1\% of all STEEM transferred every single day. The Bitcoin network transfers\footnote{Bitcoin Transaction Volume\newline\url{https://blockchain.info/charts/estimated-transaction-volume}} 400,000 BTC out of 15.5M (or 2.5\% daily).
+				All told the total "spending" Steem does to fund content, curation, mining, and liquidity rewards amounts to just 10\% APR or 1.2\% per month. The same wealth transfer could be implemented without any change in the STEEM supply by implementing a negative interest rate on liquid STEEM of around 10\% per month. Stated another way, it could be implemented by charging a 3\% fee (similar to credit cards) on every transfer and having 1\% of all STEEM transferred every single day. The Bitcoin network transfers\footnote{Bitcoin Transaction Volume\newline\url{https://blockchain.info/charts/estimated-transaction-volume}} 400,000 BTC out of 15.5M (or 2.5\% daily).
 
 			\paragraph{}
-				The purpose of liquid STEEM is to facilitate changes in ownership between long-term holders. It is this change in ownership that the network “taxes” to fund growth. This transfer tax can be avoided almost completely by automatically selling STEEM for SMD every week as the network converts SP back to STEEM. The total time spent holding STEEM will be so small that any impact of changing STEEM supply will be insigni cant next to volatility and other market fees.
+				The purpose of liquid STEEM is to facilitate changes in ownership between long-term holders. It is this change in ownership that the network "taxes" to fund growth. This transfer tax can be avoided almost completely by automatically selling STEEM for SMD every week as the network converts SP back to STEEM. The total time spent holding STEEM will be so small that any impact of changing STEEM supply will be insigni cant next to volatility and other market fees.
 
 			\subsubsection{Impact of Token Creation Rate Greater than Ninety-Percent}
 
@@ -947,18 +947,18 @@ CLR/S = 2869 bytes per week, or about 5 transactions/week per BTC
 					As of May 1, 2016, over 98.49\% of all STEEM has been converted to SP. This demonstrates that demand to hold long term dominates. In this environment both liquid STEEM and SP are diluted to fund rewards.
 
 				\paragraph{}
-					For the first 2 years of Bitcoin’s life the network sustained an annual in ation rate\footnote{Bitcoin Annual In ation Rate, Bitcoin Talk Forum\newline\url{https://bitcointalk.org/index.php?topic=130619.0}} of over 100\%. For the first 5 years it was over 30\%, and for the first 8 years it was over 10\%. According to the tool for estimating future in ation included with the Steem source code, Steem by contrast will achieve an instantaneous annual rate of approximately 12\% after just 1 year (not including the effects of SMD operations).
+					For the first 2 years of Bitcoin's life the network sustained an annual in ation rate\footnote{Bitcoin Annual In ation Rate, Bitcoin Talk Forum\newline\url{https://bitcointalk.org/index.php?topic=130619.0}} of over 100\%. For the first 5 years it was over 30\%, and for the first 8 years it was over 10\%. According to the tool for estimating future in ation included with the Steem source code, Steem by contrast will achieve an instantaneous annual rate of approximately 12\% after just 1 year (not including the effects of SMD operations).
 
 			\subsubsection{Accounting In Steem}
 
 				\paragraph{}
-					The increase in the supply of STEEM is mostly an accounting artifact created by the desire to avoid charging negative interest rates on liquid STEEM. Negative interest rates would complicate the lives of exchanges which would have to adjust user balances to account for the negative rate of return of STEEM held on deposit. Mirroring the blockchain logic exactly would be error prone and complicate integration and adoption. Therefore, STEEM has chosen to never charge someone’s account, but instead to increase supply. This achieves a similar economic result without forcing everyone accepting STEEM deposits to implement negative interest rates on their internal ledger.
+					The increase in the supply of STEEM is mostly an accounting artifact created by the desire to avoid charging negative interest rates on liquid STEEM. Negative interest rates would complicate the lives of exchanges which would have to adjust user balances to account for the negative rate of return of STEEM held on deposit. Mirroring the blockchain logic exactly would be error prone and complicate integration and adoption. Therefore, STEEM has chosen to never charge someone's account, but instead to increase supply. This achieves a similar economic result without forcing everyone accepting STEEM deposits to implement negative interest rates on their internal ledger.
 
 				\paragraph{}
 					A side effect of increasing the supply is that the network will require ever increasing levels of precision in its accounting. On average the number of bits required to represent a typical account will grow by 1.3 per year. It will only take 10 years before numbers involved no longer fit within the 53 bit precision supported by JavaScript or the 64 bit precision supported by CPUs. Over time the magnitude of the numbers involved grows beyond human scale and comprehension; furthermore, the least significant bits have so little economic value as to render them meaningless.
 
 				\paragraph{}
-					In order to compensate for the ever increasing precision, the STEEM network performs a 10:1 “reverse split” every 32,000,000 blocks (about 3 years). At this point in time all balances of STEEM are divided by 10 and all prices are multiplied by 10. Cryptocurrency exchanges will have to suspend trading around this time and update the account balances and price history to reflect the “reverse split” before resuming trading.
+					In order to compensate for the ever increasing precision, the STEEM network performs a 10:1 "reverse split" every 32,000,000 blocks (about 3 years). At this point in time all balances of STEEM are divided by 10 and all prices are multiplied by 10. Cryptocurrency exchanges will have to suspend trading around this time and update the account balances and price history to reflect the "reverse split" before resuming trading.
 
 				\paragraph{}
 					All rounding errors will be in favor of the network. Every balance may lose up to 0.009 STEEM due to rounding, but this amount of STEEM should be economically insignificant. Collectively all holders of SP will lose at most 0.009 STEEM.
@@ -969,18 +969,18 @@ CLR/S = 2869 bytes per week, or about 5 transactions/week per BTC
 			Steem recognizes that the value of all user contributions (posts and votes) is greater than the sum of the parts. A single comment is worth next to nothing, but millions of curated posts is worth many millions (or possibly even billions) of dollars. A single vote provides little curation value, but billions of votes is very effective curation. Content without curation is of limited value. Given all the content of the Internet minus the links between it, Google would struggle to produce useful search results. It is the links between information that give it significant value.
 
 		\paragraph{}
-			Because everyone benefits, everyone should pay. In other words, no individual user should be expected to pay for anything, but instead should be paid for everything they do that brings value to Steem. All we need to do is ascertain which user contributions bring a social network value and which ones don’t.
+			Because everyone benefits, everyone should pay. In other words, no individual user should be expected to pay for anything, but instead should be paid for everything they do that brings value to Steem. All we need to do is ascertain which user contributions bring a social network value and which ones don't.
 
 		\paragraph{}
-			Collectively Reddit users vote 220 times per second and make 23 posts per second. Reddit is valued between $500 million\footnote{Reddit Valuaton, Newsweek, 2014\newline\url{http://www.newsweek.com/investors-think-reddit-worth-500-million-26}} and $4 billion\footnote{Worth of Web, March 2016\newline\url{http://www.worthofweb.com/website-value/reddit.com/}} which means that each and every upvote and post is worth between $0.06 and $0.50 assuming the value of Reddit is mostly within the past year’s worth of activity. One could argue that most of the value of Reddit is the near-real-time discussions that have occurred within the past week which would dramatically increase the value of new activity. People go where people are today, not where people were last year.
+			Collectively Reddit users vote 220 times per second and make 23 posts per second. Reddit is valued between \$500 million\footnote{Reddit Valuaton, Newsweek, 2014\newline\url{http://www.newsweek.com/investors-think-reddit-worth-500-million-26}} and \$4 billion\footnote{Worth of Web, March 2016\newline\url{http://www.worthofweb.com/website-value/reddit.com/}} which means that each and every upvote and post is worth between \$0.06 and \$0.50 assuming the value of Reddit is mostly within the past year's worth of activity. One could argue that most of the value of Reddit is the near-real-time discussions that have occurred within the past week which would dramatically increase the value of new activity. People go where people are today, not where people were last year.
 
 		\subsection{No Micropayments, Tips Optional}
 
 			\paragraph{}
-				Existing attempts at integrating a cryptocurrency into a social media platform have focused on enabling users to pay one another. Many services have attempted to introduce tipping. The theory is that if we make tipping simple enough then more people will do it. Other services attempt to get people to pay to promote or boost their content’s ranking. Still others attempt to build small prediction markets on how many tips an article will receive.
+				Existing attempts at integrating a cryptocurrency into a social media platform have focused on enabling users to pay one another. Many services have attempted to introduce tipping. The theory is that if we make tipping simple enough then more people will do it. Other services attempt to get people to pay to promote or boost their content's ranking. Still others attempt to build small prediction markets on how many tips an article will receive.
 
 			\paragraph{}
-				All of these approaches boil down to micropayments. They differ only in who is making the payment. They all suffer from insufficient engagement of people making the micropayments. In the search for incentivised content production entrepreneurs have been so focused on who should pay that they missed the obvious reality: everyone benefits from everyone’s actions so everyone should pay or no one should pay, depending on how you look at it.
+				All of these approaches boil down to micropayments. They differ only in who is making the payment. They all suffer from insufficient engagement of people making the micropayments. In the search for incentivised content production entrepreneurs have been so focused on who should pay that they missed the obvious reality: everyone benefits from everyone's actions so everyone should pay or no one should pay, depending on how you look at it.
 
 			\paragraph{}
 				Steem bypasses micropayments completely because when a user upvotes a post it is the community that pays the bill. The same amount of money will be spent whether the user upvotes a post or not and the funds will not come from the voter.
@@ -991,7 +991,7 @@ CLR/S = 2869 bytes per week, or about 5 transactions/week per BTC
 			\begin{quote}
 
 				\paragraph{}
-					\textit{We already face a multitude of choices everyday with regards to what to access online in this digital era of the information explosion, and every additional decision that we must make simply adds on to the uncertainty and anxiety we face. Micropayment supporters believe that a simpli ed implementation can minimize the intrusiveness of micropayments and improve user experience, but their argument only creates double standards for the decision making process [2]. A transaction cannot simultaneously be worth enough to warrant a decision and worth so little that the decision is automatic. \textbf{The only transactions that users can approve without thought are ones that cost them nothing}, thus any micro-transaction of positive value will incur mental costs through its requiring a decision. Furthermore, mental transaction costs actually rise below a certain threshold value, a phenomenon that places micropayments at an even greater disadvantage. For instance, it is easy to think that a copy of today's newspapers costs $1, but readers face much more dif culty and anxiety in deciding on the value of each article or word. Such a dilemma will only be replicated and exacerbated if all online content were to be broken down into their components and individually valued within a micropayment system.}
+					\textit{We already face a multitude of choices everyday with regards to what to access online in this digital era of the information explosion, and every additional decision that we must make simply adds on to the uncertainty and anxiety we face. Micropayment supporters believe that a simpli ed implementation can minimize the intrusiveness of micropayments and improve user experience, but their argument only creates double standards for the decision making process [2]. A transaction cannot simultaneously be worth enough to warrant a decision and worth so little that the decision is automatic. \textbf{The only transactions that users can approve without thought are ones that cost them nothing}, thus any micro-transaction of positive value will incur mental costs through its requiring a decision. Furthermore, mental transaction costs actually rise below a certain threshold value, a phenomenon that places micropayments at an even greater disadvantage. For instance, it is easy to think that a copy of today's newspapers costs \$1, but readers face much more dif culty and anxiety in deciding on the value of each article or word. Such a dilemma will only be replicated and exacerbated if all online content were to be broken down into their components and individually valued within a micropayment system.}
 
 				\paragraph{}
 					\textit{- Micropayments: A Viable Business Model\footnote{Micropayments: A Viable Business Model\newline\url{http://cs.stanford.edu/people/eroberts/cs181/projects/2010-11/Microp}}}
@@ -1021,7 +1021,7 @@ CLR/S = 2869 bytes per week, or about 5 transactions/week per BTC
 		\subsection{Solving the Cryptocurrency Onboarding Problem}
 
 			\paragraph{}
-				It isn’t easy to get into cryptocurrency\footnote{Dailydot, Jon Southurt, April 2015\newline\url{http://www.dailydot.com/opinion/bitcoin-cryptocurrency-adoption-hard}}. Someone who discovers Bitcoin and wants to try it out quickly learns that they will need to sign up with an exchange and fund their account with a credit card or wire transfer. What would Facebook’s adoption rate have been like if you had to fork over money and a two forms of ID?
+				It isn't easy to get into cryptocurrency\footnote{Dailydot, Jon Southurt, April 2015\newline\url{http://www.dailydot.com/opinion/bitcoin-cryptocurrency-adoption-hard}}. Someone who discovers Bitcoin and wants to try it out quickly learns that they will need to sign up with an exchange and fund their account with a credit card or wire transfer. What would Facebook's adoption rate have been like if you had to fork over money and a two forms of ID?
 
 			\paragraph{}
 				Steem solves this problem by giving everyone a way to get paid for doing simple, but valuable, tasks. This will help to widely distribute STEEM tokens. This is helpful because cryptocurrencies have a network effect (i.e. more users make it more useful; for an extreme example, consider that if Satoshi had kept 100\% of Bitcoin for himself, Bitcoin would be worthless.)
@@ -1029,7 +1029,7 @@ CLR/S = 2869 bytes per week, or about 5 transactions/week per BTC
 		\subsection{Solving the Cryptocurrency Liquidation Problem}
 
 			\paragraph{}
-				A currency that is dif cult to use or impossible to sell has little value. Someone who comes across $1.00 worth of Bitcoin will discover that it costs more than $1.00 to sell that Bitcoin. They have to create an account with an exchange, perform KYC validation, and pay fees. Small amounts of cryptocurrency are like small change that people are unwilling to bend over to pick up.
+				A currency that is dif cult to use or impossible to sell has little value. Someone who comes across \$1.00 worth of Bitcoin will discover that it costs more than \$1.00 to sell that Bitcoin. They have to create an account with an exchange, perform KYC validation, and pay fees. Small amounts of cryptocurrency are like small change that people are unwilling to bend over to pick up.
 
 			\paragraph{}
 				Merchants give users a way to quickly convert their cryptocurrency into tangible goods and services. Merchants need a currency pegged to their unit of account, normally dollars. Accepting a volatile currency introduces signi cant accounting overhead.
@@ -1065,15 +1065,15 @@ CLR/S = 2869 bytes per week, or about 5 transactions/week per BTC
 				Under blockchain-based social media, a creator or author would always be able to point to a public record and timestamp showing proof of their content origination. In a circumstance where a creator would like to address those who have re-shared without permission or attribution, blockchain-based records provide public proof that the content was posted by a particular user at a particular time. In the future, blockchain-based attribution could come to be recognized by governments for its authenticity and could hold weight in court, which would give content creators greater powers to control their work.
 
 			\paragraph{}
-				While a timestamping service can be built on almost any blockchain, and several efforts exist to build this kind of service on the Bitcoin network, Steem has a useful advantage in this realm because content publishers are “first class citizens” -- the Steem blockchain is built from the ground up around the use case of content publication, which allows content creators to have the blockchain to validate their content at a certain point in time simply by writing their post using the same authoring tools used by other Steem users.
+				While a timestamping service can be built on almost any blockchain, and several efforts exist to build this kind of service on the Bitcoin network, Steem has a useful advantage in this realm because content publishers are "first class citizens" -- the Steem blockchain is built from the ground up around the use case of content publication, which allows content creators to have the blockchain to validate their content at a certain point in time simply by writing their post using the same authoring tools used by other Steem users.
 
 		\subsection{Replacing Advertising with Blockchain-based Content Rewards}
 
 			\paragraph{}
-				Under most content monetization models, content creators leverage advertising in one form or another. Many creators recognize how advertising may diminish their work’s value to the consumer, yet creators very often must seek returns on their time by monetizing. Advertising represents a double-edged sword: With ads, a creator can make money most easily. Without ads, monetization is difficult but the content is richer.
+				Under most content monetization models, content creators leverage advertising in one form or another. Many creators recognize how advertising may diminish their work's value to the consumer, yet creators very often must seek returns on their time by monetizing. Advertising represents a double-edged sword: With ads, a creator can make money most easily. Without ads, monetization is difficult but the content is richer.
 
 			\paragraph{}
-				Creators posting to social media outlets that are connected to Steem may monetize merely by having their work recognized (or ”liked”) by the Steem community. Blockchain-based payouts are completely digital and have no middle-man. Therefore monetization by blockchain-based content rewards should be faster and much lower barrier to use than monetization by advertisements.
+				Creators posting to social media outlets that are connected to Steem may monetize merely by having their work recognized (or "liked") by the Steem community. Blockchain-based payouts are completely digital and have no middle-man. Therefore monetization by blockchain-based content rewards should be faster and much lower barrier to use than monetization by advertisements.
 
 	\section{Conclusion}
 		Steem is an experiment designed to address challenges in the cryptocurrency and social media industries by combining the best aspects from both. Steem presents earning opportunities to content creators and internet readers in ways that have not existed within the social media industry. Within Steem, individuals earn real rewards online that are directly correlated to their contributions. Those rewards will have dollar value due to the market price discovery and liquidity of Steem, and the people who hold Steem will have more exclusive earning powers than those who do not.
