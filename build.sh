@@ -12,19 +12,20 @@ if ! pdflatex_loc="$(type -p "pdflatex")" || [ -z "$pdflatex_loc" ]; then
 	exit
 fi
 
-# check if build dir exists, if not then create
+# create build temp folder, or wipe contents if exists. also navigate there for building
 if ! [ -d "build" ]; then
 	mkdir build
+	cd build
+else
+	cd build
+	rm -R -f *.*
 fi
 
 # copy images to build dir
-cp img/*.* build/
+cp ../img/*.* ./
 
 # copy tex source file
-cp src/whitepaper.tex build/
-
-# go to build dir for build
-cd build
+cp ../src/whitepaper.tex ./
 
 # build, first pass
 pdflatex whitepaper.tex
