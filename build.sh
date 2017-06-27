@@ -6,19 +6,22 @@
 # requires LaTeX installation with correct environment set up already
 
 
-# check that pdflatex is installed and available, fatal error if not installed
+# check that pdflatex is installed and available, fatal error if not
+# installed
 if ! pdflatex_loc="$(type -p "pdflatex")" || [ -z "$pdflatex_loc" ]; then
-	echo "FATAL ERROR: pdflatex not available, please check LaTeX installation and environment"
-	exit
+    echo "FATAL ERROR: pdflatex not available"
+    echo "Please check LaTeX installation and environment"
+    exit
 fi
 
-# create build temp folder, or wipe contents if exists. also navigate there for building
+# create build temp folder, or wipe contents if exists. also navigate there
+# for building
 if ! [ -d "build" ]; then
-	mkdir build
-	cd build
+    mkdir build
+    cd build
 else
-	cd build
-	rm -R -f *.*
+    cd build
+    rm -R -f *.*
 fi
 
 # copy images to build dir
@@ -32,8 +35,9 @@ pdflatex whitepaper.tex
 
 # check the PDF was built and exists, fatal error if not
 if ! [ -f "whitepaper.pdf" ]; then
-	echo "FATAL ERROR: could not construct PDF file, check whitepaper.tex for errors"
-	exit
+    echo "FATAL ERROR: could not construct PDF file"
+    echo "Check whitepaper.tex for errors"
+    exit
 fi
 
 # build, second pass, needed for page numbering
