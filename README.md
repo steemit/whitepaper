@@ -6,7 +6,7 @@ Currently the build instructions are for Ubuntu 16.04 or higher. Eventually thes
 
 ## Installation Instructions
 
-Clone the respository
+Clone the repository
 ```bash
 git clone https://github.com/steemit/whitepaper
 ```
