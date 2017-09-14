@@ -1,13 +1,46 @@
-Steem 
-An incentivized, blockchain-based, public content platform.
-August 2017
+---
+header-includes:
+    - \usepackage[top=3cm,bottom=3.5cm,left=3.5cm,right=3cm,headheight=20pt,headsep=30pt,footnotesep=1.5\baselineskip]{geometry}
+    - \usepackage{xcolor}
+    - \definecolor{mygray}{gray}{0.3}
+---
 
-Abstract
-Steem is a blockchain database that supports community building and social interaction with cryptocurrency rewards. Steem combines concepts from social media with lessons learned from building cryptocurrencies and their communities.  An important key to inspiring participation in any community, currency or free market economy is a fair accounting system that consistently  reflects each person's contribution. Steem is the first cryptocurrency that attempts to accurately and transparently reward an unbounded number of individuals who make subjective contributions to its community.
+\clearpage
+\vspace*{\stretch{3}}
+\begin{minipage}{1.0\textwidth}
+\begin{center}
+{\Huge Steem}
+
+\vspace{5mm}
+
+\textcolor{mygray}{\LARGE An incentivized, blockchain-based, public content platform.}
+
+\vspace{5mm}
+
+{\Large August 2017}
+\end{center}
+\end{minipage}
+\vspace{\stretch{3}}
+\clearpage
+
+\clearpage
+\vspace*{\stretch{3}}
+\begin{minipage}{1.0\textwidth}
+\begin{center}
+
+{\Large Abstract}
+
+\end{center}
+
+\vspace{5mm}
+
+{\centering{}Steem is a blockchain database that supports community building and social interaction with cryptocurrency rewards.  Steem combines concepts from social media with lessons learned from building cryptocurrencies and their communities.  An important key to inspiring participation in any community, currency or free market economy is a fair accounting system that consistently  reflects each person's contribution. Steem is the first cryptocurrency that attempts to accurately and transparently reward an unbounded number of individuals who make subjective contributions to its community.}
+
+\end{minipage}
+\vspace{\stretch{3}}
+\clearpage
 
 Table of Contents
-
-
 
 ## Introduction
 
