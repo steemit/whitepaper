@@ -41,7 +41,7 @@ urlcolor: blue
 
 \vspace{5mm}
 
-{\centering{}Steem is a blockchain database that supports community building and social interaction with cryptocurrency rewards.  Steem combines concepts from social media with lessons learned from building cryptocurrencies and their communities.  An important key to inspiring participation in any community, currency or free market economy is a fair accounting system that consistently  reflects each person's contribution. Steem is the first cryptocurrency that attempts to accurately and transparently reward an unbounded number of individuals who make subjective contributions to its community.}
+{\centering{}Steem is a blockchain database that supports community building and social interaction with cryptocurrency rewards.  Steem combines concepts from social media with lessons learned from building cryptocurrencies and their communities.  An important key to inspiring participation in any community, currency or free market economy is a fair accounting system that consistently  reflects each person's contribution. Steem is the first cryptocurrency that attempts to accurately and transparently reward an unbounded number of individuals who make \textit{subjective contributions} to its community.}
 
 \end{minipage}
 \vspace{\stretch{3}}
@@ -52,7 +52,7 @@ urlcolor: blue
 \newpage
 # Introduction
 
-Collectively, user-generated content has created billions of dollars worth of value for the shareholders of social media companies, such as Reddit, Facebook, and Twitter. In 2014, Reddit hypothesized that its platform would be improved if everyone who contributed to reddit.com by posting stories, adding comments or voting were rewarded with a fair share in Reddit, Inc. Steem aims to support social media and online communities by returning much of its value to the people who provide valuable contributions by rewarding them with cryptocurrency,  and through this process create a currency that is able to reach a broad market, including people who have yet to participate in any cryptocurrency economy. 
+Collectively, user-generated content has created billions of dollars worth of value for the shareholders of social media companies, such as Reddit, Facebook, and Twitter. **In 2014, Reddit hypothesized that its platform would be improved if everyone who contributed to reddit.com by posting stories, adding comments or voting were rewarded with a fair share in Reddit, Inc.** Steem aims to support social media and online communities by returning much of its value to the people who provide valuable contributions by rewarding them with cryptocurrency,  and through this process create a currency that is able to reach a broad market, including people who have yet to participate in any cryptocurrency economy. 
 
 There are some key principles that have been used to guide the design of Steem. The most important principle is that everyone who contributes to a venture should receive pro-rata ownership, payment or debt from the venture. This principle is the same principle that is applied to all startups as they allocate shares at founding and during subsequent funding rounds.
 
@@ -62,11 +62,11 @@ The third principle is that the community produces products to serve its members
 
 The Steem community provides the following services to its members:
 
-A source of curated news and commentary.
-A means to get high quality answers to personalized questions.
-A stable cryptocurrency pegged to the U.S. dollar.
-Free payments.
-Jobs providing above services to other members. 
+1. A source of curated news and commentary.
+2. A means to get high quality answers to personalized questions.
+3. A stable cryptocurrency pegged to the U.S. dollar.
+4. Free payments.
+5. Jobs providing above services to other members. 
 
 Steem’s purposeful realignment of economic incentives  has the potential to produce fairer and more inclusive results for everyone involved than the social media and cryptocurrency platforms that have gone before it. This paper will explore the existing economic incentives and demonstrate how Steem’s incentives may result in better outcomes for most participants. 
 
@@ -81,7 +81,7 @@ Existing platforms operate on a one-user, one-vote principle. This creates an en
 The fundamental unit of account on the Steem platform is STEEM, a crypto currency token. 
 Steem operates on the basis of one-STEEM, one-vote. Under this model, individuals who have contributed the most to the platform, as measured by their account balance, have the most influence over how contributions are scored. Furthermore, Steem only allows members to vote with STEEM when it is committed to a vesting schedule. Under this model, members have a financial incentive to vote in a way that maximises the long term value of their STEEM.  
 
-Steem is designed around a relatively simple concept: everyone’s meaningful contribution to the community should be recognized for the value it adds.  When people are recognized for their meaningful contributions, they continue contributing and the community grows. Any imbalance in the give and take within a community is unsustainable. Eventually the givers grow tired of supporting the takers and disengage from the community.
+Steem is designed around a relatively simple concept: _everyone’s meaningful contribution to the community should be recognized for the value it adds._  When people are recognized for their meaningful contributions, they continue contributing and the community grows. Any imbalance in the give and take within a community is unsustainable. Eventually the givers grow tired of supporting the takers and disengage from the community.
 
 The challenge is creating a system capable of identifying what contributions are needed and their relative worth in a way that can scale to an unbounded number of people.
 
@@ -118,6 +118,7 @@ In the cryptocurrency space, speculators jump from cryptocurrency to cryptocurre
 Users are able to commit their STEEM to a thirteen week vesting schedule, providing them with additional benefits within the platform. STEEM that has been committed to a thirteen week vesting schedule is called Steem Power (SP). SP balances are non-transferrable and non-divisible except via the automatically recurring conversion requests. This means that SP cannot be easily traded on cryptocurrency exchanges.
 
 When users vote on content, their influence over the distribution of the rewards pool is directly proportional to the amount of SP that they have. Users with more SP have more influence on the distribution of rewards. This means that SP is an access token that grants its holders exclusive powers within the Steem platform.
+
 SP holders are also paid interest on the balance of SP that remains vested. 15% of the yearly inflation is paid to SP holders as interest. The amount of the interest that they receive is directly proportional to the amount of SP they hold relative to the total amount of vested SP across all users.
 
 Transferring from STEEM to SP is referred to as “powering up”, while transferring from SP to STEEM is referred to as “powering down.” SP that is powered down is returned to the user over a period of thirteen weeks, via 13 equal weekly payments, starting one week after the power down is initiated.
@@ -174,9 +175,9 @@ STEEM and SP holders gain leverage when members of the community are willing to 
 
 Astute readers will recognize that an interest bearing asset of limited supply may trade higher or lower than the underlying asset depending upon other opportunities to earn interest on the same asset. With a high interest rate paid on an asset pegged to the US dollar many people will bid up the limited supply of Steem Dollars until they are no longer valued at $1. In economics there is a principle known as the Impossible Trinity which states that it is impossible to have all three of the following at the same time:
 
-A stable exchange rate
-Free capital movement 
-An independent monetary policy 
+1. A stable exchange rate
+2. Free capital movement 
+3. An independent monetary policy 
 
 If Steem feed producers aim to have an independent monetary policy allowing it to create and destroy Steem Dollars while simultaneously having full control over the interest rate then they will encounter problems. The Impossible Trinity says that Steem Dollars either need to restrict capital movement, have an unstable exchange rate with the dollar, or have limited control over the interest rate.
 
@@ -198,7 +199,7 @@ It is our belief that these rules will give market participants confidence that 
 
 ## Subjective Contributions
 
-Subjective Proof of Work presents an alternative approach to distributing a currency that improves upon fully objective Proof of Work systems such as mining. The applications of a currency implementing subjective proof of work are far wider than any objective proof of work system because they can be applied to build a community around any concept that has a sufficiently defined purpose. When individuals join a community they buy into a particular set of beliefs and can vote to reinforce the community values or purpose.
+Subjective Proof of Work presents an alternative approach to distributing a currency that improves upon fully _objective_ Proof of Work systems such as mining. The applications of a currency implementing _subjective_ proof of work are far wider than any _objective_ proof of work system because they can be applied to build a community around any concept that has a sufficiently defined purpose. When individuals join a community they buy into a particular set of beliefs and can vote to reinforce the community values or purpose.
 
 In effect, the criteria by which work is evaluated is completely subjective and its definition lives outside the source code itself. One community may wish to reward artists, another poets, and another comedians.  Other communities may choose to reward charitable causes or help advance political agendas.  
 
@@ -206,15 +207,15 @@ The value each currency achieves depends upon the demand for influence within a 
 
 ### Distributing Currency
 
-There are two ways people can get involved with a crypto-currency community: they can buy in, or they can work in. In both cases users are adding value to the currency, however, the vast majority of people have more free time than they do spare cash. Imagine the goal of bootstrapping a currency in a poor community with no actual cash but plenty of time. If people can earn money by working for one another then they will bootstrap value through mutual exchange facilitated by a fair accounting/currency system.  
+There are two ways people can get involved with a crypto-currency community: they can _buy in_, or they can _work in_. In both cases users are adding value to the currency, however, the vast majority of people have more _free time_ than they do _spare cash_. Imagine the goal of bootstrapping a currency in a poor community with no actual _cash_ but plenty of _time_. If people can earn money by working for one another then they will bootstrap value through mutual exchange facilitated by a fair accounting/currency system.  
 
-Distributing a currency to as many people as possible in a manner that is generally perceived as fair is a challenging task. The tasks that can be entirely evaluated by an objective computer algorithm are limited in nature and generally speaking have limited positive external benefits. In the case of Bitcoin-style mining, it can result in the production of specialized hardware and cause people to invest time developing more efficient algorithms. It may even help find prime numbers, but none of these things provide meaningful value to society or the currency holding community at large. More importantly, economies of scale and market forces will end up excluding everyone but experts from participating in this kind of distribution. Ultimately, computation-based mining is just another way of buying in because it requires money to pay the electric bill or the development of hardware necessary to do the work.
+Distributing a currency to as many people as possible in a manner that is generally perceived as fair is a challenging task. The tasks that can be entirely evaluated by an objective computer algorithm are limited in nature and generally speaking have limited positive external benefits. In the case of Bitcoin-style mining, it can result in the production of specialized hardware and cause people to invest time developing more efficient algorithms. It may even help find prime numbers, but none of these things provide meaningful value to society or the currency holding community at large. More importantly, economies of scale and market forces will end up excluding everyone but experts from participating in this kind of distribution. Ultimately, computation-based mining is just another way of _buying in_ because it requires money to pay the electric bill or the development of hardware necessary to do the work.
 
 In order to give everyone an equal opportunity to get involved and earn the currency people must be given an opportunity to work. The challenge is how to judge the relative quality and quantity of work that individuals provide and to do so in a way that efficiently allocates rewards to millions of users. This requires the introduction of a scalable voting process. In particular it requires that authority to allocate funds must be as distributed and decentralized as possible.  
 
-The first step in rewarding millions of users is to commit to distributing a fixed amount of currency regardless of how much work is actually done or how users vote. This changes the question from being “Should we pay?” to “Whom should we pay?” and signals to the market that money is being distributed and is being auctioned off to whoever “bids” the most work.  This is similar to Bitcoin committing to award 50 BTC to whoever finds the most difficult hashes. Like Bitcoin, all work must be done prior-to payout and nothing should be paid speculatively on the promise to do work in the future.
+The first step in rewarding millions of users is to commit to distributing a fixed amount of currency regardless of how much work is actually done or how users vote. This changes the question from being _“Should we pay?”_ to _“Whom should we pay?”_ and signals to the market that money is being distributed and is being auctioned off to whoever “bids” the most _work_.  This is similar to Bitcoin committing to award 50 BTC to whoever finds the most difficult hashes. Like Bitcoin, all work must be done prior-to payout and nothing should be paid speculatively on the promise to do work in the future.
 
-The next step is to reward everyone who does anything even remotely positive with something. This is accomplished by ranking all work done and distributing proportionally to its value. The more competitive the market becomes, the more difficult (higher quality or quantity) it becomes to earn the same payout.  
+The next step is to reward everyone who does anything even remotely positive with _something_. This is accomplished by ranking all work done and distributing proportionally to its value. The more competitive the market becomes, the more difficult (higher quality or quantity) it becomes to earn the same payout.  
 
 ### Voting on Distribution of Currency
 
@@ -226,11 +227,11 @@ The naive voting process creates a N-Person Prisoner’s Dilemma whereby each in
 
 Regardless of how much money any one individual has, there are always many other individuals with similar wealth. Even the wealthiest individual rarely has much more than the next couple wealthiest combined. Furthermore, those who have a large investment in a community also have the most to lose by attempting to game the voting system for themselves. It would be like the CEO of a company deciding to stop paying salaries so he could pocket all of the profits. Everyone would leave to work for other companies and the company would become worthless, leaving the CEO bankrupt rather than wealthy.  
 
-Fortunately, any work that is getting a large concentration of votes is also gaining the most scrutiny (publicity). Through the addition of negative-voting it is possible for many smaller stakeholders to nullify the voting power of collusive groups or defecting large stakeholders. Furthermore, large-stakeholders have more to lose if the currency falls in value due to abuse than they might gain by voting for themselves.  In fact, honest large stakeholders are likely to be more effective by policing abuse and using negative voting than they would be by voting for smaller contributions.  
+Fortunately, any work that is getting a large concentration of votes is also gaining the most scrutiny (publicity). Through the addition of _negative-voting_ it is possible for many smaller stakeholders to nullify the voting power of collusive groups or defecting large stakeholders. Furthermore, large-stakeholders have more to lose if the currency falls in value due to abuse than they might gain by voting for themselves.  In fact, honest large stakeholders are likely to be more effective by policing abuse and using negative voting than they would be by voting for smaller contributions.  
 
-The use of negative-voting to keep people from abusing the system leverages the crab mentality that many people have when it is perceived that one individual is profiting at the expense of everyone else. While crab mentality normally refers to short-sighted people keeping good people down, it is also what allows good people to keep bad people down. The only “problem” with crab mentality is when people wrongly believe someone is profiting at everyone else's expense.  
+The use of _negative-voting_ to keep people from abusing the system leverages the _crab mentality_ that many people have when it is perceived that one individual is profiting at the expense of everyone else. While crab mentality normally refers to short-sighted people keeping good people down, it is also what allows good people to keep bad people down. The only “problem” with crab mentality is when people _wrongly believe_ someone is profiting at everyone else's expense.  
 
-#### The Story of the Crab Bucket
+**The Story of the Crab Bucket**
 
 A man was walking along the beach and saw another man fishing in the surf with a bait bucket beside him. As he drew closer, he saw that the bait bucket had no lid and had live crabs inside.
 
@@ -282,7 +283,7 @@ The primary consideration is determining what testimony is allowed to enter the 
 
 Conceptually, the consensus algorithm adopted by Steem is similar to the consensus algorithm adopted by companies throughout the world. People with a vested interest in the future value of Steem vote to select individuals responsible for including testimony in the public record. Voting is weighted proportional to each individual's vested interest. 
 
-In the world of cryptocurrencies, the public record is commonly referred to as a blockchain. A block is a group of signed transactions.  
+In the world of cryptocurrencies, the public record is commonly referred to as a _blockchain_. A _block_ is a group of signed transactions.  
 
 With Steem, block production is done in rounds. Each round 21 witnesses are selected to create and sign blocks of transactions. Twenty (20) of these witnesses are selected by approval voting and one is timeshared by every witness that didn’t make it into the top 20 proportional to their total votes. The 21 active witnesses are shuffled every round to prevent any one witness from constantly ignoring blocks produced by the same witness placed before. Any witness who misses a block and hasn't produced in the last 24 hours will be disabled until they update their block signing key.
 
@@ -309,7 +310,7 @@ The fundamental problem with charging transaction fees is that micropayments don
 Imagine if the websites we use every day charged us a fee every time we modify our accounts by changing the password. Users expect certain things to be free. Requiring users to make a decision on whether or not an action is worth a small fee creates anxiety that causes users to leave.
 A transaction can’t be worth so much as to require a decision but worth so little that that decision is automatic. There is a certain amount of anxiety involved in any decision to buy, no matter how small, and it derives not from the interface used or the time required, but from the very act of deciding.
 
-Micropayments, like all payments, require a comparison: “Is this much of X worth that much of Y?” There is a minimum mental transaction cost created by this fact that cannot be optimized away, because the only transaction a user will be willing to approve with no thought will be one that costs them nothing, which is no transaction at all.
+Micropayments, like all payments, require a comparison: _“Is this much of X worth that much of Y?”_ There is a minimum mental transaction cost created by this fact that cannot be optimized away, because the only transaction a user will be willing to approve with no thought will be one that costs them nothing, which is no transaction at all.
 
 – Clay Shirky
 
@@ -341,7 +342,7 @@ Under a fractional reserve system the individual users could utilize more bandwi
 
 ## Bandwidth Instead of Micropayment Channels
 
-The solution to the problems with micropayments is in implementing dynamic fractional reserves.  Under this model the blockchain will automatically adjust the reserve ratio for the network during times of congestion. The blockchain will set a target utilization that leaves enough headroom for short term surges in demand. Any time the surges are sustained the blockchain reduces the maximum bandwidth-per-share. When a surge is over and there is surplus capacity the blockchain can slowly increase the bandwidth-per-share.
+The solution to the problems with micropayments is in implementing _dynamic fractional reserves_.  Under this model the blockchain will automatically adjust the reserve ratio for the network during times of congestion. The blockchain will set a target utilization that leaves enough headroom for short term surges in demand. Any time the surges are sustained the blockchain reduces the maximum bandwidth-per-share. When a surge is over and there is surplus capacity the blockchain can slowly increase the bandwidth-per-share.
 
 Bandwidth used by an individual user should be measured over a suitably long period of time to allow that user to time-shift their usage. Users tend to login, do many things at once, then logout. This means that their bandwidth over a short period of time may appear much higher than if viewed over a longer period of time. If the time window is stretched too far then the reserve ratio will not adjust fast enough to respond to short-term surges, if the window is too short then clustering usage will have too big of an impact on normal users.
 
@@ -367,7 +368,7 @@ Any initial account balance would have to come from the user creating the accoun
 
 ### Justifying Minimum Balances
 
-The concept of forcing users to maintain a minimum balance flows naturally from the value of a user. Anyone running a business knows that every single user has significant value. Businesses spend anywhere from $30 to $200 to acquire a user. Sometimes they pay users directly, other times they pay for advertizing, and still other times entire companies are bought just for their user base. After a company acquires a user they often given them many free services just to keep them around long enough to monetize them through some other means.
+The concept of forcing users to maintain a minimum balance flows naturally from the value of a user. Anyone running a business knows that every single user has significant value. Businesses spend anywhere from $30 to $200 to acquire a user. Sometimes they pay users directly, other times they pay for advertizing, and still other times entire companies are bought just for their user base. After a company acquires a user they often given them many _free services_ just to keep them around long enough to monetize them through some other means.
 
 Ripple uses a minimum balance that scales with account resource use and requires that new accounts get funded with at least this minimum balance. Currently this minimum balance is about $0.15 which is greater than the $0.10 we estimated would allow someone to transact freely at least once per week.
 
@@ -417,11 +418,11 @@ Steem is capable of handling a larger userbase than Reddit.  In 2015 Reddit’s 
 
 To achieve this industry-leading performance, Steem has borrowed lessons learned from the LMAX Exchange, which is able to process 6 million transactions per second. Among these lessons are the following key points:
 
-Keep everything in memory.
-Keep the core business logic in a single thread.
-Keep cryptographic operations (hashes and signatures) out of the core business logic.
-Divide validation into state-dependent and state-independent checks.
-Use an object oriented data model.
+1. Keep everything in memory.
+2. Keep the core business logic in a single thread.
+3. Keep cryptographic operations (hashes and signatures) out of the core business logic.
+4. Divide validation into state-dependent and state-independent checks.
+5. Use an object oriented data model.
 
 By following these simple rules, Steem is able to process 10,000 transactions per second without any significant effort devoted to optimization.
 
@@ -486,9 +487,9 @@ Steem bypasses micropayments completely because when a user upvotes a post it is
 
 The mental energy associated with making an economic decision becomes a barrier to participation for most people. 
 
-We already face a multitude of choices everyday with regards to what to access online in this digital era of the information explosion, and every additional decision that we must make simply adds on to the uncertainty and anxiety we face. Micropayment supporters believe that a simplified implementation can minimize the intrusiveness of micropayments and improve user experience, but their argument only creates double standards for the decision making process [2]. A transaction cannot simultaneously be worth enough to warrant a decision and worth so little that the decision is automatic. The only transactions that users can approve without thought are ones that cost them nothing, thus any micro-transaction of positive value will incur mental costs through its requiring a decision. Furthermore, mental transaction costs actually rise below a certain threshold value, a phenomenon that places micropayments at an even greater disadvantage. For instance, it is easy to think that a copy of today's newspapers costs $1, but readers face much more difficulty and anxiety in deciding on the value of each article or word. Such a dilemma will only be replicated and exacerbated if all online content were to be broken down into their components and individually valued within a micropayment system.  
+_We already face a multitude of choices everyday with regards to what to access online in this digital era of the information explosion, and every additional decision that we must make simply adds on to the uncertainty and anxiety we face. Micropayment supporters believe that a simplified implementation can minimize the intrusiveness of micropayments and improve user experience, but their argument only creates double standards for the decision making process [2]. A transaction cannot simultaneously be worth enough to warrant a decision and worth so little that the decision is automatic. **The only transactions that users can approve without thought are ones that cost them nothing**, thus any micro-transaction of positive value will incur mental costs through its requiring a decision. Furthermore, mental transaction costs actually rise below a certain threshold value, a phenomenon that places micropayments at an even greater disadvantage. For instance, it is easy to think that a copy of today's newspapers costs $1, but readers face much more difficulty and anxiety in deciding on the value of each article or word. Such a dilemma will only be replicated and exacerbated if all online content were to be broken down into their components and individually valued within a micropayment system._
 
-Micropayments: A Viable Business Model
+-Micropayments: A Viable Business Model
 
 Under Steem, micropayments are paid to content producer, but those who vote for the content do not pay.  Instead, the cost of the reward  is paid for via new tokens. Someone can join the system, vote to pay someone, and then exit the system with more money than they started with (assuming the market valuation of the Steem system remained constant). In other words, the micropayment solution provided by Steem provides a user-experience similar to many widely used websites that have user-moderated content.
 
@@ -518,7 +519,7 @@ Merchants give users a way to quickly convert their cryptocurrency into tangible
 
 Merchants will accept any currency if it increases their sales. Having a large user base with a stable currency such as SBD lowers the barrier to entry for merchants.  The presence of merchants improves the system by creating an off-ramp for users to exit the system without going to the trouble of using an exchange.
 
-Another way that people can liquidate the small amounts of cryptocurrency they receive from participating on the Steem platform is through tipping others. This is like leaving the small change as a tip for your waiter. When enough people leave small tips it adds up to a meaningful amount.  You and the waiter each gain a benefit from the tip.
+Another way that people can liquidate the small amounts of cryptocurrency they receive from participating on the Steem platform is through _tipping_ others. This is like leaving the small change as a tip for your waiter. When enough people leave small tips it adds up to a meaningful amount.  You and the waiter each gain a benefit from the tip.
 
 ## Censorship
 
