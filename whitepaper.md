@@ -3,6 +3,8 @@ header-includes:
     - \usepackage[top=3cm,bottom=3.5cm,left=3.5cm,right=3cm,headheight=20pt,headsep=30pt,footnotesep=1.5\baselineskip]{geometry}
     - \usepackage{xcolor}
     - \definecolor{mygray}{gray}{0.3}
+    - \usepackage{datetime}
+    - \newdateformat{mydate}{\monthname[\THEMONTH] \THEYEAR}
 ---
 
 \clearpage
@@ -17,7 +19,8 @@ header-includes:
 
 \vspace{5mm}
 
-{\Large August 2017}
+{\Large \mydate\today}
+
 \end{center}
 \end{minipage}
 \vspace{\stretch{3}}
