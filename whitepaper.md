@@ -46,7 +46,7 @@ urlcolor: blue
 \vspace{\stretch{3}}
 \clearpage
 
-Table of Contents
+## Table of Contents
 
   - [Introduction](#introduction)
     - [Recognizing Contribution](#recognizing-contribution)
@@ -103,6 +103,7 @@ Table of Contents
     - [Replacing Advertising with Blockchain-based Content Rewards](#replacing-advertising-with-blockchain-based-content-rewards)
   - [Conclusion](#conclusion)
 
+\newpage
 ## Introduction
 
 Collectively, user-generated content has created billions of dollars worth of value for the shareholders of social media companies, such as Reddit, Facebook, and Twitter. In 2014, Reddit hypothesized that its platform would be improved if everyone who contributed to reddit.com by posting stories, adding comments or voting were rewarded with a fair share in Reddit, Inc. Steem aims to support social media and online communities by returning much of its value to the people who provide valuable contributions by rewarding them with cryptocurrency,  and through this process create a currency that is able to reach a broad market, including people who have yet to participate in any cryptocurrency economy. 
