@@ -3,7 +3,7 @@ header-includes:
     - \usepackage[top=3cm,bottom=3.5cm,left=3.5cm,right=3cm,headheight=20pt,headsep=30pt,footnotesep=1.5\baselineskip]{geometry}
     - \usepackage{xcolor}
     - \definecolor{mygray}{gray}{0.3}
-    - \definecolor{Maroon}{cmyk}{0, 0.87, 0.68, 0.32}
+    - \definecolor{Maroon}{cmyk}{1, 0.50, 0, 0}
     - \usepackage{datetime}
     - \newdateformat{mydate}{\monthname[\THEMONTH] \THEYEAR}
     - \renewcommand{\contentsname}{Table of Contents}
