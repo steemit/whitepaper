@@ -227,7 +227,7 @@ The next step is to reward everyone who does anything even remotely positive wit
 
 Assume there is a fixed amount of money to distribute, and that those who have a long-term vested interest in the future value and utility of the currency are the ones who must decide how to allocate it. Every vesting user casts their votes on who did the best work and at the end of the day the available money for that day is divided proportional to the votes such that everyone with even one net positive vote gets something.
 
-The naive voting process creates a N-Person Prisoner’s Dilemma whereby[^fn5] each individual voter has incentive to vote for themselves at the expense of the larger community goal. If every voter defects by voting for themselves then no currency will end up distributed and the currency as a whole will fail to gain network effect.  On the other hand, if only one voter defects then that voter would win undeserved profits while having minimal effect on the overall value of the currency.
+The naive voting process creates a N-Person Prisoner’s Dilemma[^fn5] whereby each individual voter has incentive to vote for themselves at the expense of the larger community goal. If every voter defects by voting for themselves then no currency will end up distributed and the currency as a whole will fail to gain network effect.  On the other hand, if only one voter defects then that voter would win undeserved profits while having minimal effect on the overall value of the currency.
 
 #### Voting Abuse
 
@@ -428,7 +428,7 @@ The Steem network is built upon Graphene, the same technology that powers BitSha
 
 Steem is capable of handling a larger userbase than Reddit.  In 2015 Reddit’s 8.7 million users generated an average of 23 comments per second[^fn12], with an average of 83 comments per year per user. There were 73 million top-level posts, for an average of 2 new posts per second. There were about 7 billion up votes creating an average voting rate of 220 votes per second. All told, if Reddit were operating on a blockchain it would require an average of 250 transactions per second. 
 
-To achieve this industry-leading performance, Steem has borrowed lessons learned from the LMAX Exchange[^fn1], which is able to process 6 million transactions per second. Among these lessons are the following key points:
+To achieve this industry-leading performance, Steem has borrowed lessons learned from the LMAX Exchange[^fn13], which is able to process 6 million transactions per second. Among these lessons are the following key points:
 
 1. Keep everything in memory.
 2. Keep the core business logic in a single thread.
