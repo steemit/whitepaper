@@ -6,6 +6,7 @@ header-includes:
     - \definecolor{Maroon}{cmyk}{0, 0.87, 0.68, 0.32}
     - \usepackage{datetime}
     - \newdateformat{mydate}{\monthname[\THEMONTH] \THEYEAR}
+    - \renewcommand{\contentsname}{Table of Contents}
 urlcolor: blue
 ---
 
@@ -45,8 +46,6 @@ urlcolor: blue
 \end{minipage}
 \vspace{\stretch{3}}
 \clearpage
-
-# Table of Contents
 
 \tableofcontents
 
@@ -223,7 +222,7 @@ Assume there is a fixed amount of money to distribute, and that those who have a
 
 The naive voting process creates a N-Person Prisoner’s Dilemma whereby each individual voter has incentive to vote for themselves at the expense of the larger community goal. If every voter defects by voting for themselves then no currency will end up distributed and the currency as a whole will fail to gain network effect.  On the other hand, if only one voter defects then that voter would win undeserved profits while having minimal effect on the overall value of the currency.
 
-**Voting Abuse**
+#### Voting Abuse
 
 Regardless of how much money any one individual has, there are always many other individuals with similar wealth. Even the wealthiest individual rarely has much more than the next couple wealthiest combined. Furthermore, those who have a large investment in a community also have the most to lose by attempting to game the voting system for themselves. It would be like the CEO of a company deciding to stop paying salaries so he could pocket all of the profits. Everyone would leave to work for other companies and the company would become worthless, leaving the CEO bankrupt rather than wealthy.  
 
@@ -231,7 +230,7 @@ Fortunately, any work that is getting a large concentration of votes is also gai
 
 The use of negative-voting to keep people from abusing the system leverages the crab mentality that many people have when it is perceived that one individual is profiting at the expense of everyone else. While crab mentality normally refers to short-sighted people keeping good people down, it is also what allows good people to keep bad people down. The only “problem” with crab mentality is when people wrongly believe someone is profiting at everyone else's expense.  
 
-**The Story of the Crab Bucket**
+#### The Story of the Crab Bucket
 
 A man was walking along the beach and saw another man fishing in the surf with a bait bucket beside him. As he drew closer, he saw that the bait bucket had no lid and had live crabs inside.
 
@@ -340,7 +339,7 @@ The ISP has two choices, run a “full reserve” or “fractional reserve” sy
 
 Under a fractional reserve system the individual users could utilize more bandwidth than they are entitled to at any given point in time so long as not everyone uses the Internet at the same time. The problem with operating a fractional reserve is that congestion occurs anytime too many people wish to use the network at the same time. The ISP needs a way to prioritize bandwidth during congested periods. In the most extreme case, a fully congested network must revert to a full reserve system. The challenge is setting the proper fractional reserve ratio.
 
-# Bandwidth Instead of Micropayment Channels
+## Bandwidth Instead of Micropayment Channels
 
 The solution to the problems with micropayments is in implementing dynamic fractional reserves.  Under this model the blockchain will automatically adjust the reserve ratio for the network during times of congestion. The blockchain will set a target utilization that leaves enough headroom for short term surges in demand. Any time the surges are sustained the blockchain reduces the maximum bandwidth-per-share. When a surge is over and there is surplus capacity the blockchain can slowly increase the bandwidth-per-share.
 
@@ -348,15 +347,15 @@ Bandwidth used by an individual user should be measured over a suitably long per
 
 In our estimate it should be sufficient to measure the average weekly bandwidth usage of users. Every time a user signs a transaction, that transaction is factored into their own individual moving average. Any time a user’s moving average exceeds the current network limit their transaction is delayed until their average falls below the limit.
 
-## Impact of Capacity
+### Impact of Capacity
 
 Blockchain capacity isn’t necessarily capped. It is well within the technological capability of internet infrastructure to increase the Bitcoin block size to 10MB which in turn will reduce the minimum required balance by a factor of 10.  While Bitcoin currently supports about 3 transactions per second, alternative implementations are capable of over 1000 transactions per second.
 
-## Comparison to Fees
+### Comparison to Fees
 
 If we assume a user with $25 dollars worth of BTC transacts once per week and pays a $0.04 cent fee each time then they would pay over $2.00 in fees per year. A user would have to earn a 8% rate of return on their $25 dollars just to break even with paying fees. Chances are that users were going to hold their money on the blockchain anyway, so this user with $25 worth of BTC just saved $2 over the course of a year by adopting a rate-limiting approach rather than a fee-based approach. With just $175 they could transact every single day and save $14 per year.
 
-## Account Creation
+### Account Creation
 
 Steem’s account-based system with publicly known balances simplifies the implementation of the bandwidth-based rate limiting algorithm. Any account with a balance below the minimum required to transact once per week would be unable to transact. This implies that all new accounts should be funded with at least this minimum balance. It also implies that users wishing to transact in smaller amounts can, so long as they hold a larger balance and reuse the account.  
 
@@ -366,7 +365,7 @@ In order to maintain a reasonable user experience with a minimum number of hung 
 
 Any initial account balance would have to come from the user creating the account and not from token creation due to the potential for sybil attacks.
 
-## Justifying Minimum Balances
+### Justifying Minimum Balances
 
 The concept of forcing users to maintain a minimum balance flows naturally from the value of a user. Anyone running a business knows that every single user has significant value. Businesses spend anywhere from $30 to $200 to acquire a user. Sometimes they pay users directly, other times they pay for advertizing, and still other times entire companies are bought just for their user base. After a company acquires a user they often given them many free services just to keep them around long enough to monetize them through some other means.
 
@@ -380,7 +379,7 @@ Fortunately, the minimum balance required can be as low as a dollar and this is 
 
 The STEEM used to pre-fund an account is Powered Up in the new account (i.e., converted to Steem Power). A portion of the SP used to fund a new account may be delegated from the creator of the account. When a user is delegated SP, they may use the SP for voting and bandwidth purposes as if it were their own, but the ownership of the SP remains with the user who delegated it. A user may remove the delegation at any time. After a cool-down period, the SP is returned to their account.
 
-## Effectiveness Relative to Fees
+### Effectiveness Relative to Fees
 
 To compare the effectiveness of rate limiting to fees we must consider how the two systems react to intentional network flooding by an attacker. Under Bitcoin an attacker with $10,000 dollars could disrupt service for an entire day by filling every single block. The same attacker would be unable to disrupt service for even a single block under the dynamic fractional reserve rate limiting approach.
 
@@ -388,7 +387,7 @@ If we go to a more extreme case and assume the attacker holds 1% of all coins th
 
 Under the rate limiting approach, someone who holds 1% of all coins with an intent to flood the network would achieve their goal for less than 30 seconds.
 
-## Renting vs. Buying vs. Time Sharing
+### Renting vs. Buying vs. Time Sharing
 
 When someone owns a house they expect the right to use the house for free. If a group of people buy a house together then each can expect the right to use the house proportional to their percentage ownership in the house. A fee based blockchain is like renting the house from its owners, whereas rate limiting is like a timeshare among owners.
 
@@ -428,7 +427,9 @@ By following these simple rules, Steem is able to process 10,000 transactions pe
 
 Keeping everything in memory is increasingly viable given the recent introduction of Optane™ technology from Intel.  It should be possible for commodity hardware to handle all of the business logic associated with Steem in a single thread with all posts kept in memory for rapid indexing.  Even Google keeps their index of the entire internet in RAM.  The use of blockchain technology makes it trivial to replicate the database to many machines to prevent loss of data. As Optane™ technology takes over, RAM will become even faster while gaining persistence. In other words, Steem is designed for the architectures of the future and is designed to scale. 
 
-# Initial Allocation & Supply
+# Allocation & Supply
+
+## Initial Allocation & Supply
 
 The Steem network started with a currency supply of 0 and allocated STEEM via proof of work at a rate of approximately 40 STEEM per minute to miners, with an additional 40 STEEM per minute being created to seed the content and curation reward pools (for a total of 80 STEEM per minute).  Then the network started rewarding users who converted to SP.  At this point, STEEM grew at a rate of approximately 800 STEEM per minute due to the combined effects of the various Contribution Rewards summarized below:
 
@@ -441,23 +442,23 @@ Contribution Rewards:
 - POW inclusion rewards after block 864,000:  0.0476 STEEM per block (awarded as 1 STEEM per round) or 0.750% per year, whichever is greater.
 - Liquidity rewards:  1 STEEM per block (awarded as 1200 STEEM per hour) or 0.750% per year, whichever is greater
 
-## Power Rewards:
+### Power Rewards:
 
 - Steem Power rewards:  For each STEEM created by the above rewards, 9 STEEM are divided among all Steem Power holders.
 
-## SBD operations:
+### SBD operations:
 
 - SBD rewards:  A percentage of SBD value is created at an APR set by the witnesses and paid to SBD holders as SBD
 
 The overall supply picture is complicated by the effect of SBD operations, which may result in large-scale creation or destruction of STEEM through feed rate following and SBD rewards, as discussed in the SBD section.  Other, smaller-scale complicating effects also exist, including unclaimed incentives (e.g. block rewards for missed blocks), and abandoned accounts.
 
-# Current Allocation & Supply
+## Current Allocation & Supply
 
 Starting with the network's 16th hard fork in December 2016, Steem began creating new tokens at a yearly inflation rate of 9.5%. The inflation rate decreases at a rate of 0.01% every 250,000 blocks, or about 0.5% per year. The inflation will continue decreasing at this pace until the overall inflation rate reaches 0.95%. This will take about 20.5 years from the time hard fork 16 went into effect.
 
 75% of the new tokens that are generated go to fund the reward pool, which is split between authors and curators. 15% of the new tokens are awarded to holders of SP. The remaining 10% pays for the witnesses to power the blockchain.
 
-## Impact of Token Creation Rate
+### Impact of Token Creation Rate
 
 It is often said that a coin with an inflationary model is not sustainable, but we know from countless real-world examples that the quantity of money does not have a direct and immediate impact on its value, though it certainly plays a role.
 
