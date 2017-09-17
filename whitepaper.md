@@ -8,6 +8,7 @@ header-includes:
 ---
 
 \clearpage
+\thispagestyle{empty}
 \vspace*{\stretch{3}}
 \begin{minipage}{1.0\textwidth}
 \begin{center}
