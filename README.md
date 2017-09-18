@@ -1,15 +1,36 @@
----
-title: Document Title
-author:
-  - name: Author Name
-    email: author@email.com
----
+# Steem Whitepaper
 
-It begins with YAML used to Latex define document variables (look at the README.md source file)
+This repository contains the LaTeX source code for the Whitepaper. The instructions to clone the repository and build the PDF using pandoc are described below.
 
-This is kind of a regular markdown file, but you can use Latex commands in the document
+Currently the build instructions are for Ubuntu 16.04 or higher. Eventually these will be expanded to use Docker and work on other operating systems. Users are welcome to try out the build in their local environments and submit a pull request to update the readme instructions if they are able to get it to successfully build on a different OS.
 
-Pandoc can use [several different markdown
-flavors](http://pandoc.org/MANUAL.html#markdown-variants)
+## Installation Instructions
 
+Install packages
+```bash
+sudo apt-get update
+sudo apt install texlive-xetex
+sudo apt-get install pandoc
+```
 
+Clone repository
+```bash
+git clone https://github.com/steemit/whitepaper
+```
+
+## Build Instructions
+
+Open the bluepaper directory
+```bash
+cd ~/whitepaper
+```
+
+Compile using pandoc
+```bash
+pandoc whitepaper.md --latex-engine=xelatex -o whitepaper.pdf
+```
+
+After building, the pdf file will be output to:
+```bash
+./whitepaper.pdf
+```
