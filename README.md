@@ -2,7 +2,7 @@
 
 This repository contains the LaTeX source code for the Whitepaper. The instructions to clone the repository and build the PDF using pandoc are described below.
 
-Currently the build instructions are for Ubuntu 16.04 or higher. Eventually these will be expanded to use Docker and work on other operating systems. Users are welcome to try out the build in their local environments and submit a pull request to update the readme instructions if they are able to get it to successfully build on a different OS.
+Currently the build instructions are for Ubuntu 16.04 or higher but may successfully build on other distributions. Pull requests to update the whitepaper will be gladly accepted and reviewed.
 
 ## Installation Instructions
 
