@@ -20,7 +20,7 @@ git clone https://github.com/steemit/whitepaper
 
 ## Build Instructions
 
-Open the bluepaper directory
+Open the whitepaper directory
 ```bash
 cd ~/whitepaper
 ```
