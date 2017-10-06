@@ -101,11 +101,11 @@ Voting input from community members is critical for Steem to accurately allocate
 
 # Ways to Contribute
 
-This section outlines the ideas behind Steem and its rewards for people who provide meaningful and measurable contributions to the Steem community.  
+This section outlines the concepts underlying Steem and its rewards for people who provide meaningful and measurable contributions to the Steem community.  
 
 ## Capital Contributions
 
-There are two items a community can offer to attract capital: debt and ownership. Those who buy ownership profit when the community grows but lose if the community shrinks. Those who buy debt are guaranteed a certain amount of interest but do not get to participate in any profits realized by the growth of the community. Both types of capital contributions are valuable to the growth of the community and value of its currency. Additionally there are two ways ownership can be held: liquid and vesting.  Vesting ownership makes a long-term commitment and cannot be sold for a minimum period of time.    
+In general, there are two items a community can offer to attract capital: debt and ownership. Those who buy ownership profit when the community grows and lose if the community shrinks. Those who buy debt are guaranteed a certain amount of interest but do not get to participate in any profits realized by the growth of the community. Both types of capital contributions are valuable to the growth of the community and the value of its currency. Additionally, there are two ways ownership can be held: liquid and vesting.  Vesting ownership makes a long-term commitment and cannot be sold for a minimum period of time. Liquid ownership requires no long-term commitment and can be sold at anytime.
 
 The Steem network calls these different asset classes Steem (STEEM), Steem Power (SP), and Steem Dollars (SBD).   
 
@@ -115,61 +115,61 @@ Steem is the fundamental unit of account on the Steem blockchain. All other toke
 
 ## Steem Power (SP)
 
-Start up companies require long-term capital commitment. Those who invest their money in a startup expect to wait years before they can sell their shares and realize their profits. Without long-term commitment, a startup seeking to raise additional capital through the sale of additional shares would be competing with existing shareholders looking to exit.  Savvy investors want their capital contributions to grow the company, but growth cannot happen if the new capital is given away to those looking to exit.
+Start-up companies require long-term capital commitment. Those who invest their money in a start-up expect to wait years before they can sell their shares and realize their profits. Without long-term commitment, a start-up seeking to raise additional capital through the sale of additional shares would be competing with existing shareholders looking to exit.  Savvy investors want their capital contributions to grow the company, but growth cannot happen if the new capital is given away to those looking to exit.
 
-There is significant value to having long-term commitment because it enables communities to make long-term plans. Long term commitment of stakeholders also causes them to vote for long-term growth rather than short-term pumps.
+There is significant value to having long-term commitment, because it enables communities to make long-term plans. Long-term commitment of stakeholders also causes them to vote for long-term growth rather than short-term pumps.
 
 In the cryptocurrency space, speculators jump from cryptocurrency to cryptocurrency based mostly on which one is expected to have short-term growth. Steem wants to build a community that is mostly owned and entirely controlled by those with a long-term perspective.
 
-Users are able to commit their STEEM to a thirteen week vesting schedule, providing them with additional benefits within the platform. STEEM that has been committed to a thirteen week vesting schedule is called Steem Power (SP). SP balances are non-transferrable and non-divisible except via the automatically recurring conversion requests. This means that SP cannot be easily traded on cryptocurrency exchanges.
+Users are able to commit their STEEM to a thirteen-week vesting schedule, providing them with additional benefits within the platform. STEEM that has been committed to a thirteen-week vesting schedule is called Steem Power (SP). SP balances are non-transferable and non-divisible except via the automatically recurring conversion requests. This means that SP cannot be easily traded on cryptocurrency exchanges.
 
 When users vote on content, their influence over the distribution of the rewards pool is directly proportional to the amount of SP that they have. Users with more SP have more influence on the distribution of rewards. This means that SP is an access token that grants its holders exclusive powers within the Steem platform.
 
-SP holders are also paid interest on the balance of SP that remains vested. 15% of the yearly inflation is paid to SP holders as interest. The amount of the interest that they receive is directly proportional to the amount of SP they hold relative to the total amount of vested SP across all users.
+SP holders are also paid interest on the balance of SP that remains vested. SP holders are paid 15% of the yearly inflation as interest. The amount of the interest that they receive is directly proportional to the amount of SP they hold relative to the total amount of vested SP across all users.
 
-Transferring from STEEM to SP is referred to as “powering up”, while transferring from SP to STEEM is referred to as “powering down.” SP that is powered down is returned to the user over a period of thirteen weeks, via 13 equal weekly payments, starting one week after the power down is initiated.
+Transferring from STEEM to SP is referred to as “powering up,” while transferring from SP to STEEM is referred to as “powering down.” SP that is powered down is returned to the user over a period of thirteen weeks, via 13 equal weekly payments, starting one week after the power down is initiated.
 
 ## Steem Dollars (SBD)
 
 Stability is an important feature of successful global economies.  Without stability, individuals across the world could not have low cognitive costs while engaging in commerce and savings.  Because stability is an important feature of successful economies, Steem Dollars were designed as an attempt to bring stability to the world of cryptocurrency and to the individuals who use the Steem network.
 
-Steem Dollars are created by a mechanism similar to convertible notes, which are often used to fund startups. In the startup world, convertible notes are short-term debt instruments that can be converted to ownership at a rate determined in the future, typically during a future funding round. A blockchain based token can be viewed as ownership in the community whereas a convertible note can be viewed as a debt denominated in any other commodity or currency. The terms of the convertible note allow the holder to convert to the backing token with a minimum notice at the fair market price of the token.  Creating token-convertible-dollars enables blockchains to grow their network effect while maximizing the return for token holders.
+Steem Dollars are created by a mechanism similar to convertible notes, which are often used to fund start-ups. In the start-up world, convertible notes are short-term debt instruments that can be converted to ownership at a rate determined in the future, typically during a future funding round. A blockchain-based token can be viewed as ownership in the community, whereas a convertible note can be viewed as a debt denominated in any other commodity or currency. The terms of the convertible note allow the holder to convert to the backing token with minimum notice at the fair market price of the token.  Creating token-convertible dollars enables blockchains to grow their network effect while maximizing the return for token holders.
 
-Steem Dollars are referred to with the symbol SBD, an acronym for Steem Blockchain Dollars. Creating SBD requires a combination of a reliable price feed, and rules to prevent abuse. Providing a reliable price feed involves three factors: minimizing the impact of an incorrect feed, maximizing the cost of producing an incorrect feed, and minimizing the importance of timing. 
+Steem Dollars are denoted by the symbol SBD, an acronym for Steem Blockchain Dollars. Creating SBD requires a combination of a reliable price feed and rules to prevent abuse. Providing a reliable price feed involves three factors: minimizing the impact of an incorrect feed, maximizing the cost of producing an incorrect feed, and minimizing the importance of timing. 
 
 ### Minimizing Fraudulent Feeds
 
-SP holders elect individuals, called witnesses, to publish price feeds. The elected witnesses are presumably trusted by those who have a vested interest in the quality of the feed. By paying those who are elected, Steem creates market competition to earn the right to produce feeds. The more the feed producers are paid the more they have to lose by publishing false information.
+SP holders elect individuals, called witnesses, to publish price feeds. The elected witnesses are presumably trusted by those who have a vested interest in the quality of the feed. By paying those who are elected, Steem creates market competition to earn the right to produce feeds. The more the feed producers are paid, the more they have to lose by publishing false information.
 
-Given a set of trusted and elected feed producers, the actual price used for conversions can be derived as the median of the feeds. In this way if any minority of individual feed producers produce outliers they have minimal impact on the actual median while still having the ability impact their reputation. 
+Given a set of trusted and elected feed producers, the actual price used for conversions can be derived as the median of the feeds. In this way, if any minority of individual feed producers produces outliers, they will have a minimal impact on the actual median, while risking their reputation as reliable feed producers. 
 
-Even if all feed producers are honest, it is possible for the majority of feed producers to be impacted by events beyond their control. The Steem network is designed to tolerate short-term corruption of the median price feed while the community actively works to correct the issue. One example of an issue that may take some time to correct is short-term market manipulation. Market manipulation is difficult and expensive to maintain for long periods of time. Another example would be the failure of a centralized exchange or the corruption of the data published by the exchange.
+Even if all feed producers are honest, it is possible for the majority of feed producers to be affected by events beyond their control. The Steem network is designed to tolerate short-term corruption of the median price feed while the community actively works to correct the issue. One example of an issue that may take some time to correct is short-term market manipulation. Market manipulation is difficult and expensive to maintain for long periods of time. Another example would be the failure of a centralized exchange or the corruption of the data published by the exchange.
 
-Steem factors out short-term price fluctuations by using the median price over a period of three and a half days. The median published feed is sampled every hour on the hour.  
+Steem factors out short-term price fluctuations by using the median price over a period of three-and-a-half days. The median published feed is sampled every hour on the hour.  
 
-As long as the price feed corruption lasts for less than half the moving median time window it will have minimal impact on the conversion price.  In the event the feed does get corrupted, network participants will have an opportunity to vote-out corrupt feed producers before the corrupted feed can impact the actual conversion price. Perhaps more importantly, it gives feed producers an opportunity to detect and correct issues before their feeds start impacting the price.
+As long as the price feed corruption lasts for less than half the moving median time window it will have minimal impact on the conversion price.  In the event that the feed does get corrupted, network participants will have an opportunity to vote out corrupt feed producers before the corrupted feed can affect the actual conversion price. Perhaps more importantly, it gives feed producers an opportunity to detect and correct issues before their feeds start affecting the price.
 
-With a three and a half day window, community members have approximately one and a half days to respond to any issues that come up.  
+With a three-and-a-half day window, community members have approximately one-and-a-half days to respond to any issues that come up.  
 
 ### Mitigating Timing Attacks
 
-Market participants have access to information faster than the blockchain’s three and a half day moving median conversion price can react. This information could be used to benefit of traders at the expense of the community.  If there is a sudden increase in the value of STEEM traders could request conversion of their SBD at the old, lower price, and then sell the STEEM they receive a the new higher price with minimal risk.   
+Market participants have access to information faster than the blockchain’s three-and-a-half day moving median conversion price can react. This information could be used to the benefit of traders at the expense of the community. If there is a sudden increase in the value of STEEM, traders could request conversion of their SBD at the old, lower price, and then sell the STEEM they receive at the new, higher price with minimal risk.   
 
-Steem levels the playing field by requiring all conversion requests to be delayed for three and a half days. This means that neither the traders nor the blockchain has any information advantage regarding the price at the time the conversion is executed.
+Steem levels the playing field by requiring all conversion requests to be delayed for three-and-a-half days. This means that neither the traders nor the blockchain has any information advantage regarding the price at the time the conversion is executed.
 
 ### Minimizing Abuse of Conversions
 
-If people could freely convert in both directions then traders could take advantage of the blockchains conversion rates by trading large volumes without changing the price. Traders who see a massive run up in price would convert to SBD at the high price (when it is most risky) and then convert back after the correction.  The Steem protocol protects the community from this kind of abuse by only allowing people to convert from SBD to STEEM and not the other way around. 
+If people could freely convert in both directions, then traders could take advantage of the blockchains conversion rates by trading large volumes without changing the price. Traders who see a massive run-up in price would convert to SBD at the high price (when it is most risky) and then convert back after the correction.  The Steem protocol protects the community from this kind of abuse by only allowing people to convert from SBD to STEEM and not the other way around. 
 
 The blockchain decides how and when to create SBD and who should get it.  This keeps the rate of SBD creation stable and removes most avenues of abuse.
 
-### Sustainable Debt to Ownership Ratios
+### Sustainable Debt-to-Ownership Ratios
 
-If a token is viewed as ownership in the whole supply of tokens, then a token-convertible-dollar can be viewed as debt. If the debt to ownership ratio gets too high the entire currency can become unstable. Debt conversions can dramatically increase the token supply, which in turn is sold on the market suppressing the price. Subsequent conversions require the issuance of even more tokens. Left unchecked the system can collapse leaving worthless ownership backing a mountain of debt. The higher the debt to ownership ratio becomes the less willing new investors are to bring capital to the table.
+If a token is viewed as ownership in the whole supply of tokens, then a token-convertible dollar can be viewed as debt. If the debt-to-ownership ratio gets too high, the entire currency can become unstable. Debt conversions can dramatically increase the token supply, which in turn is sold on the market, suppressing the price. Subsequent conversions require the issuance of even more tokens. Left unchecked the system can collapse, leaving worthless ownership backing a mountain of debt. The higher the debt-to-ownership ratio becomes, the less willing new investors are to bring capital to the table.
 
-A rapid change in the value of STEEM can dramatically change the debt-to-ownership ratio. The blockchain prevents the debt-to-ownership ratio from getting too high, by reducing the amount of STEEM awarded through SBD conversions if the debt level were to exceed 10%. If the amount of SBD debt ever exceeds 10% of the total STEEM market cap, the blockchain will automatically reduce the amount of STEEM generated through conversions to a maximum of 10% of the market cap. This ensures that the blockchain will never have higher than a 10% debt-to-ownership ratio.
+A rapid change in the value of STEEM can dramatically change the debt-to-ownership ratio. The blockchain prevents the debt-to-ownership ratio from getting too high by reducing the amount of STEEM awarded through SBD conversions if the debt level were to exceed 10%. If the amount of SBD debt ever exceeds 10% of the total STEEM market cap, the blockchain will automatically reduce the amount of STEEM generated through conversions to a maximum of 10% of the market cap. This ensures that the blockchain will never have higher than a 10% debt-to-ownership ratio.
 
-The percentage floors used to compute STEEM creation are based on the supply including the STEEM value of all outstanding SBD and SP (as determined by the current rate / feed). 
+The percentage floors used to compute STEEM creation are based on the supply, including the STEEM value of all outstanding SBD and SP (as determined by the current rate / feed). 
 
 ### Interest
 
@@ -179,25 +179,25 @@ STEEM and SP holders gain leverage when members of the community are willing to 
 
 ### Setting Price Feeds
 
-Astute readers will recognize that an interest bearing asset of limited supply may trade higher or lower than the underlying asset depending upon other opportunities to earn interest on the same asset. With a high interest rate paid on an asset pegged to the US dollar many people will bid up the limited supply of Steem Dollars until they are no longer valued at $1. In economics there is a principle known as the Impossible Trinity[^fn4] which states that it is impossible to have all three of the following at the same time:
+Astute readers will recognize that an interest bearing asset of limited supply may trade higher or lower than the underlying asset, depending upon other opportunities to earn interest on the same asset. With a high interest rate paid on an asset pegged to the US dollar many people will bid up the limited supply of Steem Dollars until they are no longer valued at $1. In economics there is a principle known as the Impossible Trinity[^fn4] which states that it is impossible to have all three of the following at the same time:
 
 1. A stable exchange rate
 2. Free capital movement 
 3. An independent monetary policy 
 
-If Steem feed producers aim to have an independent monetary policy allowing it to create and destroy Steem Dollars while simultaneously having full control over the interest rate then they will encounter problems. The Impossible Trinity says that Steem Dollars either need to restrict capital movement, have an unstable exchange rate with the dollar, or have limited control over the interest rate.
+If Steem feed producers aim to have an independent monetary policy, allowing it to create and destroy Steem Dollars while simultaneously having full control over the interest rate, then they will encounter problems. The Impossible Trinity principle dictates that Steem Dollars either need to restrict capital movement, have an unstable exchange rate with the dollar, or have limited control over the interest rate.
 
-The primary concern of Steem feed producers is to maintain a stable one-to-one conversion between SBD and the U.S. Dollar (USD). Any time SBD is consistently trading above $1.00 USD interest payments must be stopped. In a market where 0% interest on debt still demands a premium, it is safe to say the market is willing to extend more credit than the debt the community is willing to take on. If this happens a SBD will be valued at more than $1.00 and there is little the community can do without charging negative interest rates. 
+The primary concern of Steem feed producers is to maintain a stable one-to-one conversion between SBD and the US dollar (USD). Any time SBD is consistently trading above $1.00 USD, interest payments must be stopped. In a market where 0% interest on debt still demands a premium, it is safe to say the market is willing to extend more credit than the debt the community is willing to take on. If this happens a SBD will be valued at more than $1.00 and there is little the community can do without charging negative interest rates. 
 
 If the debt-to-ownership ratio is low and SBD is trading for less than $1.00, then the interest rate should be increased. This will encourage more people to hold their SBD and support the price.
 
-If SBD trades for less than $1.00 USD and the debt-to-ownership ratio is high, then the feeds should be adjusted upward give more STEEM per SBD.  This will increase demand for SBD while also reducing the debt-to-ownership ratio and returning SBD to parity with USD. 
+If SBD trades for less than $1.00 USD and the debt-to-ownership ratio is high, then the feeds should be adjusted upward to give more STEEM per SBD.  This will increase demand for SBD while also reducing the debt-to-ownership ratio and returning SBD to parity with USD. 
 
-Assuming the value of STEEM is growing faster than Steem is creating new SBD, the debt-to-ownership ratio should remain under the target ratio and the interest offered benefits everyone. If the value of the network is flat or falling, then any interest offered will only make the debt-to-ownership ratio worse. 
+Assuming the value of STEEM is growing faster than Steem is creating new SBD, the debt-to-ownership ratio should remain under the target ratio and the interest offered will benefit everyone. If the value of the network is flat or falling, then any interest offered will only make the debt-to-ownership ratio worse. 
    
-In effect, feed producers are entrusted with the responsibility of setting monetary policy for the purpose of maintaining a stable peg to the USD. Abuse of this power can harm the value of STEEM so SP holders are wise to vote for witnesses that can be counted on to adjust the price feed and interest rates according to the rules outlined above.
+In effect, feed producers are entrusted with the responsibility of setting monetary policy for the purpose of maintaining a stable peg to the USD. Abuse of this power can harm the value of STEEM so SP holders are wise to vote for witnesses who can be counted on to adjust the price feed and interest rates according to the rules outlined above.
 
-If the debt-to-ownership ratio gets dangerously high and market participants choose to avoid conversion requests, then the feed should be adjusted to increase the rate at which STEEM paid for converting SBD. 
+If the debt-to-ownership ratio gets dangerously high and market participants choose to avoid conversion requests, then the feed should be adjusted to increase the rate at which STEEM is paid for converting SBD. 
 
 Changes to the interest rate policy and/or any premiums/discounts on the STEEM/SBD conversion rate should be a slow and measured response to long-term average deviations rather than attempting to respond to short-term market conditions.
 
