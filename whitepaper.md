@@ -263,7 +263,7 @@ One of the primary goals of Steem’s reward system is to produce the best discu
 
 The actual distribution will depend upon the voting patterns of users, but we suspect that the vast majority of the rewards will be distributed to the most popular content.
 
-Zipf’s Law[^fn7] is one of those empirical rules that characterize a surprising range of real-world phenomena remarkably well. It says that if we order some large collection by size or popularity, the second element in the collection will be about half the measure of the first one, the third one will be about one-third the measure of the first one, and so on. In general, the kth-ranked item will measure about 1/k of the first one.
+Zipf’s Law[^fn7] is one of those empirical rules that characterize a surprising range of real-world phenomena remarkably well. It says that if we order some large collection by size or popularity, the second element in the collection will be about half the measure of the first one, the third one will be about one-third the measure of the first one, and so on. In general, the k\textsuperscript{th} ranked item will measure about 1/k of the first one.
 
 \begin{wrapfigure}{R}{0.48\textwidth}
   \begin{center}
