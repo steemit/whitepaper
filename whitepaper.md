@@ -105,7 +105,7 @@ This section outlines the concepts underlying Steem and its rewards for people w
 
 ## Capital Contributions
 
-In general, there are two items a community can offer to attract capital: debt and ownership. Those who buy ownership profit when the community grows and lose if the community shrinks. Those who buy debt are guaranteed a certain amount of interest but do not get to participate in any profits realized by the growth of the community. Both types of capital contributions are valuable to the growth of the community and the value of its currency. Additionally, there are two ways ownership can be held: liquid and vesting.  Vesting ownership makes a long-term commitment and cannot be sold for a minimum period of time. Liquid ownership requires no long-term commitment and can be sold at anytime.
+In general, there are two items a community can offer to attract capital: debt and ownership. Those who buy ownership profit when the community grows and lose if the community shrinks. Those who buy debt are guaranteed a certain amount of interest but do not get to participate in any profits realized by the growth of the community. Both types of capital contributions are valuable to the growth of the community and the value of its currency. Additionally, there are two ways ownership can be held: liquid and vesting. Vesting ownership makes a long-term commitment and cannot be sold for a minimum period of time. Liquid ownership requires no long-term commitment and can be sold at anytime.
 
 The Steem network calls these different asset classes Steem (STEEM), Steem Power (SP), and Steem Dollars (SBD).   
 
@@ -159,9 +159,9 @@ Steem levels the playing field by requiring all conversion requests to be delaye
 
 ### Minimizing Abuse of Conversions
 
-If people could freely convert in both directions, then traders could take advantage of the blockchains conversion rates by trading large volumes without changing the price. Traders who see a massive run-up in price would convert to SBD at the high price (when it is most risky) and then convert back after the correction.  The Steem protocol protects the community from this kind of abuse by only allowing people to convert from SBD to STEEM and not the other way around. 
+If people could freely convert in both directions, then traders could take advantage of the blockchains conversion rates by trading large volumes without changing the price. Traders who see a massive run-up in price would convert to SBD at the high price (when it is most risky) and then convert back after the correction. The Steem protocol protects the community from this kind of abuse by only allowing people to convert from SBD to STEEM and not the other way around. 
 
-The blockchain decides how and when to create SBD and who should get it.  This keeps the rate of SBD creation stable and removes most avenues of abuse.
+The blockchain decides how and when to create SBD and who should get it. This keeps the rate of SBD creation stable and removes most avenues of abuse.
 
 ### Sustainable Debt-to-Ownership Ratios
 
@@ -199,49 +199,49 @@ In effect, feed producers are entrusted with the responsibility of setting monet
 
 If the debt-to-ownership ratio gets dangerously high and market participants choose to avoid conversion requests, then the feed should be adjusted to increase the rate at which STEEM is paid for converting SBD. 
 
-Changes to the interest rate policy and/or any premiums/discounts on the STEEM/SBD conversion rate should be a slow and measured response to long-term average deviations rather than attempting to respond to short-term market conditions.
+Changes to the interest rate policy and/or any premiums/discounts on the STEEM/SBD conversion rate should be a slow and measured response to long-term average deviations rather than an attempt to respond to short-term market conditions.
 
-It is our belief that these rules will give market participants confidence that they are unlikely lose money by holding SBD purchased at a price of $1.00. We fully expect there to be a narrow trading range between $0.95 and $1.05 for SBD under normal market conditions.  
+It is our belief that these rules will give market participants confidence that they are unlikely lose money by holding SBD purchased at a price of $1.00. We fully expect there to be a narrow trading range between $0.95 and $1.05 for SBD under normal market conditions.
 
 ## Subjective Contributions
 
-Subjective Proof of Work presents an alternative approach to distributing a currency that improves upon fully _objective_ Proof of Work systems such as mining. The applications of a currency implementing _subjective_ proof of work are far wider than any _objective_ proof of work system because they can be applied to build a community around any concept that has a sufficiently defined purpose. When individuals join a community they buy into a particular set of beliefs and can vote to reinforce the community values or purpose.
+Subjective Proof of Work presents an alternative approach to distributing a currency that improves upon fully _objective_ Proof of Work systems, such as mining. The applications of a currency implementing _subjective_ proof of work are far wider than any _objective_ proof of work system, because they can be applied to build a community around any concept that has a sufficiently defined purpose. When individuals join a community they buy into a particular set of beliefs and can vote to reinforce the community values or purpose.
 
-In effect, the criteria by which work is evaluated is completely subjective and its definition lives outside the source code itself. One community may wish to reward artists, another poets, and another comedians.  Other communities may choose to reward charitable causes or help advance political agendas.  
+In effect, the criteria by which work are evaluated is completely subjective and their definition lives outside the source code itself. One community may wish to reward artists, another poets, and another comedians.  Other communities may choose to reward charitable causes or help advance political agendas.  
 
-The value each currency achieves depends upon the demand for influence within a particular community and how large the market believes each community can get. Unlike prior systems, subjective proof of work enables a community to collectively fund the development of whatever it finds valuable and enables the monetization of previously non monetizable time.
+The value each currency achieves depends upon the demand for influence within a particular community and how large the market believes each community can get. Unlike prior systems, subjective proof of work enables a community to collectively fund the development of whatever it finds valuable and enables the monetization of previously nonmonetizable time.
 
 ### Distributing Currency
 
 There are two ways people can get involved with a crypto-currency community: they can _buy in_, or they can _work in_. In both cases users are adding value to the currency, however, the vast majority of people have more _free time_ than they do _spare cash_. Imagine the goal of bootstrapping a currency in a poor community with no actual _cash_ but plenty of _time_. If people can earn money by working for one another then they will bootstrap value through mutual exchange facilitated by a fair accounting/currency system.  
 
-Distributing a currency to as many people as possible in a manner that is generally perceived as fair is a challenging task. The tasks that can be entirely evaluated by an objective computer algorithm are limited in nature and generally speaking have limited positive external benefits. In the case of Bitcoin-style mining, it can result in the production of specialized hardware and cause people to invest time developing more efficient algorithms. It may even help find prime numbers, but none of these things provide meaningful value to society or the currency holding community at large. More importantly, economies of scale and market forces will end up excluding everyone but experts from participating in this kind of distribution. Ultimately, computation-based mining is just another way of _buying in_ because it requires money to pay the electric bill or the development of hardware necessary to do the work.
+Distributing a currency to as many people as possible in a manner that is generally perceived as fair is a challenging task. The tasks that can be entirely evaluated by an objective computer algorithm are limited in nature and generally speaking have limited positive external benefits. In the case of Bitcoin-style mining, it can result in the production of specialized hardware and cause people to invest time developing more efficient algorithms. It may even help find prime numbers, but none of these things provide meaningful value to society or the currency-holding community at large. More importantly, economies of scale and market forces will end up excluding everyone but experts from participating in this kind of distribution. Ultimately, computation-based mining is just another way of _buying in_ because it requires money to pay the electric bill or the development of hardware necessary to do the work.
 
-In order to give everyone an equal opportunity to get involved and earn the currency people must be given an opportunity to work. The challenge is how to judge the relative quality and quantity of work that individuals provide and to do so in a way that efficiently allocates rewards to millions of users. This requires the introduction of a scalable voting process. In particular it requires that authority to allocate funds must be as distributed and decentralized as possible.  
+In order to give everyone an equal opportunity to get involved and earn the currency, people must be given an opportunity to work. The challenge is how to judge the relative quality and quantity of work that individuals provide and to do so in a way that efficiently allocates rewards to millions of users. This requires the introduction of a scalable voting process. In particular, authority to allocate funds must be as distributed and decentralized as possible.  
 
-The first step in rewarding millions of users is to commit to distributing a fixed amount of currency regardless of how much work is actually done or how users vote. This changes the question from being _“Should we pay?”_ to _“Whom should we pay?”_ and signals to the market that money is being distributed and is being auctioned off to whoever “bids” the most _work_.  This is similar to Bitcoin committing to award 50 BTC to whoever finds the most difficult hashes. Like Bitcoin, all work must be done prior-to payout and nothing should be paid speculatively on the promise to do work in the future.
+The first step in rewarding millions of users is to commit to distributing a fixed amount of currency regardless of how much work is actually done or how users vote. This changes the question from being _“Should we pay?”_ to _“Whom should we pay?”_ and signals to the market that money is being distributed and is being auctioned off to whoever “bids” the most _work_.  This is similar to Bitcoin committing to award 50 BTC to whoever finds the most difficult hashes. Like Bitcoin, all work must be done prior to payout and nothing should be paid speculatively on the promise to do work in the future.
 
 The next step is to reward everyone who does anything even remotely positive with _something_. This is accomplished by ranking all work done and distributing proportionally to its value. The more competitive the market becomes, the more difficult (higher quality or quantity) it becomes to earn the same payout.  
 
 ### Voting on Distribution of Currency
 
-Assume there is a fixed amount of money to distribute, and that those who have a long-term vested interest in the future value and utility of the currency are the ones who must decide how to allocate it. Every vesting user casts their votes on who did the best work and at the end of the day the available money for that day is divided proportional to the votes such that everyone with even one net positive vote gets something.
+Assume there is a fixed amount of money to distribute, and that those who have a long-term vested interest in the future value and utility of the currency are the ones who must decide how to allocate it. Every vesting user casts votes on who did the best work; at the end of the day the available money for that day is divided proportional to the votes, such that everyone with even one net positive vote gets something.
 
-The naive voting process creates a N-Person Prisoner’s Dilemma[^fn5] whereby each individual voter has incentive to vote for themselves at the expense of the larger community goal. If every voter defects by voting for themselves then no currency will end up distributed and the currency as a whole will fail to gain network effect.  On the other hand, if only one voter defects then that voter would win undeserved profits while having minimal effect on the overall value of the currency.
+The naive voting process creates a N-Person Prisoner’s Dilemma[^fn5] whereby each individual voter has the incentive to vote for themselves at the expense of the larger community goal. If every voter defects by voting for themselves, then no currency will end up distributed and the currency as a whole will fail to gain network effect.  On the other hand, if only one voter defects then that voter would win undeserved profits while having minimal effect on the overall value of the currency.
 
 #### Voting Abuse
 
-Regardless of how much money any one individual has, there are always many other individuals with similar wealth. Even the wealthiest individual rarely has much more than the next couple wealthiest combined. Furthermore, those who have a large investment in a community also have the most to lose by attempting to game the voting system for themselves. It would be like the CEO of a company deciding to stop paying salaries so he could pocket all of the profits. Everyone would leave to work for other companies and the company would become worthless, leaving the CEO bankrupt rather than wealthy.  
+Regardless of how much money any one individual has, there are always many other individuals with similar wealth. Even the wealthiest individual rarely has much more than the next wealthiest two combined. Furthermore, those who have a large investment in a community also have the most to lose by attempting to game the voting system for themselves. It would be like the CEO of a company deciding to stop paying salaries so he could pocket all of the profits. Everyone would leave to work for other companies and the company would become worthless, leaving the CEO bankrupt rather than wealthy.  
 
-Fortunately, any work that is getting a large concentration of votes is also gaining the most scrutiny (publicity). Through the addition of _negative-voting_ it is possible for many smaller stakeholders to nullify the voting power of collusive groups or defecting large stakeholders. Furthermore, large-stakeholders have more to lose if the currency falls in value due to abuse than they might gain by voting for themselves.  In fact, honest large stakeholders are likely to be more effective by policing abuse and using negative voting than they would be by voting for smaller contributions.  
+Fortunately, any work that is getting a large concentration of votes is also gaining the most scrutiny (publicity). Through the addition of _negative voting_ it is possible for many smaller stakeholders to nullify the voting power of collusive groups or large, defecting stakeholders. Furthermore, large stakeholders have more to lose if the currency falls in value due to abuse than they might gain by voting for themselves.  In fact, honest large stakeholders are likely to be more effective by policing abuse and using negative voting than they would be by voting for smaller contributions.  
 
-The use of _negative-voting_ to keep people from abusing the system leverages the _crab mentality_ that many people have when it is perceived that one individual is profiting at the expense of everyone else. While crab mentality normally refers to short-sighted people keeping good people down, it is also what allows good people to keep bad people down. The only “problem” with crab mentality is when people _wrongly believe_ someone is profiting at everyone else's expense.  
+The use of _negative voting_ to keep people from abusing the system leverages the _crab mentality_ that many people have when it is perceived that one individual is profiting at the expense of everyone else. While crab mentality normally refers to short-sighted people keeping good people down, it is also what allows good people to keep bad people down. The only “problem” with crab mentality is when people wrongly believe someone is profiting at everyone else's expense.  
 
 **The Story of the Crab Bucket**[^fn6]
 
 A man was walking along the beach and saw another man fishing in the surf with a bait bucket beside him. As he drew closer, he saw that the bait bucket had no lid and had live crabs inside.
 
-"Why don't you cover your bait bucket so the crabs won't escape?", he said.
+"Why don't you cover your bait bucket so the crabs won't escape?" he asked.
 
 "You don't understand.", the man replied, "If there is one crab in the bucket it would surely crawl out very quickly. However, when there are many crabs in the bucket, if one tries to crawl up the side, the others grab hold of it and pull it back down so that it will share the same fate as the rest of them."
 
@@ -572,7 +572,7 @@ http://www.investopedia.com/terms/s/sweatequity.asp
 [^fn3]: Meta-moderation is a second level of comment moderation. Users are invited to rate a moderator's decision in order to improve moderation.
 \hfill\break
 Wikipedia, “Meta-moderation.” https://en.wikipedia.org/wiki/Meta-moderation_system
-[^fn4]: The Impossible Trinity, economic theory
+[^fn4]: Wikipedia, "The Impossible Trinity."
 \hfill\break
 https://en.wikipedia.org/wiki/Impossible_trinity
 [^fn5]: N-Person Prisoner’s Dilemma
