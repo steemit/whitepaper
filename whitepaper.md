@@ -425,7 +425,7 @@ The Steem network is built upon Graphene, the same technology that powers BitSha
 
 Steem is capable of handling a larger user base than Reddit.  In 2015 Reddit’s 8.7 million users generated an average of 23 comments per second,[^fn12] with an average of 83 comments per year per user. There were 73 million top-level posts, for an average of 2 new posts per second. There were about 7 billion up votes, creating an average voting rate of 220 votes per second. All told, if Reddit were operating on a blockchain it would require an average of 250 transactions per second. 
 
-To achieve this industry-leading performance, Steem has borrowed lessons learned from the LMAX Exchange[^fn13], which is able to process 6 million transactions per second. Among these lessons are the following key points:
+To achieve this industry-leading performance, Steem has borrowed lessons learned from the LMAX Exchange,[^fn13] which is able to process 6 million transactions per second. Among these lessons are the following key points:
 
 1. Keep everything in memory.
 2. Keep the core business logic in a single thread.
@@ -435,22 +435,28 @@ To achieve this industry-leading performance, Steem has borrowed lessons learned
 
 By following these simple rules, Steem is able to process 10,000 transactions per second without any significant effort devoted to optimization.
 
-Keeping everything in memory is increasingly viable given the recent introduction of Optane™ technology from Intel[^fn14]. It should be possible for commodity hardware to handle all of the business logic associated with Steem in a single thread with all posts kept in memory for rapid indexing.  Even Google keeps their index of the entire internet in RAM.  The use of blockchain technology makes it trivial to replicate the database to many machines to prevent loss of data. As Optane™ technology takes over, RAM will become even faster while gaining persistence. In other words, Steem is designed for the architectures of the future and is designed to scale. 
+Keeping everything in memory is increasingly viable given the recent introduction of Optane™ technology from Intel.[^fn14] It should be possible for commodity hardware to handle all of the business logic associated with Steem in a single thread, with all posts kept in memory for rapid indexing.  Even Google keeps their index of the entire internet in RAM.  The use of blockchain technology makes it trivial to replicate the database to many machines to prevent loss of data. As Optane™ technology takes over, RAM will become even faster while gaining persistence. In other words, Steem is designed for the architectures of the future and is designed to scale. 
 
 # Allocation & Supply
 
+## Current Allocation & Supply
+
+Starting with the network's 16th hard fork in December 2016, Steem began creating new tokens at an annual inflation rate of 9.5%. The inflation rate decreases at a rate of 0.01% every 250,000 blocks, or about 0.5% per year. The inflation will continue decreasing at this pace until the overall inflation rate reaches 0.95%. This will take about 20.5 years from the time hard fork 16 went into effect.
+
+Of the new tokens that are generated, 75% go to fund the reward pool, which is split between authors and curators. Another 15% of the new tokens are awarded to holders of SP. The remaining 10% pays for the witnesses to power the blockchain.
+
 ## Initial Allocation & Supply
 
-The Steem network started with a currency supply of 0 and allocated STEEM via proof of work at a rate of approximately 40 STEEM per minute to miners, with an additional 40 STEEM per minute being created to seed the content and curation reward pools (for a total of 80 STEEM per minute).  Then the network started rewarding users who converted to SP.  At this point, STEEM grew at a rate of approximately 800 STEEM per minute due to the combined effects of the various Contribution Rewards summarized below:
+The Steem network started with a currency supply of 0 and allocated STEEM via proof of work at a rate of approximately 40 STEEM per minute to miners, with an additional 40 STEEM per minute being created to seed the content and curation reward pools (for a total of 80 STEEM per minute).  Then the network started rewarding users who converted to SP.  At this point, STEEM grew at a rate of approximately 800 STEEM per minute, due to the combined effects of the various Contribution Rewards summarized below:
 
 Contribution Rewards:
 
-- Curation rewards:  1 STEEM per block or 3.875% per year, whichever is greater
-- Content Creation rewards:  1 STEEM per block or 3.875% per year, whichever is greater
-- Block production rewards:  1 STEEM per block or 0.750% per year, whichever is greater
-- POW inclusion rewards before block 864,000:  1 STEEM per block (awarded as 21 STEEM per round)
-- POW inclusion rewards after block 864,000:  0.0476 STEEM per block (awarded as 1 STEEM per round) or 0.750% per year, whichever is greater.
-- Liquidity rewards:  1 STEEM per block (awarded as 1200 STEEM per hour) or 0.750% per year, whichever is greater
+- Curation rewards: 1 STEEM per block or 3.875% per year, whichever is greater
+- Content Creation rewards: 1 STEEM per block or 3.875% per year, whichever is greater
+- Block production rewards: 1 STEEM per block or 0.750% per year, whichever is greater
+- POW inclusion rewards before block 864,000: 1 STEEM per block (awarded as 21 STEEM per round)
+- POW inclusion rewards after block 864,000: 0.0476 STEEM per block (awarded as 1 STEEM per round) or 0.750% per year, whichever is greater.
+- Liquidity rewards: 1 STEEM per block (awarded as 1200 STEEM per hour) or 0.750% per year, whichever is greater
 
 ### Power Rewards:
 
@@ -462,37 +468,31 @@ Contribution Rewards:
 
 The overall supply picture is complicated by the effect of SBD operations, which may result in large-scale creation or destruction of STEEM through feed rate following and SBD rewards, as discussed in the SBD section.  Other, smaller-scale complicating effects also exist, including unclaimed incentives (e.g. block rewards for missed blocks), and abandoned accounts.
 
-## Current Allocation & Supply
-
-Starting with the network's 16th hard fork in December 2016, Steem began creating new tokens at a yearly inflation rate of 9.5%. The inflation rate decreases at a rate of 0.01% every 250,000 blocks, or about 0.5% per year. The inflation will continue decreasing at this pace until the overall inflation rate reaches 0.95%. This will take about 20.5 years from the time hard fork 16 went into effect.
-
-75% of the new tokens that are generated go to fund the reward pool, which is split between authors and curators. 15% of the new tokens are awarded to holders of SP. The remaining 10% pays for the witnesses to power the blockchain.
-
 ### Impact of Token Creation Rate
 
-It is often said that a coin with an inflationary model is not sustainable, but we know from countless real-world examples that the quantity of money does not have a direct and immediate impact on its value, though it certainly plays a role.
+It is often said that a coin with an inflationary model is not sustainable, but we know from countless real-world examples that the quantity of money does not have a direct and immediate impact on its value, although it certainly plays a role.
 
-From August 2008 through January 2009 the U.S. money supply[^fn15] grew from $871B to $1,737B, a rate of over 100% per year and then continued to grow at about 20% per year for the next 6 years. All told the money supply in the U.S. has grown by 4.59x over less than 7 years. During that same time, the value of the dollar relative to goods and services has fallen less than 10% according to the government's price index[^fn16]. This real-world example demonstrates that supply is only one component of price.
+From August 2008 through January 2009 the US money supply[^fn15] grew from $871B to $1,737B, a rate of over 100% per year, and then continued to grow at about 20% per year for the next six years. All told, the money supply in the US has grown by 4.59x over less than seven years. During that same time, the value of the dollar relative to goods and services has fallen less than 10%, according to the government's price index.[^fn16] This real-world example demonstrates that supply is only one component of price.
 
-For the first 2 years of Bitcoin’s life the network sustained an annual inflation rate[^fn17] of over 100%. For the first 5 years it was over 30%, and for the first 8 years it was over 10%. All told the total “spending” Steem does to fund content, curation, and block production amounts to less than 10% APR.
+For the first two years of Bitcoin’s life the network sustained an annual inflation rate[^fn17] of over 100%. For the first five years it was over 30%, and for the first eight years it was over 10%. All told, the total “spending” Steem requires to fund content, curation, and block production amounts to less than 10% APR.
 
-The price of a digital commodity, like STEEM, is driven by both supply and demand. When a long-term holder decides to exit, the supply of STEEM on the market will increase and push the price down. This downward pressure is countered when a new long-term holder decides to buy up the STEEM and convert it back into SP. Additional supply and demand may be be added due to market speculators buying and selling liquid STEEM based on their predictions of the future market price.
+The price of a digital commodity like STEEM is driven by both supply and demand. When a long-term holder decides to exit, the supply of STEEM on the market will increase and push the price down. This downward pressure is countered when a new long-term holder decides to buy up the STEEM and convert it back into SP. Additional supply and demand may be added due to the purchases and sales of liquid STEEM by market speculators, based on their predictions of the future market price.
 
 # The Power of Steem
 
-Steem recognizes that the value of all user contributions (posts and votes) is greater than the sum of the parts. A single comment is worth next to nothing, but millions of curated posts is worth many millions (or possibly even billions) of dollars.  A single vote provides little curation value, but billions of votes is very effective curation. Content without curation is of limited value. Given all the content of the Internet minus the links between it, Google would struggle to produce useful search results. It is the links between information that give it significant value.
+Steem recognizes that the value of all user contributions (posts and votes) is greater than the sum of the parts. A single comment is worth next to nothing, but a collection of millions of curated posts is worth many millions (or possibly even billions) of dollars. A single vote provides little curation value, but billions of votes represents very effective curation. Content without curation is of limited value. If it had access to all the content of the internet but not the links between that content, Google would struggle to produce useful search results. It is the linkage between information that gives it significant value.
 
 Because everyone benefits, everyone should pay. In other words, no individual user should be expected to pay for anything, but instead should be paid for everything they do that brings value to Steem. All we need to do is ascertain which user contributions bring a social network value and which ones don’t.
 
-Collectively Reddit users vote 220 times per second and make 23 posts per second. Reddit is valued between $500 million[^fn18] and $4 billion[^fn19] which means that each and every upvote and post is worth between $0.06 and $0.50 assuming the value of Reddit is mostly within the past year’s worth of activity. One could argue that most of the value of Reddit is the near-real-time discussions that have occurred within the past week which would dramatically increase the value of new activity.  People go where people are today, not where people were last year. 
+Collectively, Reddit users vote 220 times per second and make 23 posts per second. Reddit is valued between $500 million[^fn18] and $4 billion[^fn19] which means that each and every upvote and post is worth between $0.06 and $0.50, assuming the value of Reddit is consistent with the activity level of the past year. One could argue that most of the value of Reddit is the near-real-time discussions that have occurred within the past week, which dramatically increases the value of new activity. People go where people are today, not where people were last year. 
 
 ## No Micropayments, Tips Optional
 
-Existing attempts at integrating a cryptocurrency into a social media platform have focused on enabling users to pay one another. Many services have attempted to introduce tipping. The theory is that if we make tipping simple enough then more people will do it. Other services attempt to get people to pay to promote or boost their content’s ranking. Still others attempt to build small prediction markets on how many tips an article will receive.
+Previous attempts to integrate a cryptocurrency into a social media platform have focused on enabling users to pay one another. Many services have attempted to introduce tipping. The theory is that if we make tipping simple enough, then more people will do it. Other services attempt to get people to pay to promote or boost their content’s ranking. Still others attempt to build small prediction markets based on how many tips an article will receive.
 
-All of these approaches boil down to micropayments. They differ only in who is making the payment. They all suffer from insufficient engagement of people making the micropayments. In the search for incentivised content production entrepreneurs have been so focused on who should pay that they missed the obvious reality: everyone benefits from everyone’s actions so everyone should pay or no one should pay, depending on how you look at it.
+All of these approaches boil down to micropayments - they differ only in who is making the payment. They all suffer from insufficient engagement of the people making the micropayments. In the search for incentivized content, production entrepreneurs have been so focused on who should pay that they have missed the obvious reality: everyone benefits from everyone’s actions, so either everyone should pay or no one should pay.
 
-Steem bypasses micropayments completely because when a user upvotes a post it is the community that pays the bill. The same amount of money will be spent whether the user upvotes a post or not and the funds will not come from the voter.  
+Steem bypasses micropayments completely, because when a user upvotes a post it is the community that pays the bill. The same amount of money will be spent whether the user upvotes a post or not and the funds will not come from the voter.  
 
 The mental energy associated with making an economic decision becomes a barrier to participation for most people. 
 
@@ -596,19 +596,19 @@ https://ripple.com/build/reserves/
 [^fn12]: DMR, “67 Amazing Reddit Statistics and Facts,” Number of Users and Comments per Second.
 \hfill\break
 http://expandedramblings.com/index.php/reddit-stats/2/
-[^fn13]: Martin Fowler, The LMAX Architecture
+[^fn13]: Martin Fowler, "The LMAX Architecture."
 \hfill\break 
 http://martinfowler.com/articles/lmax.html 
-[^fn14]: Introducing Intel Optane Technology – Bringing 3D XPoint Memory to Storage and Memory Products
+[^fn14]: Intel Newsroom, “Introducing Intel Optane Technology - Bringing 3D XPoint Memory to Storage and Memory Products."
 \hfill\break
 https://newsroom.intel.com/press-kits/introducing-intel-optane-technology-bringing-3d-xpoint-memory-to-storage-and-memory-products/
-[^fn15]: United States Money Supply, 2009
+[^fn15]: Federal Reserve Bank of St. Louis, "St. Louis Adjusted Monetary Base AMBNS," October 5, 2017.
 \hfill\break
 https://research.stlouisfed.org/fred2/graph/?s%5B1%5D%5Bid%5D=AMBNS
-[^fn16]: CPI Inflation Index, United States Dollar 2008-2016
+[^fn16]: CPI Inflation Index, United States Dollar 2008-2016.
 \hfill\break
-http://data.bls.gov/cgi-bin/cpicalc.pl?cost1=1&year1=2008&year2=2016
-[^fn17]: Bitcoin Annual Inflation Rate, Bitcoin Talk Forum
+http://data.bls.gov/cgi-bin/cpicalc.pl?cost1=1&year1=200801&year2=201601
+[^fn17]: Bitcoin Annual Inflation Rate, Bitcoin Talk Forum.
 \hfill\break
 https://bitcointalk.org/index.php?topic=130619.0
 [^fn18]: Reddit Valuaton, Newsweek, 2014
