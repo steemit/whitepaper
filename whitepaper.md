@@ -492,41 +492,39 @@ Previous attempts to integrate a cryptocurrency into a social media platform hav
 
 All of these approaches boil down to micropayments - they differ only in who is making the payment. They all suffer from insufficient engagement of the people making the micropayments. In the search for incentivized content, production entrepreneurs have been so focused on who should pay that they have missed the obvious reality: everyone benefits from everyone’s actions, so either everyone should pay or no one should pay.
 
-Steem bypasses micropayments completely, because when a user upvotes a post it is the community that pays the bill. The same amount of money will be spent whether the user upvotes a post or not and the funds will not come from the voter.  
+Steem bypasses micropayments completely, because when a user upvotes a post it is the community that pays the bill. The same amount of money will be spent whether the user upvotes a post or not, and the funds will not come from the voter.  
 
 The mental energy associated with making an economic decision becomes a barrier to participation for most people. 
 
-_We already face a multitude of choices everyday with regards to what to access online in this digital era of the information explosion, and every additional decision that we must make simply adds on to the uncertainty and anxiety we face. Micropayment supporters believe that a simplified implementation can minimize the intrusiveness of micropayments and improve user experience, but their argument only creates double standards for the decision making process [2]. A transaction cannot simultaneously be worth enough to warrant a decision and worth so little that the decision is automatic. **The only transactions that users can approve without thought are ones that cost them nothing**, thus any micro-transaction of positive value will incur mental costs through its requiring a decision. Furthermore, mental transaction costs actually rise below a certain threshold value, a phenomenon that places micropayments at an even greater disadvantage. For instance, it is easy to think that a copy of today's newspapers costs $1, but readers face much more difficulty and anxiety in deciding on the value of each article or word. Such a dilemma will only be replicated and exacerbated if all online content were to be broken down into their components and individually valued within a micropayment system._
+_We already face a multitude of choices every day with regards to what to access online in this digital era of information explosion, and every additional decision that we must make simply adds to the uncertainty and anxiety we face. Micropayment supporters believe that a simplified implementation can minimize the intrusiveness of micropayments and improve user experience, but their argument only creates double standards for the decision making process [2]. A transaction cannot simultaneously be worth enough to warrant a decision and worth so little that the decision is automatic. **The only transactions that users can approve without thought are ones that cost them nothing**, thus any micro-transaction of positive value will incur mental costs through its requiring a decision. Furthermore, mental transaction costs actually rise below a certain threshold value, a phenomenon that places micropayments at an even greater disadvantage. For instance, it is easy to think that a copy of today's newspapers costs $1, but readers face much more difficulty and anxiety in deciding on the value of each article or word. Such a dilemma will only be replicated and exacerbated if all online content were to be broken down into their components and individually valued within a micropayment system._
 
--Micropayments: A Viable Business Model[^fn20]
+-The Case Against Micropayments[^fn20]
 
-Under Steem, micropayments are paid to content producer, but those who vote for the content do not pay.  Instead, the cost of the reward  is paid for via new tokens. Someone can join the system, vote to pay someone, and then exit the system with more money than they started with (assuming the market valuation of the Steem system remained constant). In other words, the micropayment solution provided by Steem provides a user-experience similar to many widely used websites that have user-moderated content.
+Under Steem, micropayments are paid to content producers, but those who vote for the content do not pay.  Instead, the cost of the reward  is financed via new tokens. Someone can join the system, vote to pay someone, and then exit the system with more money than they started with (assuming the market valuation of the Steem system remains constant). In other words, the micropayment solution provided by Steem provides a user experience similar to many widely used websites that have user-moderated content.
 
-Furthemore, Steem pays people to figure out who should be paid! This kind of thinking is revolutionary.
+Furthermore, Steem pays people to figure out who should be paid! This kind of thinking is revolutionary.
 
-## Value is in the Links
+## The Value is in the Links
 
-The Internet would lose the vast majority of its value if all links among content were removed. It is the relationship among web pages that allows Google to identify the best apple pie recipe among the 16 million results.  Without the links the only information Google would have is word frequency.
+The internet would lose the vast majority of its value if all links among content were removed. It is the relationship among web pages that allows Google to identify the best apple pie recipe among the 16 million results.  Without the links, the only information Google would have would be word frequency.
 
-Links can take many forms and have adapted over time. Every time a user votes on content in a social network they add a connection between themselves and the content.  This in turn links the consumer to the producer through the content. The more connections a network has the more valuable the information becomes. It is the relative and intentional connectedness of information that gives it value.
+Links can take many forms and have adapted over time. Every time a user votes on content in a social network they add a connection between themselves and the content.  This in turn links the consumer to the producer through the content. The more connections a network has, the more valuable the information becomes. It is the relative and intentional connectedness of information that gives it value.
 
-A social network can maximize the value extracted from a set of content by maximizing the quantity and quality of connections. Curating content is expensive and time consuming while being near impossible for computers to perform in the absence of links. Steem rewards users who are among the first to find and identify new content.  
+A social network can maximize the value extracted from a set of content by maximizing the quantity and quality of connections. Curating content is expensive and time consuming, while near impossible for computers to perform in the absence of links. Steem rewards users who are among the first to find and identify new content.  
 
-By incentivising curation the Steem network is able to use automated algorithms to extract the most valuable information from a massive amount of content.
+By incentivizing curation, the Steem network is able to use automated algorithms to extract the most valuable information from a massive amount of content.
 
 ## Solving the Cryptocurrency Onboarding Problem
 
-It isn’t easy to get into cryptocurrency[^fn21]. Someone who discovers Bitcoin and wants to try it out quickly learns that they will need to sign up with an exchange and fund their account with a credit card or wire transfer. What would Facebook’s adoption rate have been like if you had to fork over money and a two forms of ID?   
+It isn’t easy to get into cryptocurrency.[^fn21] Someone who discovers Bitcoin and wants to try it out quickly learns that they will need to sign up with an exchange and fund their account with a credit card or wire transfer. What would Facebook’s adoption rate have been like if you had to fork over money and two forms of ID?   
 
-Steem solves this problem by giving everyone a way to get paid for doing simple, but valuable, tasks.   This will help to widely distribute STEEM tokens.  This is helpful because cryptocurrencies have a network effect (i.e. more users make it more useful; for an extreme example, consider that if Satoshi had kept 100% of Bitcoin for himself, Bitcoin would be worthless.)
+Steem solves this problem by giving everyone a way to get paid for doing simple, but valuable, tasks.   This will help to widely distribute STEEM tokens.  This is helpful because cryptocurrencies have a network effect (i.e., more users make it more useful; for an extreme example, consider that if Satoshi had kept 100% of Bitcoin for himself, Bitcoin would be worthless.)
 
 ## Solving the Cryptocurrency Liquidation Problem
 
 A currency that is difficult to use or impossible to sell has little value. Someone who comes across $1.00 worth of Bitcoin will discover that it costs more than $1.00 to sell that Bitcoin. They have to create an account with an exchange, perform KYC validation, and pay fees. Small amounts of cryptocurrency are like small change that people are unwilling to bend over to pick up.  
 
-Merchants give users a way to quickly convert their cryptocurrency into tangible goods and services. Merchants need a currency pegged to their unit of account, normally dollars. Accepting a volatile currency introduces significant accounting overhead.
-
-Merchants will accept any currency if it increases their sales. Having a large user base with a stable currency such as SBD lowers the barrier to entry for merchants.  The presence of merchants improves the system by creating an off-ramp for users to exit the system without going to the trouble of using an exchange.
+Buying from merchants gives users a way to quickly convert their cryptocurrency into tangible goods and services. The presence of merchants improves the system by creating an off-ramp for users to exit the system without going to the trouble of using an exchange. For their part, merchants will accept any currency if it increases their sales. They need a currency pegged to their unit of account, normally dollars. Accepting a volatile currency introduces significant accounting overhead, as well. Having a large user base with a stable currency such as SBD lowers the barrier to entry for merchants.
 
 Another way that people can liquidate the small amounts of cryptocurrency they receive from participating on the Steem platform is through _tipping_ others. This is like leaving the small change as a tip for your waiter. When enough people leave small tips it adds up to a meaningful amount.  You and the waiter each gain a benefit from the tip.
 
@@ -542,23 +540,23 @@ Freedom of speech is the foundation of all other liberties and any infringement 
 
 Most cryptocurrencies generate little value for those who are not actively using the network. Steem, by contrast, generates content and encourages users to share it. This content gets indexed by search engines and ultimately will bring value to a large number of passive users. This search traffic creates organic advertising for the Steem network and grows the network effect.
 
-## Shifting Toward Blockchain-based Attribution
+## Shifting toward Blockchain-based Attribution
 
 The internet represents the easiest medium for distributing information in the world.  With that said, it can be a frightening place for content creators who would like to own their content and have it shared with proper attribution. On current social media platforms, attribution is something that can be lost overnight - a posted video or image can be replicated and re-shared without consent or regard for the creator.
 
-Under blockchain-based social media, a creator or author would always be able to point to a public record and timestamp showing proof of their content origination.  In a circumstance where a creator would like to address those who have re-shared without permission or attribution, blockchain-based records provide public proof that the content was posted by a particular user at a particular time. In the future, blockchain-based attribution could come to be recognized by governments for its authenticity and could hold weight in court, which would give content creators greater powers to control their work.
+Under blockchain-based social media, a creator or author would always be able to point to a public record and timestamp showing proof of their content origination.  In a circumstance where a creator would like to address those who have re-shared without permission or attribution, blockchain-based records provide public proof that the content was posted by a particular user at a particular time. In the future, blockchain-based attribution could come to be recognized by governments for its authenticity and could hold weight in court, which would give content creators greater power to control the dissemination of their work.
 
-While a timestamping service can be built on almost any blockchain, and several efforts exist to build this kind of service on the Bitcoin network, Steem has a useful advantage in this realm because content publishers are “first class citizens” -- the Steem blockchain is built from the ground up around the use case of content publication, which allows content creators to have the blockchain to validate their content at a certain point in time simply by writing their post using the same authoring tools used by other Steem users. 
+A timestamping service can be built on almost any blockchain, and there are currently several efforts to build this kind of service on the Bitcoin network. However, Steem has a useful advantage in this realm because content publishers are “first class citizens”: that is, the Steem blockchain is built from the ground up around the use case of content publication, which allows content creators to have the blockchain validate their content at a certain point in time simply by writing their post using the same authoring tools used by other Steem users. 
 
 ## Replacing Advertising with Blockchain-based Content Rewards
 
-Under most content monetization models, content creators leverage advertising in one form or another.  Many creators recognize how advertising may diminish their work’s value to the consumer, yet creators very often must seek returns on their time by monetizing.  Advertising represents a double-edged sword: With ads, a creator can make money most easily.  Without ads, monetization is difficult but the content is richer.
+Under most content monetization models, content creators leverage advertising in one form or another.  Many creators recognize how advertising may diminish their work’s value to the consumer, yet creators very often must seek returns on their time by monetizing.  Advertising represents a double-edged sword: with ads, a creator can make money most easily; without ads, monetization is difficult, but the content may be richer.
 
-Creators posting to social media outlets that are connected to Steem may monetize merely by having their work recognized (or ”liked”) by the Steem community.  Blockchain-based payouts are completely digital and have no middle-man. Therefore monetization by blockchain-based content rewards should be faster and much lower barrier to use than monetization by advertisements.
+Creators posting to social media outlets that are connected to Steem may monetize merely by having their work recognized (or "liked") by the Steem community.  Blockchain-based payouts are completely digital and have no middle-man. Therefore monetization by blockchain-based content rewards should be faster and have a much lower barrier to use than monetization through advertising.
 
 # Conclusion
 
-Steem is an experiment designed to address challenges in the cryptocurrency and social media industries by combining the best aspects from both. Steem presents earning opportunities to content creators and internet readers in ways that have not existed within the social media industry. Within Steem, individuals earn real rewards online that are directly correlated to their contributions.  Those rewards may have dollar value due to the market price discovery and liquidity of Steem, and the people who hold Steem may have more exclusive earning powers than those who do not.
+Steem is an experiment designed to address challenges in the cryptocurrency and social media industries by combining the best aspects of both. Steem presents earning opportunities to content creators and internet readers in ways that have not existed within the social media industry. Within Steem, individuals earn real rewards online that are directly correlated to their contributions.  Those rewards may have dollar value due to the market price discovery and liquidity of Steem, and the people who hold Steem may have more exclusive earning powers than those who do not.
 
 [^fn1]: Forbes, Erika Morphy, "Reddit’s Cryptocurrency Could Have Many Uses," October 2014.
 \hfill\break
@@ -611,16 +609,16 @@ http://data.bls.gov/cgi-bin/cpicalc.pl?cost1=1&year1=200801&year2=201601
 [^fn17]: Bitcoin Annual Inflation Rate, Bitcoin Talk Forum.
 \hfill\break
 https://bitcointalk.org/index.php?topic=130619.0
-[^fn18]: Reddit Valuaton, Newsweek, 2014
+[^fn18]: Newsweek, Reddit Valuation, 2014.
 \hfill\break
-http://www.newsweek.com/investors-think-reddit-worth-500-million-26
-[^fn19]: Worth of Web, March 2016
+http://www.newsweek.com/investors-think-reddit-worth-500-million-269108
+[^fn19]: Worth of Web, “How Much is reddit.com Worth?”, March 2016.
 \hfill\break
 http://www.worthofweb.com/website-value/reddit.com/
-[^fn20]: Micropayments: A Viable Business Model
+[^fn20]: "The Case Against Micropayments."
 \hfill\break
 http://www.openp2p.com/pub/a/p2p/2000/12/19/micropayments.html
-[^fn21]: Dailydot, Jon Southurt, April 2015
+[^fn21]: Dailydot, Jon Southurst, “It’s Still Too Hard to Get Your First Bitcoin,” April 2015.
 \hfill\break
 http://www.dailydot.com/opinion/bitcoin-cryptocurrency-adoption-hard
 
