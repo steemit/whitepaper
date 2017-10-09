@@ -25,7 +25,7 @@ urlcolor: blue
 
 \vspace{5mm}
 
-\textcolor{mygray}{\LARGE Une plateforme de contenu publique basée sur la technologie blockchain, avec incitants intégrés.}
+\textcolor{mygray}{\LARGE Une plateforme de contenu public basée sur la technologie blockchain, avec incitants intégrés.}
 
 \vspace{5mm}
 
@@ -131,7 +131,7 @@ Le transfert de Steem à Steem Power est appelé **"power up"**, alors que le tr
 
 ## Steem Dollars (SBD)
 
-La stabilité est une caractéristique importante des économies mondiales réussies. Sans stabilité, les individus à travers le monde ne pourraient pas avoir de faibles coûts cognitifs tout en s'engageant dans le commerce ou l'épargne. Étant donné que la stabilité est une caractéristique importante d'une économie prospère, le Steem Dollar a été conçu pour apporter de la stabilité au monde des crypto-monnaies et aux individus qui utilisent le réseau steem.
+La stabilité est une caractéristique importante des économies prospères. Sans stabilité, les individus à travers le monde ne pourraient pas avoir de faibles coûts cognitifs tout en s'engageant dans le commerce ou l'épargne. Étant donné que la stabilité est une caractéristique importante d'une économie prospère, le Steem Dollar a été conçu pour apporter de la stabilité au monde des crypto-monnaies et aux individus qui utilisent le réseau steem.
 
 Les Steem Dollars sont créés par un mécanisme similaire aux obligations convertibles, qui sont souvent utilisés pour financer les startups. Dans le monde des startups, les obligations convertibles sont des titres de créance à court terme qui peuvent être convertis en capital à un taux déterminé dans le futur, généralement lors d'un cycle de financement ultérieur. Un jeton basé sur une blockchain peut être considéré comme une propriété dans la communauté, alors qu'une obligation convertible peut être considérée comme une dette libellée dans tout autre produit ou monnaie. La durée de l'obligation convertible permet au détenteur de la convertir en jeton avec un préavis minimum au prix du marché équitable du jeton. La création de *token-convertible-dollars* permet aux chaînes de blocs d'augmenter leurs effets de réseau tout en maximisant le retour pour les porteurs.
 
