@@ -53,6 +53,7 @@ urlcolor: blue
 \vspace{\stretch{3}}
 \clearpage
 
+\renewcommand{\contentsname}{Table des Matières}
 \tableofcontents
 
 \newpage
@@ -63,14 +64,14 @@ Dans son ensemble, le contenu créé par les utilisateurs a généré des millia
 
 Il y a des principes clés qui ont guidé le design de Steem. Le principe le plus important est que chaque contributeur à cette entreprise puisse recevoir un part de propriété de l'entreprise, sous forme de paiement ou de dette, au prorata de son implication. Ce principe est similaire à celui appliqué aux startups qui allouent des parts dans leurs levées de fonds.
 
-Le seconds principe est que toute forme de capitale à une valeur égale. Cela signifie que ceux qui contribuent avec un peu de leur temps et leur attention, pour produire et trouver du contenu pour les autres, ont la même valeur que ceux qui participent avec un peu de leur argent. Il s'agit du principe de *Sweat Equity*[^2], un concept qui, avant les crypto-monnaies, a souvent eu du mal à bénéficier à plus de quelques dizaines d'individus.
+Le second principe est que toute forme de capital a une valeur égale. Cela signifie que ceux qui contribuent avec un peu de leur temps et leur attention, pour produire et trouver du contenu pour les autres, ont la même valeur que ceux qui participent avec un peu de leur argent. Il s'agit du principe de *Sweat Equity*[^2], un concept qui, avant les crypto-monnaies, a souvent eu du mal à bénéficier à plus de quelques dizaines d'individus.
 
 Le troisième principe est que la communauté crée des produits pour servir ses membres. Un exemple de cette technique sont les coopératives de crédit, de nourriture ou les mutuelles qui servent leur membres, plutôt que de vendre des produits ou des services en dehors de la communauté.
 
 La communauté Steem fournit les services suivants à ses membres :
 
 1. Une source filtrée d'articles et de commentaires.
-2. Une manière d'obtenir des réponses de hautes qualités à des questions personnalisées.
+2. Une manière d'obtenir des réponses de haute qualité à des questions personnalisées.
 3. Une crypto-monnaie stable, alignée sur le dollar américain (USD).
 4. Des paiements gratuits (sans frais).
 5. Des emplois pour fournir les services cités ci-dessus aux autres membres.
@@ -94,7 +95,7 @@ Le défi est de créer un système capable d'identifier les contributions néces
 
 Un système qui a fait ses preuves pour récompenser les contributions est le libre marché. Le libre marché peut être vu comme une seule communauté où tout le monde échange avec les autres et où les récompenses sont réparties par des profits et des pertes. Le marché récompense ceux qui fournissent de la valeur aux autres et punit ceux qui consomment plus de valeur que ce qu'ils produisent. Le libre marché supporte différentes monnaies et l'argent est simplement une ressource facile à échanger pour tout le monde.
 
-Puisque le libre marché est un système éprouvé, il est tentant d'essayer de créer un système de libre marché dans lequel les consommateurs de contenu paient directement les producteurs de contenu. Cependant, les paiements directs sont inefficaces et ne sont pas vraiment viables pour la création de contenu et la curation. La valeur de la plupart des contenus est si faible, comparée aux coûts financiers de recherche et d'opportunité associés à la création d'un système de paiement, que peu de lecteurs l'utiliseront. L'abondance d'alternatives gratuites signifie qu'imposer un *'paywall'* fera fuir les lecteurs autre part. Plusieurs tentatives d'implémentation de micro-paiements par article, allant des lecteurs aux auteurs, ont déjà été réalisé, mais aucune ne s'est répandue.
+Puisque le libre marché est un système éprouvé, il est tentant d'essayer de créer un système de libre marché dans lequel les consommateurs de contenu paient directement les producteurs de contenu. Cependant, les paiements directs sont inefficaces et ne sont pas vraiment viables pour la création de contenu et la curation. La valeur de la plupart des contenus est si faible, comparée aux coûts financiers de recherche et d'opportunité associés à la création d'un système de paiement, que peu de lecteurs l'utiliseront. L'abondance d'alternatives gratuites signifie qu'imposer un *'paywall'* fera fuir les lecteurs ailleurs. Plusieurs tentatives d'implémentation de micro-paiements par article, allant des lecteurs aux auteurs, ont déjà été réalisé, mais aucune ne s'est répandue.
 
 Steem est conçu de sorte à permettre des micro-paiements, efficaces pour tout sorte de contribution grâce à un changement de l'équation économique. Les lecteurs n'ont plus à décider de payer quelqu'un de leurs propres poches, ils peuvent à la place voter positivement ou négativement du contenu et Steem utilisera leurs votes pour déterminer les récompenses individuelles. Cela signifie que les utilisateurs se voient offrir une interface familière largement utilisée et n'ont plus à faire face aux coûts financiers, de recherche, et d'opportunité associés aux plateformes, de micro-paiement et de pourboire, traditionnelles.
 
@@ -139,15 +140,15 @@ Les Steem Dollars sont référencés par le symbole SBD, un acronyme pour Steem 
 
 ### Minimisation des frais frauduleux
 
-Les détenteurs de Steem Power élisent des individus, appelés témoins (witness en anglais), pour publier les flux de prix. Les témoins élus ont, vraisemblablement, la confiance de ceux ayant investit dans la qualité du flux. En payant ceux qui sont élus, Steem crée une concurrence du marché pour gagner le droit de produire des flux. Plus les producteurs de flux sont payés, plus ils ont à perde en publiant de fausses informations.
+Les détenteurs de Steem Power élisent des individus, appelés Témoins (witness en anglais), pour publier les flux de prix. Les Témoins élus ont, vraisemblablement, la confiance de ceux ayant investi dans la qualité du flux. En payant ceux qui sont élus, Steem crée une concurrence du marché pour gagner le droit de produire des flux. Plus les producteurs de flux sont payés, plus ils ont à perdre en publiant de fausses informations.
 
-Ayant un groupe de producteurs de flux élu et de confiance, le prix peut être dérivé comme étant la médiane des différents flux. De cette manière, si une minorité des flux de producteurs individuels produit  des anomalies, elles auront une impact minimal sur la médiane tout en pouvant impacter leur réputation.
+Ayant un groupe de producteurs de flux élu et de confiance, le prix peut être dérivé comme étant la médiane des différents flux. De cette manière, si une minorité des flux de producteurs individuels produit  des anomalies, elles auront un impact minimal sur la médiane tout en pouvant impacter leur réputation.
 
-Même si tous les producteurs de flux sont honnêtes, il est possible que la majorité, des producteurs de flux, soit impactée par des événements au delà de leur contrôle. Le réseau Steem est construit pour supporter des corruptions de la médiane à court terme pendant que la communauté travaille activement pour corriger le problème. Un exemple de problème qui peut prendre un moment à être corriger est une manipulation du marché à court-terme. Une manipulation du marché est difficile et couteuse à maintenir durant une longue période de temps. Un autre exemple serait la défaillance d'une plateforme d'échange ou la corruption des données publiés par cette plateforme.
+Même si tous les producteurs de flux sont honnêtes, il est possible que la majorité des producteurs de flux soit impactée par des événements au-delà de leur contrôle. Le réseau Steem est construit pour supporter des corruptions de la médiane à court terme pendant que la communauté travaille activement pour corriger le problème. Un exemple de problème qui peut prendre un moment à être corrigé est une manipulation du marché à court-terme. Une manipulation du marché est difficile et coûteuse à maintenir durant une longue période de temps. Un autre exemple serait la défaillance d'une plateforme d'échange ou la corruption des données publiées par cette plateforme.
 
 Steem prend en compte les fluctuations de prix à court terme en se servant du prix médian sur les trois derniers jours et demi. Le flux médian publié est échantillonné toutes les heures à l'heure pile.
 
-Tant que la corruption du flux de prix dure moins longtemps que la moitié de la fenêtre de la médiane glissante, elle aura un impact minimal sur le prix de conversion. Dans le cas ou le flux serait corrompu, les participants du réseau aurait l'opportunité de retirer leurs votes pour le producteur du flux corrompu avant que celui-ci puisse impacter le taux de conversion effectif. Encore plus important, cela donne, au producteur de flux, une opportunité de détecter et corriger les problèmes avant que leur flux n'impacte le prix.
+Tant que la corruption du flux de prix dure moins longtemps que la moitié de la fenêtre de la médiane glissante, elle aura un impact minimal sur le prix de conversion. Dans le cas ou le flux serait corrompu, les participants du réseau auraient l'opportunité de retirer leurs votes pour le producteur du flux corrompu avant que celui-ci puisse impacter le taux de conversion effectif. Encore plus important, cela donne au producteur de flux une opportunité de détecter et corriger les problèmes avant que leur flux n'impacte le prix.
 
 Avec un créneau de trois jours et demi, les membres de la communauté ont approximativement un jour et demi pour répondre aux problèmes qui peuvent se poser.
 
@@ -159,49 +160,49 @@ Steem égalise les chances de chacun en imposant que toutes les demandes de conv
 
 ### Réduction des abus lors des conversions
 
-Si il était possible de convertir librement dans les deux sens, les traders pourraient profiter des taux de conversion de la chaîne de blocs en échangeant de gros volumes sans modifier le prix. Les traders, voyant une hausse massive dans le prix, convertiraient en SBD au prix élevé (quand il est le plus risqué) et convertiraient de nouveau en STEEM après la correction. Le protocole Steem protège la communauté de ce genre d'abus, en permettant uniquement aux personnes de passer de SBD à STEEM et pas le contraire.
+S'il était possible de convertir librement dans les deux sens, les traders pourraient profiter des taux de conversion de la chaîne de blocs en échangeant de gros volumes sans modifier le prix. Les traders, voyant une hausse massive dans le prix, convertiraient en SBD au prix élevé (quand il est le plus risqué) et convertiraient de nouveau en STEEM après la correction. Le protocole Steem protège la communauté de ce genre d'abus, en permettant uniquement aux personnes de passer de SBD à STEEM et pas le contraire.
 
-La chaine de blocs décide comment et quand créer des SBD et qui devrait les obtenir. Cela maintient le taux de création de SBD stable et supprime la plupart des abus.
+La chaîne de blocs décide comment et quand créer des SBD et qui devrait les obtenir. Cela maintient le taux de création de SBD stable et supprime la plupart des abus.
 
 ### Ratio *Dette / Propriété* soutenable
 
-Si un jeton est considéré comme une propriété dans l'ensemble des jetons, un Steem Dollar peut être considéré comme une dette. Si le ratio *Dette / Propriété* devient trop élevé, la monnaie entière peut devenir instable. Les conversions de dettes peuvent considérablement augmenter la quantité de jetons, qui à leur tour sont vendus sur le marché annulant la variation de prix. Les conversions ultérieures exigent la délivrance de jetons encore plus importantes. En l'absence de contrôle, le système peut s'effondrer en laissant une propriété sans valeur soutenant une montagne de dettes. Plus le ratio *Dette / Propriété* est élevé, moins les nouveaux investisseurs sont prêts à apporter du capital à la table.
+Si un jeton est considéré comme une propriété dans l'ensemble des jetons, un Steem Dollar peut être considéré comme une dette. Si le ratio *Dette / Propriété* devient trop élevé, la monnaie entière peut devenir instable. Les conversions de dettes peuvent considérablement augmenter la quantité de jetons, qui à leur tour sont vendus sur le marché annulant la variation de prix. Les conversions ultérieures exigent la délivrance de jetons encore plus importante. En l'absence de contrôle, le système peut s'effondrer en laissant une propriété sans valeur soutenant une montagne de dettes. Plus le ratio *Dette / Propriété* est élevé, moins les nouveaux investisseurs sont prêts à apporter du capital à la table.
 
-Un changement rapide de la valeur du STEEM peut radicalement changer le ratio *Dette / Propriété*. La chaine de blocs empêche ce ratio d'être trop élevé en réduisant la quantité de STEEM attribuée à travers les conversions de SBD, si le niveau de dette excède 10%. Si le montant des dettes en SBD excède 10% du cap de marché du STEEM, la chaine de blocs réduira automatiquement, jusqu'à un maximum de 10% du cap de marché, le montant de STEEM généré à travers les conversions. Ceci garantit que la chaine de blocs n'aura jamais de ratio *Dette / Propriété* de plus de 10%.
+Un changement rapide de la valeur du STEEM peut radicalement changer le ratio *Dette / Propriété*. La chaîne de blocs empêche ce ratio d'être trop élevé en réduisant la quantité de STEEM attribuée à travers les conversions de SBD si le niveau de dette excède 10%. Si le montant des dettes en SBD excède 10% du cap de marché du STEEM, la chaîne de blocs réduira automatiquement, jusqu'à un maximum de 10% du cap de marché, le montant de STEEM généré à travers les conversions. Ceci garantit que la chaîne de blocs n'aura jamais de ratio *Dette / Propriété* de plus de 10%.
 
-Le pourcentage minimum utilisé, pour calculer la création de STEEM est basé sur l'offre, y compris la valeur STEEM de tous les SBD et SP en circulation (tel que déterminé par la taux courant dans les flux).
+Le pourcentage minimum utilisé pour calculer la création de STEEM est basé sur l'offre, y compris la valeur STEEM de tous les SBD et SP en circulation (tel que déterminé par le taux courant dans les flux).
 
 ### Intérêts
 
-Être détenteur de SBD permet de recevoir des intérêts. Le taux d'intérêt est définit par les mêmes personnes publiant le flux du prix, de sorte qu'il puisse s'adapter aux changements des conditions de marché. Toute dette porte un risque pour le prêteur. Une personne gardant un SBD, sans le réclamer, prête en fait à la communauté la valeur d'un dollar. Ces personnes sont conscientes qu'à un moment donné, quelqu'un voudra leur acheter leur SBD pour un dollar ou que des spéculateurs et investisseurs seront aptes à acheter le STEEM résultant de leur conversion de SBD.
+Être détenteur de SBD permet de recevoir des intérêts. Le taux d'intérêt est défini par les mêmes personnes publiant le flux du prix, de sorte qu'il puisse s'adapter aux changements des conditions de marché. Toute dette porte un risque pour le prêteur. Une personne gardant un SBD, sans le réclamer, prête en fait à la communauté la valeur d'un dollar. Ces personnes sont conscientes qu'à un moment donné, quelqu'un voudra leur acheter leur SBD pour un dollar ou que des spéculateurs et investisseurs seront aptes à acheter le STEEM résultant de leur conversion de SBD.
 
 Les détenteurs de STEEM et de Steem Power gagnent de l'influence lorsque les membres de la communauté veulent garder leurs SBD. Cette influence amplifie les gains dus au développement tout en y contribuant. Les détenteurs de STEEM souffrent cependant de dilution augmentée si le prix chute. Les projets de crypto-monnaie ont prouvé que les gains engendrés par l'augmentation d'une base d'utilisateurs faisant confiance au réseau avec leurs capitaux, ajoutent en fin de compte plus de valeur au réseau que n'importe quelle dilution pouvant se produire lors d'un ralentissement.
 
 ### Fixation des Prix
 
-Les lecteurs astucieux reconnaîtront qu'un actif portant intérêt disponible en quantité limitée, peut s'échanger au-dessus ou en-dessous de la valeur de l'actif sous-jacent, en fonction des autres opportunités permettant de gagner des intérêts sur ce même actif. Avec un taux d'intérêt élevé, payé pour un actif rattaché au dollar américain, les gens augmenteront les offres sur la quantité limitée de Steem Dollars jusqu'à ce qu'ils  ne soient plus estimé à 1 $. En économie, il y a un principe connu sous le nom de « principe de la trinité impossible » [^4] qui prétend qu'il est impossible d'avoir les trois éléments suivants en même temps :
+Les lecteurs astucieux reconnaîtront qu'un "actif portant intérêt" disponible en quantité limitée peut s'échanger au-dessus ou en-dessous de la valeur de l'actif sous-jacent, en fonction des autres opportunités permettant de gagner des intérêts sur ce même actif. Avec un taux d'intérêt élevé, payé pour un actif rattaché au dollar américain, les gens augmenteront les offres sur la quantité limitée de Steem Dollars jusqu'à ce qu'ils  ne soient plus estimé à 1 $. En économie, il y a un principe connu sous le nom de « principe de la trinité impossible » [^4] qui prétend qu'il est impossible d'avoir les trois éléments suivants en même temps :
 
 1. Un taux de change stable
 2. Un liberté de mouvement du capital
 3. Une politique monétaire indépendante
 
-Si les producteurs de flux Steem ont l'intention d'avoir une politique monétaire indépendante, permettant de créer et de détruire des Steem Dollars, tout en maîtrisant pleinement le taux d'intérêt, ils rencontreront des problèmes. La *Trinité Impossible* dit que le Steem Dollars doit, soit restreindre le mouvement du capital, avoir un taux de change instable avec le dollar, soit avoir un contrôle limité sur le taux d'intérêt.
+Si les producteurs de flux Steem ont l'intention d'avoir une politique monétaire indépendante, permettant de créer et de détruire des Steem Dollars, tout en maîtrisant pleinement le taux d'intérêt, ils rencontreront des problèmes. La *Trinité Impossible* dit que le Steem Dollars doit soit restreindre le mouvement du capital, avoir un taux de change instable avec le dollar, soit avoir un contrôle limité sur le taux d'intérêt.
 
 La principale préoccupation des producteurs de flux Steem est de maintenir une conversion stable entre SBD et le dollar américain (USD). Chaque fois que le Steem Dollar est commercialisé à plus de  1.00 $, les paiements d'intérêts doivent être arrêtés. Dans un marché où 0% d'intérêt sur la dette exige encore une prime, il est prudent de dire que le marché est prêt à étendre plus de crédit que la dette que la communauté est prête à supporter. Si cela se produit, un Steem Dollar sera évalué à plus de 1 $ et il y a peu que la communauté puisse faire sans faire payer des taux d'intérêt négatifs.
 
 Si le ratio de la *Dette / Propriété* est faible et que Steem Dollar se négocie à moins de 1.00 $, le taux d'intérêt doit être augmenté. Cela encourage davantage de personnes à garder leurs Steem Dollars et à en soutenir le prix.
 
-Si le Steem Dollar se négocie moins de 1.00 $ et le ratio *Dette / Propriété* est élevé, alors les flux doivent être ajustés à la hausse pour donner plus de STEEM par SBD. Cela augmentera la demande de Steem Dollars tout en réduisant le ratio *Dette / Propriété* et forcera le retour du Steem Dollar à la parité avec le dollar américain (USD).
+Si le Steem Dollar se négocie à moins de 1.00 $ et le ratio *Dette / Propriété* est élevé, alors les flux doivent être ajustés à la hausse pour donner plus de STEEM par SBD. Cela augmentera la demande de Steem Dollars tout en réduisant le ratio *Dette / Propriété* et forcera le retour du Steem Dollar à la parité avec le dollar américain (USD).
 
 En supposant que la valeur du STEEM augmente plus rapidement que Steem crée un nouveau SBD, le ratio *Dette / Propriété* devrait rester sous le ratio cible et les intérêts offerts devraient bénéficier à tous. Si la valeur du réseau est stable ou en baisse, alors tout intérêt offert ne fera qu'empirer le ratio *Dette / Propriété*.
 
-En effet, les producteurs de flux sont chargés de mettre en place une politique monétaire dans le but de maintenir une adhérence stable à l'USD. L'abus de ce pouvoir peut nuire à la valeur du STEEM, de sorte que les détenteurs de SP sont sages de voter pour les témoins sur lesquels on peut compter pour ajuster les prix et les taux d'intérêt selon les règles décrites ci-dessus.
+En effet, les producteurs de flux sont chargés de mettre en place une politique monétaire dans le but de maintenir une adhérence stable à l'USD. L'abus de ce pouvoir peut nuire à la valeur du STEEM, de sorte que les détenteurs de Steem Power sont encouragés à voter pour les Témoins sur lesquels on peut compter pour ajuster les prix et les taux d'intérêt selon les règles décrites ci-dessus.
 
 Si le ratio *Dette / Propriété* devient dangereusement élevé et que les participants du marché choisissent d'éviter les demandes de conversion, le flux devrait être ajusté pour augmenter le taux du STEEM payé lors de la conversion du SBD.
 
-Les changements, apportés à la politique de taux d'intérêt et/ou à toute majoration ou réduction du taux de conversion STEEM/SBD, devraient constituer une réaction lente et mesurée aux écarts moyen à long terme plutôt que de tenter de réagir aux conditions du marché à court terme.
+Les changements, apportés à la politique de taux d'intérêt et/ou à toute majoration ou réduction du taux de conversion STEEM/SBD, devraient constituer une réaction lente et mesurée aux écarts moyens à long terme plutôt que de tenter de réagir aux conditions du marché à court terme.
 
-Nous croyons que ces règles donneront aux participants du marché la confiance, s'ils sont peu susceptibles de perdre de l'argent en détenant SBD acheté au prix de 1.00 $. Nous espérons qu'il y aura une fenêtre de négociation étroite entre 0.95 $ et 1.05 $ pour un SBD dans des conditions de marché normales.
+Nous croyons que ces règles donneront aux participants du marché la confiance, s'ils sont peu susceptibles de perdre de l'argent en détenant un SBD acheté au prix de 1.00 $. Nous espérons qu'il y aura une fenêtre de négociation étroite entre 0.95 $ et 1.05 $ pour un SBD dans des conditions de marché normales.
 
 ## Contributions subjectives
 
@@ -215,27 +216,27 @@ La valeur de chaque monnaie dépend de la demande d'influence au sein d'une comm
 
 Il existe deux façons dont les gens peuvent s'impliquer dans une communauté crypto-monnaie : ils peuvent acheter ou travailler. Dans les deux cas, les utilisateurs ajoutent de la valeur à la monnaie, cependant, la grande majorité des gens ont plus de temps libre qu'ils n'ont d'argent en réserve. Imaginez le potentiel de l'amorçage d'une monnaie dans une communauté pauvre, sans argent réel, mais avec beaucoup de temps. Si les gens peuvent gagner de l'argent en travaillant les uns pour les autres, ils vont amortir la valeur par échange mutuel facilité par un système comptable équitable.
 
-La répartition d'une monnaie, au plus grand nombre de personnes possible, de manière équitable est généralement perçue comme une tâche difficile. Les tâches qui peuvent être entièrement évaluées par un algorithme informatique objectif sont de nature limitées et, en général, ont des avantages externes positifs limités. Dans le cas de l'extraction de type Bitcoin, cela peut entraîner la production de matériel spécialisé et faire en sorte que les gens investissent du temps, en développant des algorithmes plus performants. Il peut même aider à trouver des nombres premiers, mais aucune de ces choses ne fournit une valeur significative à la société ou à la communauté qui détient la monnaie en général. Plus important encore, les économies d'échelle et les forces du marché finiront par exclure tout le monde, sauf les experts, à participer à ce type de distribution. En fin de compte, le minage basé sur le calcul n'est qu'une autre façon d'acheter car il nécessite de l'argent pour payer la facture d'électricité ou le développement du matériel nécessaire à ce travail.
+La répartition d'une monnaie, au plus grand nombre de personnes possible, de manière équitable est généralement perçue comme une tâche difficile. Les tâches qui peuvent être entièrement évaluées par un algorithme informatique objectif sont de nature limité et, en général, ont des avantages externes positifs limités. Dans le cas de l'extraction de type Bitcoin, cela peut entraîner la production de matériel spécialisé et faire en sorte que les gens investissent du temps, en développant des algorithmes plus performants. Il peut même aider à trouver des nombres premiers, mais aucune de ces choses ne fournit une valeur significative à la société ou à la communauté qui détient la monnaie en général. Plus important encore, les économies d'échelle et les forces du marché finiront par exclure tout le monde, sauf les experts, à participer à ce type de distribution. En fin de compte, le minage basé sur le calcul n'est qu'une autre façon d'acheter car il nécessite de l'argent pour payer la facture d'électricité ou le développement du matériel nécessaire à ce travail.
 
 Afin de donner à chacun une opportunité égale de s'impliquer et de gagner la monnaie, les gens doivent avoir la possibilité de travailler. Le défi consiste à évaluer la qualité relative et la quantité de travail que les individus fournissent et de le faire de manière à attribuer efficacement des récompenses à des millions d'utilisateurs. Cela nécessite l'introduction d'un processus de vote évolutif. En particulier, il exige que l'autorisation d'affecter des fonds soit aussi distribuée et décentralisée que possible.
 
 La première étape pour récompenser des millions d'utilisateurs est de s'engager à distribuer un montant fixe de monnaie sans tenir compte du montant de travail produit ou de la façon de voter des utilisateurs. Cela change la question de *“Devrions-nous payer?”* à *“Qui devrions-nous payer?”* et signale au marché que l'argent est distribué et est mis à disposition de ceux "offrant" le plus de travail. C'est similaire à l'engagement du Bitcoin à récompenser 50 BTC à quiconque trouve les hashes les plus difficiles. Comme le Bitcoin, tout travail doit être fait avant paiement et rien ne devrait être payé spéculativement sur la promesse d'un travail futur.
 
-La prochaine étape est de récompenser tout personne faisant une action ne serait-ce qu'un peu positive avec quelque chose. C'est accompli en classant tout le travail produit et en distribuant proportionnellement à sa valeur. Au plus le marché devient compétitif, au plus il devient difficile (plus grande qualité ou quantité) de gagner le même paiement.
+La prochaîne étape est de récompenser tout personne faisant une action ne serait-ce qu'un peu positive avec quelque chose. C'est accompli en classant tout le travail produit et en distribuant proportionnellement à sa valeur. Au plus le marché devient compétitif, au plus il devient difficile (plus grande qualité ou quantité) de gagner le même paiement.
 
 ### Voter comme moyen de distribuer la monnaie
 
-Supposons, qu'il y ait un montant fixe d'argent à distribuer, et que ceux qui ont un intérêt à long terme dans la valeur future et l'utilité de la monnaie, soient ceux qui doivent décider de la manière de le distribuer.
+Supposons qu'il y ait un montant fixe d'argent à distribuer et que ceux qui ont un intérêt à long terme dans la monnaie (valeur et utilité) soient ceux qui doivent décider de la manière de le distribuer.
 
-Chaque utilisateur investi ses votes pour ce qu'il estime être le meilleur travail et, en fin de journée, l'argent disponible du jour est divisé proportionnellement aux votes de sorte que tout le monde, avec même un vote positif, obtienne quelque chose.
+Chaque utilisateur investit ses votes pour ce qu'il estime être le meilleur travail et, en fin de journée, l'argent disponible du jour est divisé proportionnellement aux votes de sorte que tout le monde, avec même un vote positif, obtienne quelque chose.
 
 Le processus de vote naïf crée un *Dilemme du Prisonnier à N-Personne* [^5] par lequel chaque électeur individuel est incité à voter pour lui-même, au détriment de l'objectif communautaire plus large. Si chaque électeur se défile, en votant pour lui-même, alors aucune devise ne sera distribuée et la monnaie, dans son ensemble, n'aura pas réussi à avoir un effet de réseau. D'autre part, si un seul électeur se défile alors, cet électeur gagnera des bénéfices immérités tout en ayant un effet minimal sur la valeur globale de la monnaie.
 
 #### Abus de votes
 
-Peu importe la quantité d'argent qu'une personne peut avoir, il y a toujours d'autres personnes qui ont une richesse similaire. Même la personne la plus riche a rarement plus que la combinaison des deux suivants. De plus, ceux qui ont un investissement important dans une communauté, ont plus à perdre en cherchant à détourner le système de vote. Ce serait comme si le PDG d'une entreprise décidait d'arrêter de payer ses salariés pour empocher tous les profits. Tout le monde démissionnerait pour une autre entreprise et l'entreprise deviendrait sans valeur laissant le PDG en faillite.
+Peu importe la quantité d'argent qu'une personne peut avoir, il y a toujours d'autres personnes qui ont une richesse similaire. Même la personne la plus riche a rarement plus que la combinaison des deux suivants. De plus, ceux qui ont un investissement important dans une communauté ont plus à perdre en cherchant à détourner le système de vote. Ce serait comme si le PDG d'une entreprise décidait d'arrêter de payer ses salariés pour empocher tous les profits. Tout le monde démissionnerait pour une autre entreprise et l'entreprise deviendrait sans valeur, laissant le PDG en faillite.
 
-Heureusement, tout travail récoltant une grande quantité de vote a également plus d'attention. A l'aide des votes négatifs, il est possible pour de nombreux petits acteurs d'annuler la puissance de vote des gros groupes ou des plus gros investisseurs. En outre, les gros investisseurs ont plus à perdre, si la monnaie perd en valeur en raison d'abus, qu'ils ne pourraient gagner en votant pour eux-mêmes. En fait, les gros investisseurs honnêtes sont susceptibles d'être plus efficaces en surveillant les abus et en utilisant le vote négatif, qu'ils ne le seraient en votant pour des contributions plus petites.
+Heureusement, tout travail récoltant une grande quantité de votes a également plus d'attention. A l'aide des votes négatifs, il est possible pour de nombreux petits acteurs d'annuler la puissance de vote des gros groupes ou des plus gros investisseurs. En outre, les gros investisseurs ont plus à perdre, si la monnaie perd en valeur en raison d'abus, qu'ils ne pourraient gagner en votant pour eux-mêmes. En fait, les gros investisseurs honnêtes sont susceptibles d'être plus efficaces en surveillant les abus et en utilisant le vote négatif, qu'ils ne le seraient en votant pour des contributions plus petites.
 
 L'utilisation du vote négatif, pour empêcher les gens d'abuser du système, tire parti de la mentalité de crabe que beaucoup de gens ont lorsqu'ils perçoivent qu'un individu profite aux dépens de tous les autres.
 
@@ -251,7 +252,7 @@ Bien que la mentalité de crabe se réfère habituellement à des personnes ayan
 
 > C'est ainsi avec les gens. Quand quelqu'un tente de faire quelques chose de différent, d'avoir de meilleurs notes, de s'améliorer, d'échapper à son environnement ou rêve trop grand, les autres vont tenter de le tirer vers le bas afin qu'il partage leur destin.
 
-Éliminer tout les abus n'est pas possible et ne devrait pas être le but. Même ceux qui tentent d'abuser du système, produisent du travail. Les compensations qu'ils retirent de leurs tentatives d'abus fructueuses ou de connivence, ont, au moins, autant de valeur pour la redistribution de la monnaie que le système de preuve de travail du minage de Bitcoin ou du minage en groupe effectué via les coopératives de mineurs. Il est juste nécessaire de faire en sorte que les abus ne soit pas un problème trop envahissant qui détruit les incitants pour faire le vrai travail qui supporte la communauté et sa monnaie.
+Éliminer tout les abus n'est pas possible et ne devrait pas être le but. Même ceux qui tentent d'abuser du système produisent du travail. Les compensations qu'ils retirent de leurs tentatives d'abus fructueuses ou de connivence, ont, au moins, autant de valeur pour la redistribution de la monnaie que le système de preuve de travail du minage de Bitcoin ou du minage en groupe effectué via les coopératives de mineurs. Il est juste nécessaire de faire en sorte que les abus ne soit pas un problème trop envahissant qui détruit les incitants pour faire le vrai travail qui supporte la communauté et sa monnaie.
 
 Le but de créer une monnaie communautaire est d'attirer "plus de crabes dans le seau." Utiliser des mesures extrêmes, pour éliminer les abus, serait comme tenter de mettre un couvercle sur le seau. Il empêcherait les quelques crabes de s'échapper mais cela rendrait beaucoup plus dur d'en ajouter des nouveau dans le seau également. Rendre les parois glissantes serait suffisant, et cela donnerait aux autres crabes assez de force pour empêcher les autres de s'enfuir.
 
@@ -259,11 +260,11 @@ Le but de créer une monnaie communautaire est d'attirer "plus de crabes dans le
 
 Une part majeure de la réduction des abus est la limitation du taux des votes. Chaque utilisateur ne peut que lire et évaluer une certaine quantité de contenu par jour. Toute tentative de vote plus fréquent que la limite est un signe d'automatisation et d'abus potentiel. À l'aide de la limitation de taux, les détenteurs de parts votant plus fréquemment voient leurs votes être plus faibles que ceux des détenteurs de parts votant moins fréquemment. Les tentatives de partage des jetons, parmi plusieurs comptes, réduisent aussi l'influence et n’entraînent donc pas une augmentation nette d'influence, ni ne contournent la limitation de taux imposée sur les votes.
 
-Une quantité fixe de pouvoir de vote est attribuée aux utilisateurs.  Le pouvoir de vote est multiplié par les jetons, investis d'un utilisateur, pour déterminer la part de la réserve de récompenses (reward pool) devant être attribuée à un élément de travail. Chaque vote utilise un pourcentage du pouvoir de vote restant. Les utilisateurs peuvent voter pour plus de publications, mais chaque vote vaudra moins, et ça prendra plus longtemps pour atteindre le pouvoir de vote complet à nouveau. Le pouvoir de vote se recharge à un taux linéaire fixe de 20% par jour.
+Une quantité fixe de pouvoir de vote est attribuée aux utilisateurs. Le pouvoir de vote est multiplié par les jetons investis d'un utilisateur pour déterminer la part de la réserve de récompenses (reward pool) devant être attribuée à un élément de travail. Chaque vote utilise un pourcentage du pouvoir de vote restant. Les utilisateurs peuvent voter pour plus de publications, mais chaque vote vaudra moins, et ça prendra plus longtemps pour atteindre le pouvoir de vote complet à nouveau. Le pouvoir de vote se recharge à un taux linéaire fixe de 20% par jour.
 
 ### Distribution des récompenses
 
-Un des objectifs principaux du système de récompense de Steem, est de produire les meilleures discussions sur internet.
+Un des objectifs principaux du système de récompense de Steem est de produire les meilleures discussions sur internet.
 
 Chaque année 75 % des STEEM créés, via l'inflation, sont distribués aux utilisateurs soumettant, votant et discutant du contenu. Au niveau du Bitcoin, cela pourrait représenter plusieurs millions de dollars par jour, donnés aux meilleurs contributeurs.
 
@@ -279,7 +280,7 @@ La loi de Zipf [^7] est une de ces lois empiriques qui caractérisent remarquabl
 
 Prenons la popularité comme une mesure approximative de valeur. Dans ce cas, la valeur de chaque élément est donné par la loi de Zipf. C'est à dire que, si nous avons un million d'éléments, alors les 100 plus populaires contribueront à un tiers de la valeur. Les 10 000 suivants pour un autre tiers et les 989 900 derniers pour un tiers également. La valeur de l'ensemble de *n* éléments sera proportionnelle à **log(*n*)**.
 
-L'impact de cette distribution, de vote et de récompense, est d'offrir de grosses primes pour du bon contenu tout en continuant à récompenser les plus petits participants pour leur contributions se trouvant dans la masse (sur la droite du graphique).
+L'impact de cette distribution de vote et de récompense est d'offrir de grosses primes pour du bon contenu tout en continuant à récompenser les plus petits participants pour leur contributions se trouvant dans la masse (sur la droite du graphique).
 
 L'effet économique de cette situation est similaire à une loterie où les gens surestiment leur probabilité d'obtenir des votes et font donc plus de travail que la valeur attendue de leur récompense et maximisent ainsi le montant total du travail effectué au service de la communauté. Le fait que tout le monde "gagne quelque chose" joue sur le même effet psychologique que celui utilisé par les casinos pour encourager les gens à jouer. En d'autres termes, de petites récompenses contribuent à renforcer l'idée qu'il est possible de gagner des récompenses plus importantes.
 
@@ -293,51 +294,51 @@ Les utilisateurs ont également l'option d'être payé à 100 % en SP ou de refu
 
 Le consensus est le processus par lequel une communauté accède à un accord universellement reconnu et sans ambiguïté sur l'information. Il existe de nombreux algorithmes que notre société a développé pour parvenir à un consensus sur qui possède quoi. Chaque gouvernement sur terre est un algorithme de consensus primitif par lequel la population accepte de respecter un certain ensemble de règles consacré dans une constitution. Les gouvernements établissent des tribunaux, des juges et des jurys pour interpréter les faits subjectifs et rendre une décision définitive. La plupart du temps, les gens respectent la décision, même si elle est erronée.
 
-Les algorithmes utilisés par les crypto-monnaies offrent un meilleur moyen de parvenir à un consensus. Le témoignage signé, cryptographiquement, par des individus est enregistré dans un grand livre public qui établit l'ordre global absolu des événements. Un algorithme informatique déterministe peut ensuite traiter ce livre pour obtenir une conclusion universellement acceptée. Tant que les membres d'une communauté acceptent l'algorithme de traitement, le résultat de l'algorithme est considéré comme *la vérité*.
+Les algorithmes utilisés par les crypto-monnaies offrent un meilleur moyen de parvenir à un consensus. Le témoignage signé cryptographiquement par des individus est enregistré dans un grand livre public qui établit l'ordre global absolu des événements. Un algorithme informatique déterministe peut ensuite traiter ce livre pour obtenir une conclusion universellement acceptée. Tant que les membres d'une communauté acceptent l'algorithme de traitement, le résultat de l'algorithme est considéré comme *la vérité*.
 
-La principale considération est de déterminer quel témoignage est autorisé à entrer dans les données publiques. Les systèmes devraient être conçus pour minimiser le risque de censure. La censure sur le grand livre public est semblable à, empêcher quelqu'un de voter lors d'une élection. Dans les deux cas, un individu est empêché d'avoir un impact sur le consensus mondial.
+La principale considération est de déterminer quel témoignage est autorisé à entrer dans les données publiques. Les systèmes devraient être conçus pour minimiser le risque de censure. La censure sur le grand livre public est semblable à empêcher quelqu'un de voter lors d'une élection. Dans les deux cas, un individu est empêché d'avoir un impact sur le consensus mondial.
 
 ## Le consensus dans Steem
 
-Sur le plan conceptuel, l'algorithme de consensus adopté par Steem est similaire à l'algorithme de consensus adopté par les entreprises à travers le monde. Les personnes, ayant un intérêt direct pour la valeur future de Steem, votent pour sélectionner les personnes responsables d'inclure des témoignages dans les données publiques. Chaque vote est pondéré, proportionnellement à l'intérêt de chaque individu.
+Sur le plan conceptuel, l'algorithme de consensus adopté par Steem est similaire à l'algorithme de consensus adopté par les entreprises à travers le monde. Les personnes ayant un intérêt direct pour la valeur future de Steem votent pour sélectionner les personnes responsables d'inclure des témoignages dans les données publiques. Chaque vote est pondéré, proportionnellement à l'intérêt de chaque individu.
 
 Dans le monde des crypto-monnaies, on se réfère à ces données publiques comme étant *la chaîne de blocs*. Un bloc est un groupe de transactions signées.
 
-Avec Steem, la production de blocs est faite en ronde. 21 témoins sont sélectionnés pour chaque ronde afin de créer et de signer des blocs de transactions. Vingt (20) d'entre eux sont sélectionnés par vote d'approbation et un est un partagé par tous les témoins n'ayant pas été sélectionné dans le top 20, proportionnellement à leur total de votes. Les 21 témoins actifs sont mélangés à chaque ronde pour éviter qu'un témoin n'ignore constamment les blocs produits par le même <itness placé avant lui. Tout témoin ratant un bloc et n'ayant pas produit dans les dernières 24 heures sera désactivé jusqu'à ce qu'il mette à jour sa clé de signature de bloc.
+Avec Steem, la production de blocs est faite en ronde. Vingt-et-un (21) Témoins sont sélectionnés pour chaque ronde afin de créer et de signer des blocs de transactions. Vingt (20) d'entre eux sont sélectionnés par vote d'approbation et un est un partagé par tous les Témoins n'ayant pas été sélectionnés dans le top 20, proportionnellement à leur total de votes. Les vingt-et-un Témoins actifs sont mélangés à chaque ronde pour éviter qu'un Témoin n'ignore constamment les blocs produits par le même Témoin placé avant lui. Tout Témoin ratant un bloc et n'ayant pas produit dans les dernières vingt-quatre heures sera désactivé jusqu'à ce qu'il mette à jour sa clé de signature de bloc.
 
-Ce processus est conçu pour fournir la meilleure fiabilité, tout en s'assurant que tout le monde aie le potentiel de participer à la production de blocs sans prendre en compte la popularité.
+Ce processus est conçu pour fournir la meilleure fiabilité, tout en s'assurant que tout le monde ait le potentiel de participer à la production de blocs sans prendre en compte la popularité.
 
-Les utilisateurs ont trois options pour surpasser la censure par le top 20 des témoins élus : attendre, patiemment, avec tous les autres n'étant pas dans le top 20, ou acheter plus de SP pour améliorer leur pouvoir de vote. Généralement, censurer est une bonne façon pour les témoins élus de perdre leur travail et de ce fait, il est peu probable que ce soit un réel problème sur le réseau Steem.
+Les utilisateurs ont trois options pour surpasser la censure par le top 20 des Témoins élus : attendre, patiemment, avec tous les autres n'étant pas dans le top 20, ou acheter plus de SP pour améliorer leur pouvoir de vote. Généralement, censurer est une bonne façon pour les Témoins élus de perdre leur travail et, de ce fait, il est peu probable que ce soit un réel problème sur le réseau Steem.
 
-Puisque les témoins actifs sont connus à l'avance, Steem a la capacité de planifier une production des blocs par les témoins toutes les 3 secondes. Les témoins synchronisent leur production de blocs via le protocole NTP. Une variation de cet algorithme, a été en utilisation sur le réseau BitShares pour plus d'un an, et s'est prouvée être fiable.
+Puisque les Témoins actifs sont connus à l'avance, Steem a la capacité de planifier une production des blocs par les Témoins toutes les 3 secondes. Les Témoins synchronisent leur production de blocs via le protocole NTP. Une variation de cet algorithme a été en utilisation sur le réseau BitShares pour plus d'un an et s'est prouvée être fiable.
 
 # Éliminer les frais de transaction
 
 Steem fait de grands efforts pour récompenser les contributeurs au réseau. Ce serait contre-productif de changer de stratégie en facturant les utilisateurs à chacune de leurs interactions avec la communauté.
 
-La technologie de chaîne de blocs dépend actuellement des frais de transaction pour éviter les spams. Ces frais souffrent de tous les problèmes connus des micro-transactions et évitent aux chaînes de blocs d'être utilisées pour des transactions à valeur faible. Les applications réellement décentralisées doivent offrir aux utilisateurs un semblant de transactions gratuites si elles veulent rivaliser avec leurs alternatives centralisées. Ce papier expose l'approche utilisée par Steem pour éliminer le besoin de frais et de ce fait permettre la création d'une multitude d'applications décentralisées auparavant intenables.
+La technologie de chaîne de blocs dépend actuellement des frais de transaction pour éviter les spams. Ces frais souffrent de tous les problèmes connus des micro-transactions et évitent aux chaînes de blocs d'être utilisées pour des transactions à valeur faible. Les applications réellement décentralisées doivent offrir aux utilisateurs un semblant de transactions gratuites si elles veulent rivaliser avec leurs alternatives centralisées. Ce document expose l'approche utilisée par Steem pour éliminer le besoin de frais et de ce fait permettre la création d'une multitude d'applications décentralisées auparavant intenables.
 
 ## Le problème des frais
 
 Les chaînes de blocs sont des réseaux décentralisés où toutes les transactions sont diffusées à tous les pairs. De temps à autre, un bloc comprend une partie ou la totalité des transactions en attente. Toutes les chaînes de blocs doivent trouver une solution pour empêcher les utilisateurs malveillants de consommer toute la capacité de réseau disponible avec des transactions sans valeur. Ces transactions inutiles peuvent empêcher d'autres transactions utiles d'être traitées et finalement détruire le réseau.
 
-La solution adoptée par la plupart des chaînes de blocs jusqu'à présent est de charger un frais minimum de transaction. Un frais valant juste quelques cents est assez pour rendre une attaque de réseau chère et non profitable. Bien que cette approche résolve le problème de spams, elle introduit de nouveaux problèmes. Imaginez vous résoudre le problème des spams d'emails en introduisant un petit frais sur chaque email; les utilisateurs n'utiliseraient pas les emails.
+La solution adoptée par la plupart des chaînes de blocs jusqu'à présent est de charger un frais minimum de transaction. Un frais valant juste quelques cents est assez pour rendre une attaque de réseau chère et non profitable. Bien que cette approche résolve le problème de spams, elle introduit de nouveaux problèmes. Imaginez-vous résoudre le problème des spams d'emails en introduisant un petit frais sur chaque email ; les utilisateurs n'utiliseraient pas les emails.
 
 ### Les micro-paiements, ça ne fonctionne pas
 
-Le problème principal avec les frais sur les transaction c'est que micro-paiements ne fonctionnent pas, en particulier pour les actions des utilisateurs à faible valeur. Lorsqu'une taxe est facturée sur chaque transaction, elle limite les types de transactions qu'un réseau décentralisé peut traiter. Indépendamment de la rationalité de l'argument pour la nécessité des frais, les utilisateurs détestent ouvrir leur portefeuille pour tout ce qui Ils le font.
+Le problème principal avec les frais sur les transactions, c'est que les micro-paiements ne fonctionnent pas, en particulier pour les actions des utilisateurs à faible valeur. Lorsqu'une taxe est facturée sur chaque transaction, elle limite les types de transactions qu'un réseau décentralisé peut traiter. Indépendamment de la rationalité de l'argument pour la nécessité des frais, les utilisateurs détestent ouvrir leur portefeuille pour tout ce qui'ils font.
 
-Imaginez si les sites web que nous utilisons tous les jours nous chargeaient des frais à chaque modification de nos mots de passe. Les utilisateurs s'attendent à ce que certains services soient gratuits. Demander aux utilisateurs de prendre des décisions sur la nécessité d'une action en rapport aux petits frais qu'elle engendre mène à de l'anxiété causant à l'utilisateur de partir.
+Imaginez si les sites web que nous utilisons tous les jours nous chargeaient des frais à chaque modification de nos mots de passe. Les utilisateurs s'attendent à ce que certains services soient gratuits. Demander aux utilisateurs de prendre des décisions sur la nécessité d'une action en rapport aux petits frais qu'elle engendre mène à de l'anxiété causant le départ de l'utilisateur.
 
-> Une transaction ne peut pas valoir tellement qu'elle requiert une décision tout en valant assez peu pour rendre cette décision automatique. Il y a une certaine quantité d'anxiété impliquée dans toute décision d'achat, peu importe à quel point, qui dérive non pas de l'interface utilisée ou du temps requit, mais de l'acte de décision.
+> Une transaction ne peut pas valoir tellement qu'elle requiert une décision tout en valant assez peu pour rendre cette décision automatique. Il y a une certaine quantité d'anxiété impliquée dans toute décision d'achat, peu importe à quel point, qui dérive non pas de l'interface utilisée ou du temps requis mais de l'acte de décision.
 
-> Les micro-paiements, comme tous les paiements, exigent une comparaison: "Est-ce que cette quantité de X vaut autant de Y? "Il existe un coût minimum de transaction mentale créé par cette question qui ne peut pas être optimisé, car la seule transaction qu'un utilisateur sera disposé à approuver sans réfléchir sera celle qui ne lui coûte rien, celle qui n'est pas une transaction du tout.
+> Les micro-paiements, comme tous les paiements, exigent une comparaison : "Est-ce que cette quantité de X vaut autant de Y ?". Il existe un coût minimum de transaction mentale créé par cette question qui ne peut pas être optimisé, car la seule transaction qu'un utilisateur sera disposé à approuver sans réfléchir sera celle qui ne lui coûte rien, celle qui n'est pas une transaction du tout.
 
 > – Clay  Shirky [^8]
 
 Dans le monde des paiements financiers, les petits frais sont acceptables car la valeur de la transaction est extrêmement élevée par rapport aux frais facturés et l'acheteur a déjà pris une décision d'achat. Par contre, l'utilisation de la chaîne de blocs pour construire des applications est beaucoup plus large que les paiements financiers et comprend de nombreuses transactions nécessaires pour lesquelles les frais sont tout simplement inacceptables pour les utilisateurs.
 
-Des systèmes comme BitShares, Nxt, Ripple, Counter Party et Stellar autorisent tous les utilisateurs à placer des offres limitées sur la chaîne de blocs et toutes facturent des frais minimum aux utilisateurs pour effectuer cette action. Plus tard, si l'utilisateur souhaite annuler sa commande, d'autres frais seront facturés. Des systèmes comme Ethereum portent les micropaiements à un tout autre niveau: la facturation par calcul. Tous ces systèmes ont du mal à attirer de nouveaux utilisateurs pour les mêmes raisons qu'un moteur de recherche décentralisé aurait du mal à attirer des utilisateurs de Google s'il facturait un petit montant pour chaque recherche. Peu importe la qualité du service, les gens s'attendent à ce que certaines choses soient gratuites. C'est vrai même si un utilisateur finit par payer plus au total avec une structure de frais différente.
+Des systèmes comme BitShares, Nxt, Ripple, Counter Party et Stellar autorisent tous les utilisateurs à placer des offres limitées sur la chaîne de blocs et toutes facturent des frais minimum aux utilisateurs pour effectuer cette action. Plus tard, si l'utilisateur souhaite annuler sa commande, d'autres frais seront facturés. Des systèmes comme Ethereum portent les micropaiements à un tout autre niveau : la facturation par calcul. Tous ces systèmes ont du mal à attirer de nouveaux utilisateurs pour les mêmes raisons qu'un moteur de recherche décentralisé aurait du mal à attirer des utilisateurs de Google s'il facturait un petit montant pour chaque recherche. Peu importe la qualité du service, les gens s'attendent à ce que certaines choses soient gratuites. C'est vrai même si un utilisateur finit par payer plus au total avec une structure de frais différente.
 
 ### Les frais sont une barrière d'entrée
 
@@ -368,10 +369,10 @@ La solution aux problèmes apportés par les micro-paiements est l'implémentati
 
 Lorsqu'une surtension est terminée et qu'il y a  une surcapacité, la chaîne de blocks peut augmenter lentement la bande passante par part.
 
-La bande passante consommée par un utilisateur individuel doit être mesurée sur une période de temps suffisamment longue afin de permettre à cet utilisateur de déplacer temporairement son utilisation. Les utilisateurs ont tendance à se connecter, à faire plusieurs choses à la fois, puis à se déconnecter. Cela signifie que leur bande passante sur une courte période de temps peut sembler beaucoup plus élevée que si on la regarde sur une période de temps plus longue. Si la 'fenêtre temporelle' est trop étendue, le ratio de réserve ne s'ajuste pas assez rapidement pour répondre aux surtension à court terme, si la fenêtre est trop courte, alors l'utilisation du regroupement aura un trop grand impact sur les utilisateurs normaux.
+La bande passante consommée par un utilisateur individuel doit être mesurée sur une période de temps suffisamment longue afin de permettre à cet utilisateur de déplacer temporairement son utilisation. Les utilisateurs ont tendance à se connecter, à faire plusieurs choses à la fois, puis à se déconnecter. Cela signifie que leur bande passante sur une courte période de temps peut sembler beaucoup plus élevée que si on la regarde sur une période de temps plus longue. Si la "fenêtre temporelle" est trop étendue, le ratio de réserve ne s'ajuste pas assez rapidement pour répondre aux surtension à court terme, si la fenêtre est trop courte, alors l'utilisation du regroupement aura un trop grand impact sur les utilisateurs normaux.
 
 Selon nos estimations, il devrait suffire de mesurer l'utilisation moyenne hebdomadaire de la bande passante des utilisateurs. Chaque fois qu'un utilisateur signe une transaction, cette transaction est prise en compte dans leur propre moyenne mobile individuelle.
-Chaque fois que la moyenne d'un utilisateur dépasse la limite du réseau en cours, sa transaction est retardée jusqu' à ce que sa moyenne tombe en dessous de la limite.
+Chaque fois que la moyenne d'un utilisateur dépasse la limite du réseau en cours, sa transaction est retardée jusqu'à ce que sa moyenne tombe en dessous de la limite.
 
 ### Impact de la capacité
 
@@ -380,11 +381,11 @@ La capacité technologique de l'infrastructure Internet permet d'augmenter la ta
 
 ### Comparaison aux frais
 
-Si nous supposons qu'un utilisateur fait des transactions en BTC d'une valeur de 25 $ par semaine et payant 0,04 $ de frais par transaction, il paierait 2 $ de frais par an. Un utilisateur devrait obtenir un taux de rendement de 8 % sur ses 25 $ pour atteindre le seuil de rentabilité. Il y a de fortes chances que les utilisateurs allaient garder leur argent sur la chaîne de blocs de toute façon, donc cet utilisateur avec 25 $ de BTC n' a économisé que 2 $ au cours de l'année en adoptant une approche de limitation des taux plutôt qu'une approche basée sur les frais. Avec seulement 175 $, ils pourraient faire une transactions par jour et épargner 14 $ par an.
+Si nous supposons qu'un utilisateur fait des transactions en BTC d'une valeur de 25 $ par semaine et payant 0,04 $ de frais par transaction, il paierait 2 $ de frais par an. Un utilisateur devrait obtenir un taux de rendement de 8 % sur ses 25 $ pour atteindre le seuil de rentabilité. Il y a de fortes chances que les utilisateurs allaient garder leur argent sur la chaîne de blocs de toute façon, donc cet utilisateur avec 25 $ de BTC n' a économisé que 2 $ au cours de l'année en adoptant une approche de limitation des taux plutôt qu'une approche basée sur les frais. Avec seulement 175 $, ils pourraient faire une transaction par jour et épargner 14 $ par an.
 
 ### Création de compte
 
-Le système de compte Steem ayant des soldes publiques simplifie la mise en œuvre de l'algorithme de limitation de débit basé sur la bande passante. Tout compte dont le solde est inférieur au minimum requis pour effectuer des opérations une fois par semaine serait incapable d'effectuer des opérations. Cela implique que tous les nouveaux comptes devraient être financés avec au moins ce solde minimum requis pour effectuer des opérations. Il implique également que les utilisateurs qui souhaitent effectuer des transactions de plus petits montants peuvent le faire,  tant qu'ils gardent un solde plus grand et réutilisent le compte.
+Le système de compte Steem ayant des soldes publics simplifie la mise en œuvre de l'algorithme de limitation de débit basé sur la bande passante. Tout compte dont le solde est inférieur au minimum requis pour effectuer des opérations une fois par semaine serait incapable d'effectuer des opérations. Cela implique que tous les nouveaux comptes devraient être financés avec au moins ce solde minimum requis pour effectuer des opérations. Il implique également que les utilisateurs qui souhaitent effectuer des transactions de plus petits montants peuvent le faire,  tant qu'ils gardent un solde plus grand et réutilisent le compte.
 
 Il est possible qu'un compte à faible solde créé pendant une période de faible utilisation devienne inaccessible si l'utilisation du réseau reprend. Les fonds peuvent être recouvrés à tout moment en déléguant temporairement un solde plus important.
 
@@ -429,33 +430,33 @@ La valeur d'une part découle du nombre de temps qu'elle peut accorder à son pr
 
 En utilisant cette logique nous pouvons présumer qu'un système basé sur les frais sera soit plus coûteux pour ses utilisateurs, soit moins profitable pour ses propriétaires collectifs. Un petit propriétaire pourrait profiter en louant sa petite part de temps, mais seulement au détriment de tous les autres détenteurs de parts de temps. En réalité, le coût de la perte de valeur de la part de temps est répartie entre tous les détenteurs tandis que les profits sont centralisés sur le détenteur ayant décidé de louer sa part.
 
-Nous pouvons en conclure qu'une chaîne de blocs servira mieux en utilisant aucun frais d'utilisation du tout. Si un frais d'utilisation devait être facturé en tant qu'alternative à la limitation de taux, alors il devrait être équivalent à l'achat de parts de temps dans le but de les garder assez longtemps pour pouvoir les utiliser une fois.
+Nous pouvons en conclure qu'une chaîne de blocs servira mieux en n'utilisant aucun frais d'utilisation du tout. Si un frais d'utilisation devait être facturé en tant qu'alternative à la limitation de taux, alors il devrait être équivalent à l'achat de parts de temps dans le but de les garder assez longtemps pour pouvoir les utiliser une fois.
 
 Autrement dit, les frais de transaction devraient être égaux au solde minimum du compte nécessaire pour effectuer une transaction par semaine et devraient être remboursés à la fin de la semaine. Présumons que le solde minimum soit de 1 $ et autorise quelqu'un à faire une transaction par semaine. Si quelqu'un avec 1 $ sur son solde souhaite faire 5 transactions en une fois, il devra augmenter son solde à 5 $ pour une semaine soit avant soit après ses transactions.
 
 En théorie, un marché pourrait se former où les utilisateurs peuvent emprunter la participation requise. En pratique, il est plus efficace pour les utilisateurs d'acheter et de vendre  le temps partagé nécessaire pour atteindre leur taux d'interaction souhaité. En d'autres termes, le coût de la négociation des micro-crédits est supérieur au coût de maintien d'un solde adapté à votre utilisation hebdomadaire maximale.
 
-La limitation des taux de transaction décentralisé peut permettre de nouveaux types d'applications décentralisées qui n'étaient pas viables lorsque chaque utilisation de l'application nécessitait un micro-paiement.
+La limitation des taux de transaction décentralisée peut permettre de nouveaux types d'applications décentralisées qui n'étaient pas viables lorsque chaque utilisation de l'application nécessitait un micro-paiement.
 Ce nouveau modèle donne la possibilité au développeurs de décider si et quand faire payer les utilisateurs pour effectuer des transactions.
 
 # Performance et évolutivité
 
 Le réseau Steem est construit sur Graphene, la même technologie qui fait fonctionner BitShares. Graphene a démontré publiquement qu'il pouvait soutenir plus de 1000 transactions par seconde sur un réseau de test distribué.
-Graphene peut facilement passer à 10 000 transactions ou plus par seconde avec des améliorations relativement simple par rapport à la capacité des serveur et aux protocoles de communication.
+Graphene peut facilement passer à 10 000 transactions ou plus par seconde avec des améliorations relativement simples par rapport à la capacité des serveur et aux protocoles de communication.
 
 ## A l'échelle de Reddit
 
 Steem est capable de gérer une base d'utilisateurs plus grande que Reddit. En 2015, les 8,7 millions d'utilisateurs de Reddit ont généré en moyenne 23 commentaires par seconde [^12], avec une moyenne de 83 commentaires par an par utilisateur. Il y avait 73 millions de publications de top niveau, pour une moyenne de 2 nouveaux messages par seconde. Il y avait environ 7 milliards de votes, ce qui a donné un taux de vote moyen de 220 voix par seconde. Dans l'ensemble, si Reddit fonctionnait sur une chaîne de blocs, il nécessiterait en moyenne 250 transactions par seconde.
 
-Pour atteindre cette performance de pointe, Steem a emprunté les leçons tirées de LMAX Exchange [^13], capable de traiter 6 millions de transactions par seconde. Parmi ces lessons on trouve les points suivants :
+Pour atteindre cette performance de pointe, Steem a emprunté les leçons tirées de LMAX Exchange [^13], capable de traiter 6 millions de transactions par seconde. Parmi ces leçons on trouve les points suivants :
 
 1. Tout conserver en mémoire.
 2. Garder la logique business dans un seul processus.
-3. Garder toutes les opération cryptographiques (hashs et signatures) hors de la logique business.
-4. Séparer la validation en deux groupe de vérification: celles qui dépendent de l'état et celles qui n'en dépendent pas.
+3. Garder toutes les opérations cryptographiques (hashs et signatures) hors de la logique business.
+4. Séparer la validation en deux groupes de vérification : celles qui dépendent de l'état et celles qui n'en dépendent pas.
 5. Utiliser un modèle orienté-objet.
 
-En suivant ces règles simples, Steem est capable de traiter 10 000 transactions par secondes sans devoir faire d'effort conséquent d'optimisation.
+En suivant ces règles simples, Steem est capable de traiter 10 000 transactions par seconde sans devoir faire d'effort conséquent d'optimisation.
 
 Garder tout en mémoire est de plus en plus viable compte tenu de l'introduction récente de la technologie Optane (TM) d'Intel [^14]. Il devrait être possible, avec du matériel de base, de traiter toute la logique business associée à Steem dans un seul processus avec tous les messages conservés en mémoire pour une indexation rapide. Même Google conserve son index de l'ensemble d'Internet en RAM. L'utilisation de la technologie de chaîne de blocs rend trivial la réplication de la base de données sur de nombreuses machines pour éviter toute perte de données. Lorsque la technologie Optane (TM) prendre le relais, la RAM deviendra encore plus rapide tout en bénéficiant de persistance. En d'autres termes, Steem est conçu pour les architectures du futur et est conçu de manière extensible.
 
@@ -463,36 +464,36 @@ Garder tout en mémoire est de plus en plus viable compte tenu de l'introduction
 
 ## Répartition initiale et alimentation
 
-Le réseau Steem a commencé avec une réserve de monnaie de 0 et a attribuer les STEEM via un algorithme de preuve de travail avec un débit d'environ 40 STEEM par minutes pour les mineurs. A côté de cela 40 autres STEEM par minutes étaient dédiés à la création et la curation de contenu. Il y avait donc un total de 80 STEEM produit par minute.
+Le réseau Steem a commencé avec une réserve de monnaie de 0 et a attribué les STEEM via un algorithme de preuve de travail avec un débit d'environ 40 STEEM par minute pour les mineurs. A côté de cela 40 autres STEEM par minute étaient dédiés à la création et la curation de contenu. Il y avait donc un total de 80 STEEM produit par minute.
 Ensuite le réseau a commencé à récompenser les utilisateurs qui avaient converti des STEEM en SP. 
-A partir de ce moment là, la quantité de STEEM augmentait d'environ 800 STEEM par minute suite au effets combinés de plusieurs récompenses résumées ci-dessous:
+A partir de ce moment-là, la quantité de STEEM augmentait d'environ 800 STEEM par minute suite aux effets combinés de plusieurs récompenses résumées ci-dessous :
 
-Récompenses de contribution:
+Récompenses de contribution :
 
-- Récompenses de curation: 1 STEEM par bloc ou 3.875% par an, en fonction de la meilleure option
-- Récompenses de création de contenu: 1 STEEM par bloc ou 3.875% par an, en fonction de la meilleure option
-- Récompenses de production de blocs: 1 STEEM par bloc ou 0.750% par an, en fonction de la meilleure option
-- Récompenses POW incluse avant bloc 864 000: 1 STEEM par bloc (décerné en 21 STEEM par tour)
-- Récompenses POW incluse après bloc 864 000: 0,0476 STEEM par bloc (attribué 1 STEEM par tour) ou 0,750% par an, selon le plus élevé des deux.
-- Récompenses sur les liquidité: 1 STEEM par bloc (récompensé au taux de 1200 STEEM par heure) ou 0.750%, en fonction de la meilleure option
+- Récompenses de curation : 1 STEEM par bloc ou 3.875% par an, en fonction de la meilleure option
+- Récompenses de création de contenu : 1 STEEM par bloc ou 3.875% par an, en fonction de la meilleure option
+- Récompenses de production de blocs : 1 STEEM par bloc ou 0.750% par an, en fonction de la meilleure option
+- Récompenses POW incluses avant bloc 864 000 : 1 STEEM par bloc (décerné en 21 STEEM par tour)
+- Récompenses POW incluses après bloc 864 000 : 0,0476 STEEM par bloc (attribué 1 STEEM par tour) ou 0,750% par an, selon le plus élevé des deux.
+- Récompenses sur les liquidités : 1 STEEM par bloc (récompensé au taux de 1200 STEEM par heure) ou 0.750%, en fonction de la meilleure option.
 
-### Récompenses en Steem Power:
-- Récompenses sur le Steem Power: Pour chaque STEEM créé par les récompenses ci-dessus, 9 STEEM sont partagés parmi tous les détenteurs de Steem Power.
+### Récompenses en Steem Power :
+- Récompenses sur le Steem Power : Pour chaque STEEM créé par les récompenses ci-dessus, 9 STEEM sont partagés parmi tous les détenteurs de Steem Power.
 
-### Opérations en SBD:
-- Récompenses sur les SBD: Un intérêt sur la valeur d'SBD est créé sur un taux d'intérêt annuel mis en place par les témoins et payé aux détenteurs d'SBD en SBD
+### Opérations en SBD :
+- Récompenses sur les SBD : Un intérêt sur la valeur d'SBD est créé sur un taux d'intérêt annuel mis en place par les Témoins et payé aux détenteurs d'SBD en SBD
 
-Avoir une estimation de la quantité globale des jetons est compliquée par l'effet des opérations concernant les Steem Dollars, elles peuvent entraîner une création ou une destruction à grande échelle de STEEM via les fluctuations du taux de change et des récompenses en Steem Dollar, comme indiqué dans la section correspondante. Il existe d'autre effets qui compliquent également le calcul, tel que les récompenses non réclamées (par exemple, des récompenses de blocs bloqués) et les comptes abandonnés.
+Avoir une estimation de la quantité globale des jetons est compliqué par l'effet des opérations concernant les Steem Dollars, elles peuvent entraîner une création ou une destruction à grande échelle de STEEM via les fluctuations du taux de change et des récompenses en Steem Dollar, comme indiqué dans la section correspondante. Il existe d'autres effets qui compliquent également le calcul, tel que les récompenses non réclamées (par exemple, des récompenses de blocs bloqués) et les comptes abandonnés.
 
 ## Distribution et réserve actuelle
 
 À partir du Hard Fork 16 du réseau en décembre 2016, Steem a commencé à créer de nouveaux jetons à un taux d'inflation annuel de 9,5%. Le taux d'inflation diminue à un taux de 0,01% tous les 250 000 blocs, soit environ 0,5% par an. L'inflation continuera de diminuer à ce rythme jusqu'à ce que le taux global d'inflation atteigne 0,95%. Cela prendra environ 20,5 ans à partir de l'entrée en vigueur du hard fork 16.
 
-75% des nouveaux jetons générés servent à financer le pool de récompense, réparti entre auteurs et curateurs. 15% des nouveaux jetons sont attribués aux détenteurs de SP. Les 10% restants paient les témoins pour alimenter la blockchain.
+75% des nouveaux jetons générés servent à financer le pool de récompense, réparti entre auteurs et curateurs. 15% des nouveaux jetons sont attribués aux détenteurs de SP. Les 10% restants paient les Témoins pour alimenter la blockchain.
 
 ### Impact du taux de création de jeton
 
-On dit souvent qu'une monnaie avec un modèle inflationniste n'est pas viable, mais on connait d'innombrables exemples dans le monde réel, qui démontrent que la quantité d'argent n'a pas d'impact direct et immédiat sur sa valeur, même s'il elle joue un rôle.
+On dit souvent qu'une monnaie avec un modèle inflationniste n'est pas viable, mais on connait d'innombrables exemples dans le monde réel, qui démontrent que la quantité d'argent n'a pas d'impact direct et immédiat sur sa valeur, même si il elle joue un rôle.
 
 D'août 2008 à janvier 2009, la masse monétaire des États-Unis [^15] est passée de 871 milliards de dollars à 1737 milliards de dollars, soit un taux supérieur à 100% par an, puis a continué de croître d'environ 20% par année durant les six années suivantes. Tout à coup, la masse monétaire aux États-Unis a augmenté de 4,59 fois en moins de 7 ans. Pendant la même période, la valeur du dollar par rapport aux biens et services à diminué de moins de 10% selon l'indice des prix du gouvernement [^16].
 Cet exemple du monde réel démontre que l'offre n'est qu'une seule des composantes du prix.
@@ -507,25 +508,25 @@ Steem reconnait que la valeur de toutes les contributions d'utilisateurs (posts 
 
 Puisque tout le monde bénéficie, tout le monde devrait payer. Formulé autrement, aucun utilisateur ne devrait s'attendre à payer pour quoi que ce soit, mais devrait cependant être payé pour tout ce qu'il fait, apportant de la valeur à Steem. Tout ce que nous avons à faire est de vérifier quelles contributions d'utilisateurs apportent au réseau social de la valeur et quelles contributions n'en apportent pas.
 
-Collectivement les utilisateurs Reddit votent 220 fois par seconde et postent 23 fois par seconde. Reddit est évalué entre 500 millions[^18] et 4 milliards[^19] de dollars ce qui veut dire que chaque vote et chaque publication a une valeur entre 0.06 $ à 0.50 $ si on présume que la valeur de Reddit provient principalement de ses dernières années d'activité.
+Collectivement, les utilisateurs Reddit votent 220 fois par seconde et postent 23 fois par seconde. Reddit est évalué entre 500 millions[^18] et 4 milliards[^19] de dollars ce qui veut dire que chaque vote et chaque publication a une valeur entre 0.06 $ à 0.50 $ si on présume que la valeur de Reddit provient principalement de ses dernières années d'activité.
 
 On pourrait défendre que la plupart de la valeur de Reddit est la discussion en temps quasi réel qui s'est produite au cours de la dernière semaine, ce qui augmenterait considérablement la valeur de la nouvelle activité. Les gens vont là où les gens sont aujourd'hui, pas où les gens étaient l'année dernière.
 
 ## Pas de micro-paiement, pourboires optionnels
 
-Des essais déjà existants d'intégration d'une crypto-monnaie à une plateforme de réseau social se sont concentrées sur la possibilité pour les utilisateurs de se payer l'un l'autre. Beaucoup de services ont essayé d'introduire un système de pourboire. La théorie étant que si nous rendions les pourboires faciles à donner plus de monde en donnera. D'autres services essaient de faire payer les utilisateurs pour promouvoir ou booster le classement de leurs posts. D'autres essaient de créer de petits marchés de prédictions sur le nombre de pourboires qu'un article recevra.
+Des essais déjà existants d'intégration d'une crypto-monnaie à une plateforme de réseau social se sont concentrées sur la possibilité pour les utilisateurs de se payer l'un l'autre. Beaucoup de services ont essayé d'introduire un système de pourboire. La théorie étant que si nous rendions les pourboires faciles à donner, plus de monde en donnera. D'autres services essaient de faire payer les utilisateurs pour promouvoir ou booster le classement de leurs posts. D'autres essaient de créer de petits marchés de prédictions sur le nombre de pourboires qu'un article recevra.
 
-Toutes ces approches se réduisent aux micro-paiements. Ils diffèrent uniquement que par la personne qui effectue le paiement. Toutes souffrent d'un engagement insuffisant de la part des personnes effectuant les micro-paiements. Dans la recherche de production de contenu incitatif, les entrepreneurs se sont tellement concentré sur ceux qui devraient payer qu'ils ont manqué la réalité évidente: chacun bénéficie des actions de chacun afin que chacun paie ou personne ne paie, selon la façon dont on le voit.
+Toutes ces approches se réduisent aux micro-paiements. Ils diffèrent uniquement que par la personne qui effectue le paiement. Toutes souffrent d'un engagement insuffisant de la part des personnes effectuant les micro-paiements. Dans la recherche de production de contenu incitatif, les entrepreneurs se sont tellement concentrés sur ceux qui devraient payer qu'ils ont manqué la réalité évidente : chacun bénéficie des actions de chacun afin que chacun paie ou que personne ne paie, selon la façon dont on le voit.
 
 Steem contourne complètement les micro-paiements parce que lorsqu'un utilisateur publie un article, c'est la communauté qui paie. La même somme d'argent sera dépensée, que l'utilisateur publie un article ou pas et les fonds ne viendront pas du voteur.
 
 L'énergie mentale associée à la décision économique devient une barrière pour la participation de la plupart des gens.
 
-> Nous faisons déjà face à une multitude de choix chaque jour lorsque nous devons choisir quoi accéder en ligne dans cette ère digitale de l'explosion d'information, et chaque décision supplémentaire ajoute simplement à l'incertitude et l'anxiété. Les supporters des micro-paiements croient en la minimisation de l'intrusion des micro-paiements et l'amélioration de l'expérience utilisateur par une implémentation simplifiée, mais leurs arguments ne font que créer des doubles standards pour le processus de prise de décision [2]. Une transaction ne peut pas valoir simultanément suffisamment pour garantir une décision et si peu qu'elle en rende la décision automatique. **Les seules transactions que les utilisateurs puissent accepter sans réfléchir sont celles qui ne leur coûtent rien**, de ce fait n'importe quelle micro-transaction de valeur positive entraînera un coût mental dans sa nécessité de décision. De plus, les coûts mentaux de transaction augmentent en fait sous un certain seuil de valeur, un phénomène plaçant les micro-paiements à un désavantage encore plus important. Par exemple, il est facile de penser qu'une copie du journal d'aujourd'hui coûte 1 $, mais les lecteurs font face à beaucoup plus de difficulté et d'anxiété en ayant à décider de la valeur de chaque article ou mot. Un tel dilemme ne pourra être que répliqué et exacerbé si tous les contenus en ligne étaient décomposés et évalués dans un système de micro-paiements
+> Nous faisons déjà face à une multitude de choix chaque jour lorsque nous devons choisir à quoi accéder en ligne dans cette ère digitale de l'explosion d'information, et chaque décision supplémentaire ajoute simplement à l'incertitude et l'anxiété. Les supporters des micro-paiements croient en la minimisation de l'intrusion des micro-paiements et l'amélioration de l'expérience utilisateur par une implémentation simplifiée, mais leurs arguments ne font que créer des doubles standards pour le processus de prise de décision [2]. Une transaction ne peut pas valoir simultanément suffisamment pour garantir une décision et si peu qu'elle en rende la décision automatique. **Les seules transactions que les utilisateurs puissent accepter sans réfléchir sont celles qui ne leur coûtent rien**, de ce fait n'importe quelle micro-transaction de valeur positive entraînera un coût mental dans sa nécessité de décision. De plus, les coûts mentaux de transaction augmentent en fait sous un certain seuil de valeur, un phénomène plaçant les micro-paiements à un désavantage encore plus important. Par exemple, il est facile de penser qu'une copie du journal d'aujourd'hui coûte 1 $, mais les lecteurs font face à beaucoup plus de difficulté et d'anxiété en ayant à décider de la valeur de chaque article ou mot. Un tel dilemme ne pourra être que répliqué et exacerbé si tous les contenus en ligne étaient décomposés et évalués dans un système de micro-paiements
 
 > – Micropaiements:  Un Business Modèle viable[^20]
 
-Avec Steem, les micro-paiements sont versés au producteur de contenu, mais ceux qui votent pour le contenu ne paient pas. Au lieu de cela, le coût de la récompense est payé via de nouveaux jetons. Quelqu'un peut rejoindre le système, voter pour payer quelqu'un d'autre, puis quitter le système avec plus d'argent qu'il avait en arrivant (en supposant que l'évaluation du marché du système Steem soit restée constante). En d'autres termes, la solution de micro-paiement fournie par Steem offre une expérience utilisateur similaire à de nombreux sites largement utilisés qui ont un contenu modéré l'utilisateur.
+Avec Steem, les micro-paiements sont versés au producteur de contenu, mais ceux qui votent pour le contenu ne paient pas. Au lieu de cela, le coût de la récompense est payé via de nouveaux jetons. Quelqu'un peut rejoindre le système, voter pour payer quelqu'un d'autre, puis quitter le système avec plus d'argent qu'il avait en arrivant (en supposant que l'évaluation du marché du système Steem soit restée constante). En d'autres termes, la solution de micro-paiement fournie par Steem offre une expérience utilisateur similaire à de nombreux sites largement utilisés qui ont un contenu modéré ses utilisateurs.
 
 En outre, Steem paie les gens pour savoir qui doit être payé! Ce genre de pensée est révolutionnaire.
 
@@ -537,13 +538,13 @@ Les liens peuvent prendre plusieurs formes et se sont adaptés au fil du temps. 
 
 Un réseau social peut maximiser la valeur extraite d'un ensemble de contenu en maximisant la quantité et la qualité des connexions. La curation de contenu est un processus coûteux et qui prend beaucoup de temps, tout en étant presque impossible à réaliser pour les ordinateurs en l'absence de liens. Steem récompense les utilisateurs qui sont parmi les premiers à trouver et identifier de nouveaux contenus (de qualité).
 
-En incitant à la curation, le réseau Steem est capable d'utiliser des algorithmes automatisés pour extraire les informations les plus précieux d'une accumulation massive de contenu.
+En incitant à la curation, le réseau Steem est capable d'utiliser des algorithmes automatisés pour extraire les informations les plus précieuses d'une accumulation massive de contenu.
 
 ## Résolution du problème d'embarquement dans le monde des crypto-monnaies
 
 Il n'est pas facile de se lancer dans les cryptomonnaies[^21] . Une personne découvrant le Bitcoin et voulant l'essayer rapidement apprendra vite qu'elle doit s'inscrire sur un site d'échange et ajouter de l'argent sur son compte à l'aide d'une carte de crédit ou d'un virement bancaire. Quel serait le taux d'adoption de Facebook si vous aviez eu à y mettre de l'argent et deux pièces d'identité?
 
-Steem résout ce problème en offrant à chacun une possibilité d'être payé en faisant des tâches simples mais précieuses. Ceci aidera à distribuer des jetons STEEM en grande quantité. C'est utile car les crypto-monnaies ont un effet de réseau (plus il y a d'utilisateurs, plus elles sont utiles; exemple extrême, si Satoshi avait gardé 100% des Bitcoin pour lui, le Bitcoin n'aurait aucune valeur).
+Steem résout ce problème en offrant à chacun une possibilité d'être payé en faisant des tâches simples mais précieuses. Ceci aidera à distribuer des jetons STEEM en grande quantité. C'est utile car les crypto-monnaies ont un effet de réseau (plus il y a d'utilisateurs, plus elles sont utiles ; exemple extrême, si Satoshi avait gardé 100% des Bitcoin pour lui, le Bitcoin n'aurait aucune valeur).
 
 ## Résoudre le problème de liquidation de la crypto-monnaie
 
@@ -551,17 +552,17 @@ Une monnaie difficile à utiliser ou impossible à vendre a peu de valeur. Une p
 
 Les marchands permettent aux utilisateurs de convertir rapidement leur crypto-monnaie en biens et services tangibles. Les marchands ont besoin d'une monnaie attachée à leur unité de compte, normalement le dollar. Accepter une monnaie volatile ajoute des frais additionnels significatifs au niveau comptable.
 
-Les marchants accepteront n'importe quelle monnaie si elle augment leurs ventes. Une grande base d'utilisateurs ainsi qu'une monnaie stable comme le SBD facilite l'entrée en jeu des marchands. La présence de marchands améliore le système en créant une voie de sortie pour les utilisateurs voulant quitter le système sans avoir à passer par un site d'échange.
+Les marchants accepteront n'importe quelle monnaie si elle augmente leurs ventes. Une grande base d'utilisateurs ainsi qu'une monnaie stable comme le SBD facilite l'entrée en jeu des marchands. La présence de marchands améliore le système en créant une voie de sortie pour les utilisateurs voulant quitter le système sans avoir à passer par un site d'échange.
 
 Une autre façon de liquider les faibles quantités de crypto-monnaie que les utilisateurs reçoivent en participant sur la plateforme Steem est le don à d'autres utilisateurs via pourboire. Cette action a la même signification que donner un pourboire au serveur au restaurant. Lorsque assez de personnes laissent de petits pourboires, ça s'accumule et forme un montant non négligeable. Vous et le serveur bénéficiez chacun de ce pourboire.
 
 ## Censure
 
-Steem est un réseau décentralisé qui est mis en place par les témoins dans des juridictions autour du globe. Toutes les actions des utilisateurs sont enregistrées dans la chaîne de blocs et peuvent être vérifiées publiquement. Cela signifie qu'aucune entité ne peut censurer du contenu qui est précieuse pour les détenteurs de STEEM.
+Steem est un réseau décentralisé qui est mis en place par les Témoins dans des juridictions autour du globe. Toutes les actions des utilisateurs sont enregistrées dans la chaîne de blocs et peuvent être vérifiées publiquement. Cela signifie qu'aucune entité ne peut censurer du contenu qui est précieux pour les détenteurs de STEEM.
 
 Certains sites, tel que steemit.com, peuvent censurer du contenu de leur propre site, mais le contenu publié sur la chaîne de blocs est diffusé dans tous les sens et les miroirs du monde entier peuvent continuer à le rendre accessible.
 
-La liberté d'expression le fondement de toutes les autres libertés et toute atteinte à la liberté d'expression entrave le seul moyen pacifique de parvenir à un consensus: la discussion.
+La liberté d'expression est le fondement de toutes les autres libertés et toute atteinte à la liberté d'expression entrave le seul moyen pacifique de parvenir à un consensus : la discussion.
 Sans discussion libre, les électeurs ne peuvent pas être complètement informés, et les électeurs mal informés constituent une menace plus grande pour la société que de perdre le droit de vote. La censure est un moyen de voler des votes en limitant le discours public.
 Steem s'engage à permettre la liberté d'expression et la construction d'une société libre.
 
@@ -572,22 +573,22 @@ et va au final apporter de la valeur à un large nombre d'utilisateurs passifs. 
 
 ## Passage à une répartition basée sur la chaîne de blocs
 
-L'Internet représente le moyen le plus facile de distribuer une information dans le monde. Ceci étant dit, c'est parfois un endroit effrayant pour les créateurs de contenu qui aimeraient avoir la main sur leur contenu et le partager tout en gardant la propriété. Sur les médias sociaux actuels, la propriété est quelque chose qui peut être perdu du jour au lendemain - une vidéo ou image postée peut être répliquer et repartagée sans consentement ou préoccupation pour l'auteur.
+L'Internet représente le moyen le plus facile de distribuer une information dans le monde. Ceci étant dit, c'est parfois un endroit effrayant pour les créateurs de contenu qui aimeraient avoir la main sur leur contenu et le partager tout en gardant la propriété. Sur les médias sociaux actuels, la propriété est quelque chose qui peut être perdu du jour au lendemain - une vidéo ou image postée peut être répliquée et repartagée sans consentement ou préoccupation pour l'auteur.
 
-Sur les médias sociaux basés sur la blockchain, un créateur ou auteur aurait toujours la possibilité de montrer à un public des enregistrements et dates prouvant la provenance de leur contenu. Dans la cas où un créateur voudrait démontrer à ceux qui ont repartagé le contenu sans permission ou attribution, les enregistrements sur la blockchain fournissent des preuves publiques que le contenu était posté par un certain utilisateur à un certain moment. Dans le futur, l'attribution basée sur la blockchain pourrait être reconnue par les gouvernements pour son authenticité et pourrait avoir du poids au tribunal, ce qui offrirait aux créateurs de contenu de plus grands pouvoirs de contrôle sur leur travail.
+Sur les médias sociaux basés sur la blockchain, un créateur ou auteur aura toujours la possibilité de montrer à un public des enregistrements et dates prouvant la provenance de leur contenu. Dans le cas où un créateur voudrait démontrer à ceux qui ont repartagé le contenu sans permission ou attribution, les enregistrements sur la blockchain fournissent des preuves publiques que le contenu a été posté par un certain utilisateur à un certain moment. Dans le futur, l'attribution basée sur la blockchain pourrait être reconnue par les gouvernements pour son authenticité et pourrait avoir du poids au tribunal, ce qui offrirait aux créateurs de contenu de plus grands pouvoirs de contrôle sur leur travail.
 
-Bien qu'un service d'horodatage peut être construit sur la quasi totalité des chaînes de blocs, et que plusieurs efforts existent pour créer ce genre de service sur le réseau Bitcoin, Steem a un avantage utile dans ce domaine puisque les créateurs de contenu sont des “citoyens de première classe” -- la blockchain Steem est crée à partir de la base autour de son utilisation dans le cas de publication de contenu, ce qui permet aux créateurs de contenu d'avoir la chaîne de blocs en tant que validateur de contenu à un certain moment dans le temps simplement en écrivant leur articles en utilisant les mêmes outils de création utilisés par les autres utilisateurs de Steem.
+Bien qu'un service d'horodatage peut être construit sur la quasi totalité des chaînes de blocs, et que plusieurs efforts existent pour créer ce genre de service sur le réseau Bitcoin, Steem a un avantage utile dans ce domaine puisque les créateurs de contenu sont des “citoyens de première classe” -- la blockchain Steem est créée dès le départ pour une utilisation dans le cadre de la publication de contenu, ce qui permet aux créateurs de contenu d'avoir la chaîne de blocs comme validateur de contenu à un certain moment dans le temps. Ils en bénéficient de-facto, pour tous leurs articles en utilisant les mêmes outils de création proposés aux les autres utilisateurs de Steem.
 
 ## Replacer la publicité par des récompenses provenant de la chaîne de blocs
 
-Dans la plupart des modèles de monétisation de contenu, les créateurs de contenu tirent parti de la publicité sous une forme ou une autre. De nombreux créateurs reconnaissent que la publicité diminue la valeur de leur travail pour le consommateur, pourtant très souvent ces créateurs doivent chercher une manière de rentabiliser leur temps. La publicité est une épée à double tranchant: avec de la publicité, les créateurs de contenu peuvent gagner de l'argent plus facilement. Sans publicité, la monétisation est difficile mais leur contenu est plus riche.
+Dans la plupart des modèles de monétisation de contenu, les créateurs de contenu tirent parti de la publicité sous une forme ou une autre. De nombreux créateurs reconnaissent que la publicité diminue la valeur de leur travail pour le consommateur, pourtant très souvent ces créateurs doivent chercher une manière de rentabiliser leur temps. La publicité est une épée à double tranchant : avec de la publicité, les créateurs de contenu peuvent gagner de l'argent plus facilement. Sans publicité, la monétisation est difficile mais leur contenu est plus riche.
 
-Les créateurs de contenu publiant du contenu sur des sites de média sociaux connectés à Steem pourront monétiser uniquement en ayant leur travail reconnu (ou "aimé") par la communauté Steem. Les récompenses basées sur la chaîne de blocs sont complètement numérique et sans intermédiaire.
+Les créateurs de contenu publiant du contenu sur des sites de média sociaux connectés à Steem pourront monétiser uniquement en ayant leur travail reconnu (ou "aimé") par la communauté Steem. Les récompenses basées sur la chaîne de blocs sont complètement numériques et sans intermédiaire.
 C'est pourquoi un système de monétisation basé sur des récompenses provenant de la chaîne de blocs devrait être plus rapide et nettement moins difficile à utiliser que la monétisation via la publicité.
 
 # Conclusion
 
-Steem est une expérience pour relever les défis de l'industrie des crypto-monnaies et des médias sociaux en combinant les meilleurs aspects de ces deux mondes. Steem présente une opportunité aux créateurs de contenu et aux internautes avec des techniques qui n'existent pas dans l'industrie des médias sociaux. Avec Steem, les individus gagnent des récompenses réelles en ligne correspondant à leurs contributions. Ces récompenses peuvent avoir une correspondance au dollar grâce aux mécanismes du marché interne et à la liquidité du STEEM. Les utilisateurs qui détiennent du STEEM bénéficient d'une plus grand capacité de gain que ceux qui n'en ont pas.
+Steem est une expérience pour relever les défis de l'industrie des crypto-monnaies et des médias sociaux en combinant les meilleurs aspects de ces deux mondes. Steem présente une opportunité aux créateurs de contenu et aux internautes avec des techniques qui n'existent pas dans l'industrie des médias sociaux. Avec Steem, les individus gagnent des récompenses réelles en ligne correspondant à leurs contributions. Ces récompenses peuvent avoir une correspondance au dollar grâce aux mécanismes du marché interne et à la liquidité du STEEM. Les utilisateurs qui détiennent du STEEM bénéficient d'une plus grande capacité de gain que ceux qui n'en ont pas.
 
 [^1]: Reddit’s  Cryptocurrency,  Forbes,  Erika  Morphy,  Octobre  2014,
 \hfill\break
