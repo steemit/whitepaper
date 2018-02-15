@@ -7,7 +7,7 @@ Atualmente as instruções de compilação são para o Ubuntu 16.04 ou superior 
 
 Pull requests para atualizar o whitepaper será aceito e revisado com prazer.
 
-## Instruçes de instalacao
+## Instruçoes de instalacao
 
 Instalar pacotes
 ```bash
