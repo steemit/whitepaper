@@ -14,7 +14,7 @@ Instalar pacotes
 sudo apt-get update && sudo apt install texlive-xetex pandoc -y
 ```
 
-Clonando repositorio
+Clonando o repositorio
 ```bash
 git clone https://github.com/steemit/whitepaper
 ```
