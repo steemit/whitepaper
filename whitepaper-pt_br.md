@@ -56,7 +56,7 @@ urlcolor: blue
 \tableofcontents
 
 \newpage
-# Introduction
+# Introducao
 
 Collectively, user-generated content has created billions of dollars worth of value for the shareholders of social media companies, such as Reddit, Facebook, and Twitter. **In 2014, Reddit hypothesized that its platform would be improved if everyone who contributed to reddit.com by posting stories, adding comments or voting were rewarded with a fair share in Reddit, Inc.[^fn1]** Steem aims to support social media and online communities by returning much of its value to the people who provide valuable contributions by rewarding them with cryptocurrency,  and through this process create a currency that is able to reach a broad market, including people who have yet to participate in any cryptocurrency economy. 
 
@@ -76,7 +76,7 @@ The Steem community provides the following services to its members:
 
 Steem’s purposeful realignment of economic incentives  has the potential to produce fairer and more inclusive results for everyone involved than the social media and cryptocurrency platforms that have gone before it. This paper will explore the existing economic incentives and demonstrate how Steem’s incentives may result in better outcomes for most participants. 
 
-## Recognizing Contribution
+## Reconhecendo a Contribuicao 
 
 Steem is designed from the ground up to address the major barriers to adoption and monetization of a social media based economy. Our thesis is that the same techniques used to grow major social media platforms can be used to bootstrap a successful cryptocurrency.  Economic incentives enabled by cryptocurrency can dramatically facilitate the growth of a new social media platform. It is the synergy between cryptocurrency and social media that we believe may give Steem a powerful advantage in the market.
 
@@ -99,11 +99,11 @@ Steem is designed to enable effective micropayments for all kinds of contributio
 
 Voting input from community members is critical for Steem to accurately allocate payments to contributors. Voting can therefore be viewed as a crucial contribution and worthy of rewards on its own. Some platforms, such as Slashdot, use meta-moderation[^fn3] as a way to rank and reward honest moderators. Steem chooses to reward those who contribute the most to the total promotion of a piece of content and rewards the voters proportional to the ultimate reward paid to the content creator.
 
-# Ways to Contribute
+# Formas de contribuir
 
 This section outlines the ideas behind Steem and its rewards for people who provide meaningful and measurable contributions to the Steem community.  
 
-## Capital Contributions
+## Contribuicoes com capital
 
 There are two items a community can offer to attract capital: debt and ownership. Those who buy ownership profit when the community grows but lose if the community shrinks. Those who buy debt are guaranteed a certain amount of interest but do not get to participate in any profits realized by the growth of the community. Both types of capital contributions are valuable to the growth of the community and value of its currency. Additionally there are two ways ownership can be held: liquid and vesting.  Vesting ownership makes a long-term commitment and cannot be sold for a minimum period of time.    
 
@@ -129,7 +129,7 @@ SP holders are also paid interest on the balance of SP that remains vested. 15% 
 
 Transferring from STEEM to SP is referred to as “powering up”, while transferring from SP to STEEM is referred to as “powering down.” SP that is powered down is returned to the user over a period of thirteen weeks, via 13 equal weekly payments, starting one week after the power down is initiated.
 
-## Steem Dollars (SBD)
+## Steem Dolares (SBD)
 
 Stability is an important feature of successful global economies.  Without stability, individuals across the world could not have low cognitive costs while engaging in commerce and savings.  Because stability is an important feature of successful economies, Steem Dollars were designed as an attempt to bring stability to the world of cryptocurrency and to the individuals who use the Steem network.
 
@@ -137,7 +137,7 @@ Steem Dollars are created by a mechanism similar to convertible notes, which are
 
 Steem Dollars are referred to with the symbol SBD, an acronym for Steem Blockchain Dollars. Creating SBD requires a combination of a reliable price feed, and rules to prevent abuse. Providing a reliable price feed involves three factors: minimizing the impact of an incorrect feed, maximizing the cost of producing an incorrect feed, and minimizing the importance of timing. 
 
-### Minimizing Fraudulent Feeds
+### Minimizando pagamentos fraudulentos
 
 SP holders elect individuals, called witnesses, to publish price feeds. The elected witnesses are presumably trusted by those who have a vested interest in the quality of the feed. By paying those who are elected, Steem creates market competition to earn the right to produce feeds. The more the feed producers are paid the more they have to lose by publishing false information.
 
@@ -171,7 +171,7 @@ A rapid change in the value of STEEM can dramatically change the debt-to-ownersh
 
 The percentage floors used to compute STEEM creation are based on the supply including the STEEM value of all outstanding SBD and SP (as determined by the current rate / feed). 
 
-### Interest
+### Interesse
 
 SBD pays holders interest. The interest rate is set by the same people who publish the price feed so that it can adapt to changing market conditions. All debt carries risk to the lender. Someone who holds SBD without redeeming it is effectively lending the community the value of a dollar. They are trusting that at some point in the future someone will be willing to buy the SBD from them for a dollar or that there will be speculators and investors willing to buy the STEEM they convert it into. 
 
@@ -229,7 +229,7 @@ Assume there is a fixed amount of money to distribute, and that those who have a
 
 The naive voting process creates a N-Person Prisoner’s Dilemma[^fn5] whereby each individual voter has incentive to vote for themselves at the expense of the larger community goal. If every voter defects by voting for themselves then no currency will end up distributed and the currency as a whole will fail to gain network effect.  On the other hand, if only one voter defects then that voter would win undeserved profits while having minimal effect on the overall value of the currency.
 
-#### Voting Abuse
+#### Abuso do Voto
 
 Regardless of how much money any one individual has, there are always many other individuals with similar wealth. Even the wealthiest individual rarely has much more than the next couple wealthiest combined. Furthermore, those who have a large investment in a community also have the most to lose by attempting to game the voting system for themselves. It would be like the CEO of a company deciding to stop paying salaries so he could pocket all of the profits. Everyone would leave to work for other companies and the company would become worthless, leaving the CEO bankrupt rather than wealthy.  
 
@@ -257,7 +257,7 @@ A major part of minimizing abuse is the rate-limiting of voting. Individual user
 
 Users are allotted a fixed amount of voting power. Voting power is multiplied by a user’s vesting tokens to determine how much share in the reward pool should be allocated to a given work item. Every vote that is cast uses a percentage of remaining voting power. Users can vote for more posts, but each vote will be worth less, and it will take longer to reach full voting power again. Voting power recharges at a fixed linear rate of 20% per day. 
 
-### Payout Distribution
+### Distribuição de pagamento
 
 One of the primary goals of Steem’s reward system is to produce the best discussions on the internet. Each and every year 75% of the yearly inflation is distributed to users submitting, voting on, and discussing content. At the size of Bitcoin this could be several million dollars per day being given to the top contributors.
 
@@ -277,13 +277,13 @@ The impact of this voting and payout distribution is to offer large bounties for
 
 The economic effect of this is similar to a lottery where people overestimate their probability of getting votes and thus do more work than the expected value of their reward and thereby maximize the total amount of work performed in service of the community.  The fact that everyone “wins something” plays on the same psychology that casinos use to keep people gambling. In other words, small rewards help reinforce the idea that it is possible to earn bigger rewards.
 
-### Payouts
+### Pagamentos
 
 When a post receives a payout it takes the form of 50% SBD and 50% SP. The Steem Power give the user increased voting and transaction power while the SBD gives the user an immediate benefit in a stable currency. As we’ve already discussed at length, SP is designed to encourage long-term holding rather than short-term selling. This encourages more users to have a vested interest in the long-term success of the platform.
 
 Users also have the option to be paid in 100% SP, as well as decline payout on posts. When a user declines payout on a post, the money that would have been paid to them remains in the rewards pool, to be distributed to other users.
 
-# Consensus Algorithm
+# Algoritmo de consensu 
 
 Consensus is the process by which a community comes to a universally recognized, unambiguous agreement on piece of information.  There are many algorithms society has developed for reaching consensus about who owns what. Every government on earth is a primitive consensus algorithm whereby the population agrees to abide by a certain set of rules enshrined in a constitution. Governments establish courts, judges, and juries to interpret the subjective facts and render a final decision. Most of the time people abide by the decision even if it was wrong.
 
@@ -338,7 +338,7 @@ Any fee creates a barrier to entry for new users. Before someone can experiment 
 
 Over time a network must adjust fees. This can happen either due to an increase in the value of the token or due to a surge in capacity. Users like predictable fees and guaranteed service. While it is possible to dynamically adjust fees during times of heavy use, the result is a poor user experience.
 
-### Sybil Attacks
+### Ataque Sybil 
 
 Centralized websites prevent spam through rate limiting and some form of ID verification. Even something as simple as reCAPTCHA[^fn9] is sufficient to limit the creation of fake accounts. If someone abuses their account then centralized websites are free to block the account.
 
@@ -368,7 +368,7 @@ Blockchain capacity isn’t necessarily capped. It is well within the technologi
 
 If we assume a user with $25 dollars worth of BTC transacts once per week and pays a $0.04 cent fee each time then they would pay over $2.00 in fees per year. A user would have to earn a 8% rate of return on their $25 dollars just to break even with paying fees. Chances are that users were going to hold their money on the blockchain anyway, so this user with $25 worth of BTC just saved $2 over the course of a year by adopting a rate-limiting approach rather than a fee-based approach. With just $175 they could transact every single day and save $14 per year.
 
-### Account Creation
+### Criando contas
 
 Steem’s account-based system with publicly known balances simplifies the implementation of the bandwidth-based rate limiting algorithm. Any account with a balance below the minimum required to transact once per week would be unable to transact. This implies that all new accounts should be funded with at least this minimum balance. It also implies that users wishing to transact in smaller amounts can, so long as they hold a larger balance and reuse the account.  
 
@@ -420,11 +420,11 @@ In theory a market could form where users can borrow the stake required. In prac
 
 Decentralized rate limiting of transactions can enable new types of decentralized applications that were not viable when every use of the application required a micropayment. This new model gives application developers the ability to decide if and when to charge their users for transactions.
 
-# Performance and Scalability
+# Performance e escalabilidade
 
 The Steem network is built upon Graphene, the same technology that powers BitShares. Graphene has been publicly demonstrated sustaining over 1000 transactions per second on a distributed test network.  Graphene can easily scale to 10,000 or more transactions per second with relatively straightforward improvements to server capacity and communication protocols.
 
-## Reddit Scale 
+## Escala Reddit  
 
 Steem is capable of handling a larger userbase than Reddit.  In 2015 Reddit’s 8.7 million users generated an average of 23 comments per second[^fn12], with an average of 83 comments per year per user. There were 73 million top-level posts, for an average of 2 new posts per second. There were about 7 billion up votes creating an average voting rate of 220 votes per second. All told, if Reddit were operating on a blockchain it would require an average of 250 transactions per second. 
 
@@ -459,7 +459,7 @@ Contribution Rewards:
 
 - Steem Power rewards:  For each STEEM created by the above rewards, 9 STEEM are divided among all Steem Power holders.
 
-### SBD operations:
+### Operacoes SBD :
 
 - SBD rewards:  A percentage of SBD value is created at an APR set by the witnesses and paid to SBD holders as SBD
 
@@ -481,7 +481,7 @@ For the first 2 years of Bitcoin’s life the network sustained an annual inflat
 
 The price of a digital commodity, like STEEM, is driven by both supply and demand. When a long-term holder decides to exit, the supply of STEEM on the market will increase and push the price down. This downward pressure is countered when a new long-term holder decides to buy up the STEEM and convert it back into SP. Additional supply and demand may be be added due to market speculators buying and selling liquid STEEM based on their predictions of the future market price.
 
-# The Power of Steem
+# O Poder da Steem
 
 Steem recognizes that the value of all user contributions (posts and votes) is greater than the sum of the parts. A single comment is worth next to nothing, but millions of curated posts is worth many millions (or possibly even billions) of dollars.  A single vote provides little curation value, but billions of votes is very effective curation. Content without curation is of limited value. Given all the content of the Internet minus the links between it, Google would struggle to produce useful search results. It is the links between information that give it significant value.
 
@@ -489,7 +489,7 @@ Because everyone benefits, everyone should pay. In other words, no individual us
 
 Collectively Reddit users vote 220 times per second and make 23 posts per second. Reddit is valued between $500 million[^fn18] and $4 billion[^fn19] which means that each and every upvote and post is worth between $0.06 and $0.50 assuming the value of Reddit is mostly within the past year’s worth of activity. One could argue that most of the value of Reddit is the near-real-time discussions that have occurred within the past week which would dramatically increase the value of new activity.  People go where people are today, not where people were last year. 
 
-## No Micropayments, Tips Optional
+## Sem micropagamentos, Tipos Opcional
 
 Existing attempts at integrating a cryptocurrency into a social media platform have focused on enabling users to pay one another. Many services have attempted to introduce tipping. The theory is that if we make tipping simple enough then more people will do it. Other services attempt to get people to pay to promote or boost their content’s ranking. Still others attempt to build small prediction markets on how many tips an article will receive.
 
@@ -533,7 +533,7 @@ Merchants will accept any currency if it increases their sales. Having a large u
 
 Another way that people can liquidate the small amounts of cryptocurrency they receive from participating on the Steem platform is through _tipping_ others. This is like leaving the small change as a tip for your waiter. When enough people leave small tips it adds up to a meaningful amount.  You and the waiter each gain a benefit from the tip.
 
-## Censorship
+## Censura
 
 Steem is a decentralized network that is operated by witnesses in jurisdictions around the world. All user actions are publicly recorded on the  blockchain, and can be publicly verified. This means that there is no single entity that can censor content that is valued by STEEM holders. 
 
@@ -559,7 +559,7 @@ Under most content monetization models, content creators leverage advertising in
 
 Creators posting to social media outlets that are connected to Steem may monetize merely by having their work recognized (or ”liked”) by the Steem community.  Blockchain-based payouts are completely digital and have no middle-man. Therefore monetization by blockchain-based content rewards should be faster and much lower barrier to use than monetization by advertisements.
 
-# Conclusion
+# Conclusao
 
 Steem is an experiment designed to address challenges in the cryptocurrency and social media industries by combining the best aspects from both. Steem presents earning opportunities to content creators and internet readers in ways that have not existed within the social media industry. Within Steem, individuals earn real rewards online that are directly correlated to their contributions.  Those rewards may have dollar value due to the market price discovery and liquidity of Steem, and the people who hold Steem may have more exclusive earning powers than those who do not.
 
