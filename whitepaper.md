@@ -56,11 +56,11 @@ urlcolor: blue
 \tableofcontents
 
 \newpage
-# Introduction
+# परिचय
 
-Collectively, user-generated content has created billions of dollars worth of value for the shareholders of social media companies, such as Reddit, Facebook, and Twitter. **In 2014, Reddit hypothesized that its platform would be improved if everyone who contributed to reddit.com by posting stories, adding comments or voting were rewarded with a fair share in Reddit, Inc.[^fn1]** Steem aims to support social media and online communities by returning much of its value to the people who provide valuable contributions by rewarding them with cryptocurrency,  and through this process create a currency that is able to reach a broad market, including people who have yet to participate in any cryptocurrency economy. 
+ सामूहिक रूप से प्रयोक्ता जनित सामग्री जैसे रैडिट Facebook और Twitter ने अपने सामाजिक मीडिया कंपनियों के शेयरहोल्डर्स ने अरबों डॉलर की कीमत कि कमाई की है |  **2014 में रेडिट ने यह अनुमान लगाया था अगर वह अपने उपयोगकर्ताओं को पोस्ट करने के लिए टिप्पणियां या वोट करने के लिए इनाम देंगे तो उनका मंच काफी हद तक सुधर सकता है [^fn1]** स्टीम का लक्ष्य है कि वह सामाजिक मीडिया और ऑनलाइन समुदायों मैं लोगों को उनके मूल्यवान योगदान का समर्थन करने के तौर पर उनको क्रिप्टो करेंसी के नाम से नवाजना चाहते हैं इस प्रक्रिया से वह ऐसी मुद्रा बनाने में सक्षम होंगे जो बड़े बाजार मैं अपनी पहचान बना सके साथ ही साथ ऐसे लोगों तक भी पहुंचने में सक्षम हो जिन्होंने अभी तक क्रिप्टो करेंसी अर्थव्यवस्था में अपना योगदान नहीं दिया हो |
 
-There are some key principles that have been used to guide the design of Steem. The most important principle is that everyone who contributes to a venture should receive pro-rata ownership, payment or debt from the venture. This principle is the same principle that is applied to all startups as they allocate shares at founding and during subsequent funding rounds.
+वहां कुछ प्रमुख सिद्धांत है जिस को स्टीम केक बनाने में इस्तेमाल किया गया है| सबसे महत्वपूर्ण सिद्धांत यह है कि हर कोई जो इस उद्यम के लिए योगदान करता है उसको अपने योगदान के हिसाब से मालिकाना हक या भुगतान या इस उद्यम से कर्जा मिलना चाहिए | यह वैसा ही सिद्धांत है जैसा कोई कंपनी शुरू करने पर उनके शेर पर लागू किया जाता है जब वह अपने शहर बनाते और उसके बाद खर्च करते हैं|
 
 The second principle is that all forms of capital are equally valuable. This means that those who contribute their scarce time and attention toward producing and curating content for others are just as valuable as those who contribute their scarce cash. This is the sweat equity principle[^fn2] and is a concept that prior cryptocurrencies have often had trouble providing  to more than a few dozen individuals.  
 
