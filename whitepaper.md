@@ -11,6 +11,7 @@ header-includes:
     - \usepackage{wrapfig}
     - \usepackage{fontspec}
     - \setmainfont{Latin Modern Sans}
+    - \setmathfont{XITS Math}
     - \fontsize{13pt}{13pt}
     - \usepackage[hang]{footmisc}
 urlcolor: blue
@@ -167,9 +168,15 @@ The blockchain decides how and when to create SBD and who should get it. This ke
 
 If a token is viewed as ownership in the whole supply of tokens, then a token-convertible dollar can be viewed as debt. If the debt-to-ownership ratio gets too high, the entire currency can become unstable. Debt conversions can dramatically increase the token supply, which in turn is sold on the market, suppressing the price. Subsequent conversions require the issuance of even more tokens. Left unchecked the system can collapse, leaving worthless ownership backing a mountain of debt. The higher the debt-to-ownership ratio becomes, the less willing new investors are to bring capital to the table.
 
-A rapid change in the value of STEEM can dramatically change the debt-to-ownership ratio. The blockchain prevents the debt-to-ownership ratio from getting too high by reducing the amount of STEEM awarded through SBD conversions if the debt level were to exceed 10%. If the amount of SBD debt ever exceeds 10% of the total STEEM market cap, the blockchain will automatically reduce the amount of STEEM generated through conversions to a maximum of 10% of the market cap. This ensures that the blockchain will never have higher than a 10% debt-to-ownership ratio.
+A rapid change in the value of STEEM can dramatically change the debt-to-ownership ratio. The blockchain prevents the debt-to-ownership ratio from getting too high, by reducing the amount of STEEM awarded through SBD conversions if the debt level were to exceed 5%. If the amount of SBD debt ever exceeds 5% of the total STEEM market cap, the blockchain will automatically stop printing SBD. This ensures that the blockchain will never have higher than a 5% debt-to-ownership ratio. The SBD printing rate ($\mbox{SBD}_{\mbox{PR}}$) is calculated using this SBD-market cap ratio ($r$) with the following formula:
 
-The percentage floors used to compute STEEM creation are based on the supply, including the STEEM value of all outstanding SBD and SP (as determined by the current rate / feed). 
+$$\mbox{SBD}_{\mbox{PR}}=\left\{\begin{array}{ll}
+100\%, & \mbox{if $r\leq 2\%$}\\
+100\%\frac{5-r}{3}, & \mbox{if $2<r<5\%$}\\
+0\%, & \mbox{if $r\geq 5\%$}
+\end{array}\right.$$
+
+When the percentage printing rate is below 100%, the rest that should have been generated is created in STEEM.
 
 ### Interest
 
