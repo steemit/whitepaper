@@ -283,6 +283,16 @@ When a post receives a payout it takes the form of 50% SBD and 50% SP. The Steem
 
 Users also have the option to be paid in 100% SP, as well as decline payout on posts. When a user declines payout on a post, the money that would have been paid to them remains in the rewards pool, to be distributed to other users.
 
+#### Curators distribution
+
+Steem rewards users who are among the first to find and identify new content. Also, this reward is related to the value of the vote. While the vote has more value the rewards for the curator will be greater.
+
+Taking $P_0$ as the payout of the post before voting, $P_1$ as the payout of the post after voting, and $P_T$ as the final post payout, then the curator rewards are:
+
+$$P_{\mbox{curator}} =& \frac14\sqrt{P_T} \left(\sqrt{P_1}-\sqrt{P_0}\right) \Delta t$$
+
+Where $Delta t$ is a value between 0 and 1 proportional to the voting time between 0 and 30 minutes of publication. If the voting time greater than 30 minutes then $\Delta t$ remains 1.
+
 # Consensus Algorithm
 
 Consensus is the process by which a community comes to a universally recognized, unambiguous agreement on piece of information.  There are many algorithms society has developed for reaching consensus about who owns what. Every government on earth is a primitive consensus algorithm whereby the population agrees to abide by a certain set of rules enshrined in a constitution. Governments establish courts, judges, and juries to interpret the subjective facts and render a final decision. Most of the time people abide by the decision even if it was wrong.
