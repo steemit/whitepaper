@@ -121,7 +121,7 @@ There is significant value to having long-term commitment because it enables com
 
 In the cryptocurrency space, speculators jump from cryptocurrency to cryptocurrency based mostly on which one is expected to have short-term growth. Steem wants to build a community that is mostly owned and entirely controlled by those with a long-term perspective.
 
-Users are able to commit their STEEM to a vesting schedule, providing them with additional benefits within the platform. STEEM that has been committed to the vesting schedule is locked in for a period of at least thirteen weeks. This STEEM is kept in a pool of vesting fund, and users receive a number of VESTS (_Vesting Shares_). STEEM that has been committed to the thirteen-week vesting schedule is called Steem Power (SP), which represents the actual VESTS multiplied by the ratio of the "_total vesting fund steem_" with respect to the "_total vesting shares_".
+Users are able to commit their STEEM to a vesting schedule, providing them with additional benefits within the platform. STEEM that has been committed to the vesting schedule is locked in for a period of at least thirteen weeks. This STEEM is kept in a pool of vested funds, and users receive a number of VESTS (_Vesting Shares_). STEEM that has been committed to the thirteen-week vesting schedule is called Steem Power (SP), which represents the actual VESTS multiplied by the ratio of the "_total vesting fund steem_" with respect to the "_total vesting shares_".
 
 SP balances are non-transferrable and non-divisible except via the automatically recurring conversion requests. This means that SP cannot be easily traded on cryptocurrency exchanges.
 
