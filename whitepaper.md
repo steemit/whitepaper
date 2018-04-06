@@ -171,6 +171,8 @@ A rapid change in the value of STEEM can dramatically change the debt-to-ownersh
 
 The percentage floors used to compute STEEM creation are based on the supply including the STEEM value of all outstanding SBD and SP (as determined by the current rate / feed). 
 
+The SBD printing rate is also controlled to ensure a stable economy. The ratio _sbd supply_ / (_sbd supply_ + _steem supply_) defines this printing. When the blockchain needs to create new SBD, if the ratio is below 2% all SBD is created. If it is between 2% - 5% the printing rate is reduced proportionally to said percentage. And if the ratio is above 5% the SBD printing rate is 0%. When the percentage printing rate is below 100%, the rest that should have been generated is created in STEEM.
+
 ### Interest
 
 SBD pays holders interest. The interest rate is set by the same people who publish the price feed so that it can adapt to changing market conditions. All debt carries risk to the lender. Someone who holds SBD without redeeming it is effectively lending the community the value of a dollar. They are trusting that at some point in the future someone will be willing to buy the SBD from them for a dollar or that there will be speculators and investors willing to buy the STEEM they convert it into. 
