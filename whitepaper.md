@@ -277,11 +277,19 @@ The impact of this voting and payout distribution is to offer large bounties for
 
 The economic effect of this is similar to a lottery where people overestimate their probability of getting votes and thus do more work than the expected value of their reward and thereby maximize the total amount of work performed in service of the community.  The fact that everyone “wins something” plays on the same psychology that casinos use to keep people gambling. In other words, small rewards help reinforce the idea that it is possible to earn bigger rewards.
 
-### Payouts
+### Author Curator Split
 
-When a post receives a payout it takes the form of 50% SBD and 50% SP. The Steem Power give the user increased voting and transaction power while the SBD gives the user an immediate benefit in a stable currency. As we’ve already discussed at length, SP is designed to encourage long-term holding rather than short-term selling. This encourages more users to have a vested interest in the long-term success of the platform.
+After 7 days of creation, the value of the post is distributed between author and curators. The author receives 75% and curators 25%. The amount to curators has an additional modification: If a curator votes within the first 30 minutes of publication, part of his earnings goes to the author and it is proportional to the remaining time to complete the 30 minutes. This particular rule gives time to human curators to read the content since they are at a disadvantage with the bots that could benefit from voting on time 0. 
 
-Users also have the option to be paid in 100% SP, as well as decline payout on posts. When a user declines payout on a post, the money that would have been paid to them remains in the rewards pool, to be distributed to other users.
+### Author Payouts
+
+When author receives a payout it takes the form of 50% SBD and 50% SP. The Steem Power give the user increased voting and transaction power while the SBD gives the user an immediate benefit in a stable currency. As we’ve already discussed at length, SP is designed to encourage long-term holding rather than short-term selling. This encourages more users to have a vested interest in the long-term success of the platform.
+
+Authors also have the option to be paid in 100% SP, as well as decline payout on posts. When a user declines payout on a post, the money that would have been paid to them remains in the rewards pool, to be distributed to other users.
+
+### Payout to Beneficiaries
+
+When the author submits a post he can define that some of his earnings go to certain accounts, the beneficiaries. This figure of beneficiaries is useful to support Apps developed over Steem Blockchain, and they define this percentage of earnings each time the user uses it.
 
 # Consensus Algorithm
 
