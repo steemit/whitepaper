@@ -257,7 +257,7 @@ A major part of minimizing abuse is the rate-limiting of voting. Individual user
 
 Users are allotted a fixed amount of voting power. Voting power is multiplied by a user’s vesting tokens to determine how much share in the reward pool should be allocated to a given work item. Every vote that is cast uses a percentage of remaining voting power. Users can vote for more posts, but each vote will be worth less, and it will take longer to reach full voting power again. Voting power recharges at a fixed linear rate of 20% per day.
 
-Users can define a strength for each vote (0% - 100%). A strength of 100% represents 2% of the remaining voting power, and this is the used power to compute the shares as mentioned above. This is useful so that users with a large amount of Steem Power can better manage their voting power.
+Users can define a strength for each vote. The minimum possible strength is the voting power percentage that allocates 50 VESTS to the pool. And the maximum strength is 2% of the remaining voting power. This is useful so that users with a large amount of Steem Power can better manage their voting power.
 
 ### Payout Distribution
 
