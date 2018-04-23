@@ -169,7 +169,9 @@ If a token is viewed as ownership in the whole supply of tokens, then a token-co
 
 A rapid change in the value of STEEM can dramatically change the debt-to-ownership ratio. The blockchain prevents the debt-to-ownership ratio from getting too high, by reducing the amount of STEEM awarded through SBD conversions if the debt level were to exceed 10%. If the amount of SBD debt ever exceeds 10% of the total STEEM market cap, the blockchain will automatically reduce the amount of STEEM generated through conversions to a maximum of 10% of the market cap. This ensures that the blockchain will never have higher than a 10% debt-to-ownership ratio.
 
-The percentage floors used to compute STEEM creation are based on the supply including the STEEM value of all outstanding SBD and SP (as determined by the current rate / feed). 
+The percentage floors used to compute STEEM creation are based on the supply including the STEEM value of all outstanding SBD and SP (as determined by the current rate / feed).
+
+The SBD printing rate is also controlled to ensure a stable economy. The ratio _sbd supply_ / (_sbd supply_ + _steem supply_ * _steem price_) defines this printing. When the blockchain needs to create new SBD, if the ratio is below 2% all SBD is created. If it is between 2% - 5% the printing rate is reduced proportionally to said percentage. And if the ratio is above 5% the SBD printing rate is 0%. When the percentage printing rate is below 100%, the rest that should have been generated is created in STEEM.
 
 ### Interest
 
