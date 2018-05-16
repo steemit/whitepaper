@@ -105,7 +105,7 @@ This section outlines the concepts underlying Steem and its rewards for people w
 
 ## Capital Contributions
 
-In general, there are two items a community can offer to attract capital: debt and ownership. Those who buy ownership profit when the community grows and lose if the community shrinks. Those who buy debt are guaranteed a certain amount of interest but do not get to participate in any profits realized by the growth of the community. Both types of capital contributions are valuable to the growth of the community and the value of its currency. Additionally, there are two ways ownership can be held: liquid and vesting. Vesting ownership makes a long-term commitment and cannot be sold for a minimum period of time. Liquid ownership requires no long-term commitment and can be sold at anytime.
+In general, there are two items a community can offer to attract capital: debt and ownership. Both types of capital contributions are valuable to the growth of the community and the value of its currency. Additionally, there are two ways ownership can be held: liquid and vesting. Vesting ownership makes a long-term commitment and cannot be sold for a minimum period of time. Liquid ownership requires no long-term commitment and can be sold at anytime.
 
 The Steem network calls these different asset classes Steem (STEEM), Steem Power (SP), and Steem Dollars (SBD).   
 
@@ -125,7 +125,7 @@ Users are able to commit their STEEM to a thirteen-week vesting schedule, provid
 
 When users vote on content, their influence over the distribution of the rewards pool is directly proportional to the amount of SP that they have. Users with more SP have more influence on the distribution of rewards. This means that SP is an access token that grants its holders exclusive powers within the Steem platform.
 
-SP holders are also paid interest on the balance of SP that remains vested. SP holders are paid 15% of the yearly inflation as interest. The amount of the interest that they receive is directly proportional to the amount of SP they hold relative to the total amount of vested SP across all users.
+SP holders also earn new tokens based on the balance of SP that remains vested. SP holders are paid 15% of the yearly inflation. The amount of new tokens they receive is directly proportional to the amount of SP they hold relative to the total amount of vested SP across all users.
 
 Transferring from STEEM to SP is referred to as “powering up,” while transferring from SP to STEEM is referred to as “powering down.” SP that is powered down is returned to the user over a period of thirteen weeks, via 13 equal weekly payments, starting one week after the power down is initiated.
 
@@ -171,37 +171,25 @@ A rapid change in the value of STEEM can dramatically change the debt-to-ownersh
 
 The percentage floors used to compute STEEM creation are based on the supply, including the STEEM value of all outstanding SBD and SP (as determined by the current rate / feed). 
 
-### Interest
+### Risk, Leverage, and Dilution
 
-SBD pays holders interest. The interest rate is set by the same people who publish the price feed so that it can adapt to changing market conditions. All debt carries risk to the lender. Someone who holds SBD without redeeming it is effectively lending the community the value of a dollar. They are trusting that at some point in the future someone will be willing to buy the SBD from them for a dollar or that there will be speculators and investors willing to buy the STEEM they convert it into. 
+All debt carries risk to the lender. Someone who holds SBD without redeeming it is effectively lending the community the value of a dollar. They are trusting that at some point in the future someone will be willing to buy the SBD from them for a dollar or that there will be speculators and investors willing to buy the STEEM they convert it into. 
 
 STEEM and SP holders gain leverage when members of the community are willing to hold SBD. This leverage amplifies the gains from growth while also contributing to growth. STEEM holders do suffer from increased dilution if the price falls. Cryptocurrency projects have shown that the gains from increasing the user base willing to trust the network with capital ultimately add more value to the network than any dilution that may occur during a downturn.  
 
 ### Setting Price Feeds
 
-Astute readers will recognize that an interest bearing asset of limited supply may trade higher or lower than the underlying asset, depending upon other opportunities to earn interest on the same asset. With a high interest rate paid on an asset pegged to the US dollar many people will bid up the limited supply of Steem Dollars until they are no longer valued at $1. In economics there is a principle known as the Impossible Trinity[^fn4] which states that it is impossible to have all three of the following at the same time:
+The primary concern of Steem feed producers is to maintain a stable one-to-one conversion between SBD and the US dollar (USD). In a market where debt still demands a premium, it is safe to say the market is willing to extend more credit than the debt the community is willing to take on. If this happens a SBD will be valued at more than $1.00 and there is little the community can do. 
 
-1. A stable exchange rate
-2. Free capital movement 
-3. An independent monetary policy 
-
-If Steem feed producers aim to have an independent monetary policy, allowing it to create and destroy Steem Dollars while simultaneously having full control over the interest rate, then they will encounter problems. The Impossible Trinity principle dictates that Steem Dollars either need to restrict capital movement, have an unstable exchange rate with the dollar, or have limited control over the interest rate.
-
-The primary concern of Steem feed producers is to maintain a stable one-to-one conversion between SBD and the US dollar (USD). Any time SBD is consistently trading above $1.00 USD, interest payments must be stopped. In a market where 0% interest on debt still demands a premium, it is safe to say the market is willing to extend more credit than the debt the community is willing to take on. If this happens a SBD will be valued at more than $1.00 and there is little the community can do without charging negative interest rates. 
-
-If the debt-to-ownership ratio is low and SBD is trading for less than $1.00, then the interest rate should be increased. This will encourage more people to hold their SBD and support the price.
-
-If SBD trades for less than $1.00 USD and the debt-to-ownership ratio is high, then the feeds should be adjusted upward to give more STEEM per SBD.  This will increase demand for SBD while also reducing the debt-to-ownership ratio and returning SBD to parity with USD. 
-
-Assuming the value of STEEM is growing faster than Steem is creating new SBD, the debt-to-ownership ratio should remain under the target ratio and the interest offered will benefit everyone. If the value of the network is flat or falling, then any interest offered will only make the debt-to-ownership ratio worse. 
+If SBD trades for less than $1.00 USD and the debt-to-ownership ratio is high, then the feeds should be adjusted upward to give more STEEM per SBD.  This will increase demand for SBD while also reducing the debt-to-ownership ratio and returning SBD to parity with USD.  
    
-In effect, feed producers are entrusted with the responsibility of setting monetary policy for the purpose of maintaining a stable peg to the USD. Abuse of this power can harm the value of STEEM so SP holders are wise to vote for witnesses who can be counted on to adjust the price feed and interest rates according to the rules outlined above.
+In effect, feed producers are entrusted with the responsibility of setting monetary policy for the purpose of maintaining a stable peg to the USD. Abuse of this power can harm the value of STEEM so SP holders are wise to vote for witnesses who can be counted on to adjust the price feed according to the rules outlined above.
 
 If the debt-to-ownership ratio gets dangerously high and market participants choose to avoid conversion requests, then the feed should be adjusted to increase the rate at which STEEM is paid for converting SBD. 
 
-Changes to the interest rate policy and/or any premiums/discounts on the STEEM/SBD conversion rate should be a slow and measured response to long-term average deviations rather than an attempt to respond to short-term market conditions.
+Changes to any premiums/discounts on the STEEM/SBD conversion rate should be a slow and measured response to long-term average deviations rather than an attempt to respond to short-term market conditions.
 
-It is our belief that these rules will give market participants confidence that they are unlikely lose money by holding SBD purchased at a price of $1.00. We fully expect there to be a narrow trading range between $0.95 and $1.05 for SBD under normal market conditions.
+It is our belief that these rules will give market participants confidence that they are unlikely lose money by holding SBD purchased at a price of $1.00.
 
 ## Subjective Contributions
 
@@ -227,7 +215,7 @@ The next step is to reward everyone who does anything even remotely positive wit
 
 Assume there is a fixed amount of money to distribute, and that those who have a long-term vested interest in the future value and utility of the currency are the ones who must decide how to allocate it. Every vesting user casts votes on who did the best work; at the end of the day the available money for that day is divided proportional to the votes, such that everyone with even one net positive vote gets something.
 
-The naive voting process creates a N-Person Prisoner’s Dilemma[^fn5] whereby each individual voter has the incentive to vote for themselves at the expense of the larger community goal. If every voter defects by voting for themselves, then no currency will end up distributed and the currency as a whole will fail to gain network effect.  On the other hand, if only one voter defects then that voter would win undeserved profits while having minimal effect on the overall value of the currency.
+The naive voting process creates a N-Person Prisoner’s Dilemma[^fn4] whereby each individual voter has the incentive to vote for themselves at the expense of the larger community goal. If every voter defects by voting for themselves, then no currency will end up distributed and the currency as a whole will fail to gain network effect.  On the other hand, if only one voter defects then that voter would win undeserved profits while having minimal effect on the overall value of the currency.
 
 #### Voting Abuse
 
@@ -237,7 +225,7 @@ Fortunately, any work that is getting a large concentration of votes is also gai
 
 The use of _negative voting_ to keep people from abusing the system leverages the _crab mentality_ that many people have when it is perceived that one individual is profiting at the expense of everyone else. While crab mentality normally refers to short-sighted people keeping good people down, it is also what allows good people to keep bad people down. The only “problem” with crab mentality is when people wrongly believe someone is profiting at everyone else's expense.  
 
-**The Story of the Crab Bucket**[^fn6]
+**The Story of the Crab Bucket**[^fn5]
 
 A man was walking along the beach and saw another man fishing in the surf with a bait bucket beside him. As he drew closer, he saw that the bait bucket had no lid and had live crabs inside.
 
@@ -263,7 +251,7 @@ One of the primary goals of Steem’s reward system is to produce the best discu
 
 The actual distribution will depend upon the voting patterns of users, but we suspect that the vast majority of the rewards will be distributed to the most popular content.
 
-Zipf’s Law[^fn7] is one of those empirical rules that characterize a surprising range of real-world phenomena remarkably well. It says that if we order some large collection by size or popularity, the second element in the collection will be about half the measure of the first one, the third one will be about one-third the measure of the first one, and so on. In general, the k\textsuperscript{th} ranked item will measure about 1/k of the first one.
+Zipf’s Law[^fn6] is one of those empirical rules that characterize a surprising range of real-world phenomena remarkably well. It says that if we order some large collection by size or popularity, the second element in the collection will be about half the measure of the first one, the third one will be about one-third the measure of the first one, and so on. In general, the k\textsuperscript{th} ranked item will measure about 1/k of the first one.
 
 \begin{wrapfigure}{R}{0.48\textwidth}
   \begin{center}
@@ -321,7 +309,7 @@ The fundamental problem with charging transaction fees is that micropayments don
 
 Imagine if the websites we use every day charged us a fee every time we modified our accounts by changing the password. Users expect certain things to be free. Requiring users to make a decision on whether or not an action is worth a small fee creates anxiety that causes users to leave. A transaction can’t be worth so much as to require a decision but worth so little that that decision is automatic. There is a certain amount of anxiety involved in any decision to buy, no matter how small, and it derives not from the interface used or the time required, but from the very act of deciding.
 
-Micropayments, like all payments, require a comparison: _“Is this much of X worth that much of Y?”_ There is a minimum mental transaction cost created by this fact that cannot be optimized away, because the only transaction a user will be willing to approve with no thought will be one that costs them nothing, which is no transaction at all. – Clay Shirky[^fn8]
+Micropayments, like all payments, require a comparison: _“Is this much of X worth that much of Y?”_ There is a minimum mental transaction cost created by this fact that cannot be optimized away, because the only transaction a user will be willing to approve with no thought will be one that costs them nothing, which is no transaction at all. – Clay Shirky[^fn7]
 
 In the world of financial payments, small fees are acceptable because the value of the transaction is extremely high relative to the fee charged, and the buyer has already made a decision to buy. The world of potential blockchain applications is far greater than just financial payments and includes many necessary transactions for which fees are simply unacceptable to users.
 
@@ -337,7 +325,7 @@ Over time a network must adjust fees. This can happen due to either an increase 
 
 ### Sybil Attacks
 
-Centralized websites prevent spam through rate limiting and some form of ID verification. Even something as simple as reCAPTCHA[^fn9] is sufficient to limit the creation of fake accounts. If someone abuses their account then centralized websites are free to block the account.
+Centralized websites prevent spam through rate limiting and some form of ID verification. Even something as simple as reCAPTCHA[^fn8] is sufficient to limit the creation of fake accounts. If someone abuses their account then centralized websites are free to block the account.
 
 In a decentralized system there is no direct way to ban users, nor is there a centralized provider that can host a reCAPTCHA and enforce rate limiting of accounts. In fact, the inability to censor users is one of the main selling points of blockchain technology.
 
@@ -377,9 +365,9 @@ Any initial account balance would have to come from the user creating the accoun
 
 ### Justifying Minimum Balances
 
-The concept of forcing users to maintain a minimum balance flows naturally from the value of a user.[^fn10] Anyone running a business knows that every single user has significant value. Businesses spend anywhere from $30 to $200 to acquire a user. Sometimes they pay users directly, other times they pay for advertising, and still other times entire companies are bought just for their user base. After a company acquires a user they often given them many _free services_ just to keep them around long enough to monetize them through some other means.
+The concept of forcing users to maintain a minimum balance flows naturally from the value of a user.[^fn9] Anyone running a business knows that every single user has significant value. Businesses spend anywhere from $30 to $200 to acquire a user. Sometimes they pay users directly, other times they pay for advertising, and still other times entire companies are bought just for their user base. After a company acquires a user they often given them many _free services_ just to keep them around long enough to monetize them through some other means.
 
-Ripple uses a minimum balance[^fn11] that scales with account resource use and requires that new accounts get funded with at least this minimum balance. Currently this minimum balance is about $0.15, greater than the $0.10 we estimated would allow someone to freely make transactions at least once per week.
+Ripple uses a minimum balance[^fn10] that scales with account resource use and requires that new accounts get funded with at least this minimum balance. Currently this minimum balance is about $0.15, greater than the $0.10 we estimated would allow someone to freely make transactions at least once per week.
 
 A blockchain can enforce a minimum value per user through the simple process of requiring a minimum balance. Any business that wishes to bring a new customer to the blockchain can pre-fund that user’s account with the minimum balance that would allow them to make transactions. Requiring a relatively large fee ($1.00) to sign up new users will naturally force anyone offering free accounts to vet the quality and uniqueness of each account before registering them with the blockchain.
 
@@ -423,9 +411,9 @@ The Steem network is built upon Graphene, the same technology that powers BitSha
 
 ## Reddit Scale 
 
-Steem is capable of handling a larger user base than Reddit.  In 2015 Reddit’s 8.7 million users generated an average of 23 comments per second,[^fn12] with an average of 83 comments per year per user. There were 73 million top-level posts, for an average of 2 new posts per second. There were about 7 billion up votes, creating an average voting rate of 220 votes per second. All told, if Reddit were operating on a blockchain it would require an average of 250 transactions per second. 
+Steem is capable of handling a larger user base than Reddit.  In 2015 Reddit’s 8.7 million users generated an average of 23 comments per second,[^fn11] with an average of 83 comments per year per user. There were 73 million top-level posts, for an average of 2 new posts per second. There were about 7 billion up votes, creating an average voting rate of 220 votes per second. All told, if Reddit were operating on a blockchain it would require an average of 250 transactions per second. 
 
-To achieve this industry-leading performance, Steem has borrowed lessons learned from the LMAX Exchange,[^fn13] which is able to process 6 million transactions per second. Among these lessons are the following key points:
+To achieve this industry-leading performance, Steem has borrowed lessons learned from the LMAX Exchange,[^fn12] which is able to process 6 million transactions per second. Among these lessons are the following key points:
 
 1. Keep everything in memory.
 2. Keep the core business logic in a single thread.
@@ -435,7 +423,7 @@ To achieve this industry-leading performance, Steem has borrowed lessons learned
 
 By following these simple rules, Steem is able to process 10,000 transactions per second without any significant effort devoted to optimization.
 
-Keeping everything in memory is increasingly viable given the recent introduction of Optane™ technology from Intel.[^fn14] It should be possible for commodity hardware to handle all of the business logic associated with Steem in a single thread, with all posts kept in memory for rapid indexing.  Even Google keeps their index of the entire internet in RAM.  The use of blockchain technology makes it trivial to replicate the database to many machines to prevent loss of data. As Optane™ technology takes over, RAM will become even faster while gaining persistence. In other words, Steem is designed for the architectures of the future and is designed to scale. 
+Keeping everything in memory is increasingly viable given the recent introduction of Optane™ technology from Intel.[^fn13] It should be possible for commodity hardware to handle all of the business logic associated with Steem in a single thread, with all posts kept in memory for rapid indexing.  Even Google keeps their index of the entire internet in RAM.  The use of blockchain technology makes it trivial to replicate the database to many machines to prevent loss of data. As Optane™ technology takes over, RAM will become even faster while gaining persistence. In other words, Steem is designed for the architectures of the future and is designed to scale. 
 
 # Allocation & Supply
 
@@ -464,17 +452,15 @@ Contribution Rewards:
 
 ### SBD operations:
 
-- SBD rewards:  A percentage of SBD value is created at an APR set by the witnesses and paid to SBD holders as SBD
-
 The overall supply picture is complicated by the effect of SBD operations, which may result in large-scale creation or destruction of STEEM through feed rate following and SBD rewards, as discussed in the SBD section.  Other, smaller-scale complicating effects also exist, including unclaimed incentives (e.g. block rewards for missed blocks), and abandoned accounts.
 
 ### Impact of Token Creation Rate
 
 It is often said that a coin with an inflationary model is not sustainable, but we know from countless real-world examples that the quantity of money does not have a direct and immediate impact on its value, although it certainly plays a role.
 
-From August 2008 through January 2009 the US money supply[^fn15] grew from $871B to $1,737B, a rate of over 100% per year, and then continued to grow at about 20% per year for the next six years. All told, the money supply in the US has grown by 4.59x over less than seven years. During that same time, the value of the dollar relative to goods and services has fallen less than 10%, according to the government's price index.[^fn16] This real-world example demonstrates that supply is only one component of price.
+From August 2008 through January 2009 the US money supply[^fn14] grew from $871B to $1,737B, a rate of over 100% per year, and then continued to grow at about 20% per year for the next six years. All told, the money supply in the US has grown by 4.59x over less than seven years. During that same time, the value of the dollar relative to goods and services has fallen less than 10%, according to the government's price index.[^fn15] This real-world example demonstrates that supply is only one component of price.
 
-For the first two years of Bitcoin’s life the network sustained an annual inflation rate[^fn17] of over 100%. For the first five years it was over 30%, and for the first eight years it was over 10%. All told, the total “spending” Steem requires to fund content, curation, and block production amounts to less than 10% APR.
+For the first two years of Bitcoin’s life the network sustained an annual inflation rate[^fn16] of over 100%. For the first five years it was over 30%, and for the first eight years it was over 10%. All told, the total “spending” Steem requires to fund content, curation, and block production amounts to less than 10% inflation.
 
 The price of a digital commodity like STEEM is driven by both supply and demand. When a long-term holder decides to exit, the supply of STEEM on the market will increase and push the price down. This downward pressure is countered when a new long-term holder decides to buy up the STEEM and convert it back into SP. Additional supply and demand may be added due to the purchases and sales of liquid STEEM by market speculators, based on their predictions of the future market price.
 
@@ -484,7 +470,7 @@ Steem recognizes that the value of all user contributions (posts and votes) is g
 
 Because everyone benefits, everyone should pay. In other words, no individual user should be expected to pay for anything, but instead should be paid for everything they do that brings value to Steem. All we need to do is ascertain which user contributions bring a social network value and which ones don’t.
 
-Collectively, Reddit users vote 220 times per second and make 23 posts per second. Reddit is valued between $500 million[^fn18] and $4 billion[^fn19] which means that each and every upvote and post is worth between $0.06 and $0.50, assuming the value of Reddit is consistent with the activity level of the past year. One could argue that most of the value of Reddit is the near-real-time discussions that have occurred within the past week, which dramatically increases the value of new activity. People go where people are today, not where people were last year. 
+Collectively, Reddit users vote 220 times per second and make 23 posts per second. Reddit is valued between $500 million[^fn17] and $4 billion[^fn18] which means that each and every upvote and post is worth between $0.06 and $0.50, assuming the value of Reddit is consistent with the activity level of the past year. One could argue that most of the value of Reddit is the near-real-time discussions that have occurred within the past week, which dramatically increases the value of new activity. People go where people are today, not where people were last year. 
 
 ## No Micropayments, Tips Optional
 
@@ -498,7 +484,7 @@ The mental energy associated with making an economic decision becomes a barrier 
 
 _We already face a multitude of choices every day with regards to what to access online in this digital era of information explosion, and every additional decision that we must make simply adds to the uncertainty and anxiety we face. Micropayment supporters believe that a simplified implementation can minimize the intrusiveness of micropayments and improve user experience, but their argument only creates double standards for the decision making process [2]. A transaction cannot simultaneously be worth enough to warrant a decision and worth so little that the decision is automatic. **The only transactions that users can approve without thought are ones that cost them nothing**, thus any micro-transaction of positive value will incur mental costs through its requiring a decision. Furthermore, mental transaction costs actually rise below a certain threshold value, a phenomenon that places micropayments at an even greater disadvantage. For instance, it is easy to think that a copy of today's newspapers costs $1, but readers face much more difficulty and anxiety in deciding on the value of each article or word. Such a dilemma will only be replicated and exacerbated if all online content were to be broken down into their components and individually valued within a micropayment system._
 
--The Case Against Micropayments[^fn20]
+-The Case Against Micropayments[^fn19]
 
 Under Steem, micropayments are paid to content producers, but those who vote for the content do not pay.  Instead, the cost of the reward  is financed via new tokens. Someone can join the system, vote to pay someone, and then exit the system with more money than they started with (assuming the market valuation of the Steem system remains constant). In other words, the micropayment solution provided by Steem provides a user experience similar to many widely used websites that have user-moderated content.
 
@@ -516,7 +502,7 @@ By incentivizing curation, the Steem network is able to use automated algorithms
 
 ## Solving the Cryptocurrency Onboarding Problem
 
-It isn’t easy to get into cryptocurrency.[^fn21] Someone who discovers Bitcoin and wants to try it out quickly learns that they will need to sign up with an exchange and fund their account with a credit card or wire transfer. What would Facebook’s adoption rate have been like if you had to fork over money and two forms of ID?   
+It isn’t easy to get into cryptocurrency.[^fn20] Someone who discovers Bitcoin and wants to try it out quickly learns that they will need to sign up with an exchange and fund their account with a credit card or wire transfer. What would Facebook’s adoption rate have been like if you had to fork over money and two forms of ID?   
 
 Steem solves this problem by giving everyone a way to get paid for doing simple, but valuable, tasks.   This will help to widely distribute STEEM tokens.  This is helpful because cryptocurrencies have a network effect (i.e., more users make it more useful; for an extreme example, consider that if Satoshi had kept 100% of Bitcoin for himself, Bitcoin would be worthless.)
 
@@ -567,58 +553,55 @@ http://www.investopedia.com/terms/s/sweatequity.asp
 [^fn3]: Meta-moderation is a second level of comment moderation. Users are invited to rate a moderator's decision in order to improve moderation.
 \hfill\break
 Wikipedia, “Meta-moderation.” https://en.wikipedia.org/wiki/Meta-moderation_system
-[^fn4]: Wikipedia, "The Impossible Trinity."
-\hfill\break
-https://en.wikipedia.org/wiki/Impossible_trinity
-[^fn5]: N-Person Prisoner’s Dilemma.
+[^fn4]: N-Person Prisoner’s Dilemma.
 \hfill\break
 https://cs.stanford.edu/people/eroberts/courses/soco/projects/1998-99/game-theory/npd.html
-[^fn6]: Guidezone, “The Story of the Crab Bucket."
+[^fn5]: Guidezone, “The Story of the Crab Bucket."
 \hfill\break
 http://guidezone.e-guiding.com/jmstory_crabs.htm
-[^fn7]: Wikipedia, "Zipf’s Law."
+[^fn6]: Wikipedia, "Zipf’s Law."
 \hfill\break
 https://en.wikipedia.org/wiki/Zipf%27s_law
-[^fn8]: Clay Shirky, "The Case Against Micropayments."
+[^fn7]: Clay Shirky, "The Case Against Micropayments."
 \hfill\break
 http://www.openp2p.com/pub/a/p2p/2000/12/19/micropayments.html
-[^fn9]: reCAPTCHA, Easy on Humans, Hard on Bots.
+[^fn8]: reCAPTCHA, Easy on Humans, Hard on Bots.
 \hfill\break
 https://www.google.com/recaptcha/intro/index.html
-[^fn10]: Forbes, Tristan Louis, “How Much is  a User Worth?”
+[^fn9]: Forbes, Tristan Louis, “How Much is  a User Worth?”
 \hfill\break
 https://www.forbes.com/sites/tristanlouis/2013/08/31/how-much-is-a-user-worth
-[^fn11]: Ripple, "Reserves."
+[^fn10]: Ripple, "Reserves."
 \hfill\break
 https://ripple.com/build/reserves/
-[^fn12]: DMR, “67 Amazing Reddit Statistics and Facts,” Number of Users and Comments per Second.
+[^fn11]: DMR, “67 Amazing Reddit Statistics and Facts,” Number of Users and Comments per Second.
 \hfill\break
 http://expandedramblings.com/index.php/reddit-stats/2/
-[^fn13]: Martin Fowler, "The LMAX Architecture."
+[^fn12]: Martin Fowler, "The LMAX Architecture."
 \hfill\break 
 http://martinfowler.com/articles/lmax.html 
-[^fn14]: Intel Newsroom, “Introducing Intel Optane Technology - Bringing 3D XPoint Memory to Storage and Memory Products."
+[^fn13]: Intel Newsroom, “Introducing Intel Optane Technology - Bringing 3D XPoint Memory to Storage and Memory Products."
 \hfill\break
 https://newsroom.intel.com/press-kits/introducing-intel-optane-technology-bringing-3d-xpoint-memory-to-storage-and-memory-products/
-[^fn15]: Federal Reserve Bank of St. Louis, "St. Louis Adjusted Monetary Base AMBNS," October 5, 2017.
+[^fn14]: Federal Reserve Bank of St. Louis, "St. Louis Adjusted Monetary Base AMBNS," October 5, 2017.
 \hfill\break
 https://research.stlouisfed.org/fred2/graph/?s%5B1%5D%5Bid%5D=AMBNS
-[^fn16]: CPI Inflation Index, United States Dollar 2008-2016.
+[^fn15]: CPI Inflation Index, United States Dollar 2008-2016.
 \hfill\break
 http://data.bls.gov/cgi-bin/cpicalc.pl?cost1=1&year1=200801&year2=201601
-[^fn17]: Bitcoin Annual Inflation Rate, Bitcoin Talk Forum.
+[^fn16]: Bitcoin Annual Inflation Rate, Bitcoin Talk Forum.
 \hfill\break
 https://bitcointalk.org/index.php?topic=130619.0
-[^fn18]: Newsweek, Reddit Valuation, 2014.
+[^fn17]: Newsweek, Reddit Valuation, 2014.
 \hfill\break
 http://www.newsweek.com/investors-think-reddit-worth-500-million-269108
-[^fn19]: Worth of Web, “How Much is reddit.com Worth?”, March 2016.
+[^fn18]: Worth of Web, “How Much is reddit.com Worth?”, March 2016.
 \hfill\break
 http://www.worthofweb.com/website-value/reddit.com/
-[^fn20]: "The Case Against Micropayments."
+[^fn19]: "The Case Against Micropayments."
 \hfill\break
 http://www.openp2p.com/pub/a/p2p/2000/12/19/micropayments.html
-[^fn21]: Dailydot, Jon Southurst, “It’s Still Too Hard to Get Your First Bitcoin,” April 2015.
+[^fn20]: Dailydot, Jon Southurst, “It’s Still Too Hard to Get Your First Bitcoin,” April 2015.
 \hfill\break
 http://www.dailydot.com/opinion/bitcoin-cryptocurrency-adoption-hard
 
