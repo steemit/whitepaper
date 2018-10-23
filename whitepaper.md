@@ -74,7 +74,7 @@ The Steem community provides the following services to its members:
 4. Free payments.
 5. Jobs providing the above services to other members. 
 
-Steem’s purposeful realignment of economic incentives  has the potential to produce results for everyone involved that are more fair and inclusive than the social media and cryptocurrency platforms that have preceded it. This paper will explore the existing economic incentives and demonstrate how Steem’s incentives may result in better outcomes for most participants. 
+Steem’s purposeful realignment of economic incentives has the potential to produce results for everyone involved that are more fair and inclusive than the social media and cryptocurrency platforms that have preceded it. This paper will explore the existing economic incentives and demonstrate how Steem’s incentives may result in better outcomes for most participants. 
 
 ## Recognizing Contribution
 
@@ -93,7 +93,7 @@ The challenge is to create a system capable of identifying the contributions tha
 
 A proven system for evaluating and rewarding contributions is the free market. The free market can be viewed as a single community where everyone trades with one another and rewards are allocated by profit and loss.  The market system rewards those who provide value to others and punishes those who consume more value than they produce. The free market supports many different currencies and money is simply a commodity that everyone finds easy to exchange.  
 
-Since the free market is a proven system, it is tempting to try to create a free-market system where content consumers pay content producers directly. However, direct payment is inefficient and not really viable for content creation and curation. The value  of most content is so low relative to the cognitive, financial, and opportunity costs associated with making a payment that few readers choose to tip. The abundance of free alternatives means that enforcing a "paywall" will drive readers elsewhere.  There have been several attempts to implement per-article micropayments from readers to authors, but none have become widespread.
+Since the free market is a proven system, it is tempting to try to create a free-market system where content consumers pay content producers directly. However, direct payment is inefficient and not really viable for content creation and curation. The value of most content is so low relative to the cognitive, financial, and opportunity costs associated with making a payment that few readers choose to tip. The abundance of free alternatives means that enforcing a "paywall" will drive readers elsewhere. There have been several attempts to implement per-article micropayments from readers to authors, but none have become widespread.
 
 Steem is designed to enable effective micropayments for all kinds of contributions by changing the economic equation. Readers no longer have to decide whether or not they want to pay someone from their own pocket; instead they can vote content up or down and Steem will use their votes to determine individual rewards. This means that people are given a familiar and widely used interface and no longer face the cognitive, financial, and opportunity costs associated with traditional micropayment and tipping platforms.
 
@@ -181,21 +181,21 @@ STEEM and SP holders gain leverage when members of the community are willing to 
 
 The primary concern of Steem feed producers is to maintain a stable one-to-one conversion between SBD and the US dollar (USD). In a market where debt still demands a premium, it is safe to say the market is willing to extend more credit than the debt the community is willing to take on. If this happens a SBD will be valued at more than $1.00 and there is little the community can do. 
 
-If SBD trades for less than $1.00 USD and the debt-to-ownership ratio is high, then the feeds should be adjusted upward to give more STEEM per SBD.  This will increase demand for SBD while also reducing the debt-to-ownership ratio and returning SBD to parity with USD.  
-   
+If SBD trades for less than $1.00 USD and the debt-to-ownership ratio is high, then the feeds should be adjusted upward to give more STEEM per SBD.  This will increase demand for SBD while also reducing the debt-to-ownership ratio and returning SBD to parity with USD.
+
 In effect, feed producers are entrusted with the responsibility of setting monetary policy for the purpose of maintaining a stable peg to the USD. Abuse of this power can harm the value of STEEM so SP holders are wise to vote for witnesses who can be counted on to adjust the price feed according to the rules outlined above.
 
 If the debt-to-ownership ratio gets dangerously high and market participants choose to avoid conversion requests, then the feed should be adjusted to increase the rate at which STEEM is paid for converting SBD. 
 
 Changes to any premiums/discounts on the STEEM/SBD conversion rate should be a slow and measured response to long-term average deviations rather than an attempt to respond to short-term market conditions.
 
-It is our belief that these rules will give market participants confidence that they are unlikely lose money by holding SBD purchased at a price of $1.00.
+It is our belief that these rules will give market participants confidence that they are unlikely to lose money by holding SBD purchased at a price of $1.00.
 
 ## Subjective Contributions
 
 Subjective Proof of Work presents an alternative approach to distributing a currency that improves upon fully _objective_ Proof of Work systems, such as mining. The applications of a currency implementing _subjective_ proof of work are far wider than any _objective_ proof of work system, because they can be applied to build a community around any concept that has a sufficiently defined purpose. When individuals join a community they buy into a particular set of beliefs and can vote to reinforce the community values or purpose.
 
-In effect, the criteria by which work are evaluated is completely subjective and their definition lives outside the source code itself. One community may wish to reward artists, another poets, and another comedians.  Other communities may choose to reward charitable causes or help advance political agendas.  
+In effect, the criteria by which work are evaluated is completely subjective and their definition lives outside the source code itself. One community may wish to reward artists, another poets, and another comedians. Other communities may choose to reward charitable causes or help advance political agendas.  
 
 The value each currency achieves depends upon the demand for influence within a particular community and how large the market believes each community can get. Unlike prior systems, subjective proof of work enables a community to collectively fund the development of whatever it finds valuable and enables the monetization of previously nonmonetizable time.
 
@@ -243,7 +243,7 @@ The goal of building a community currency is to get more “crabs in the bucket.
 
 A major part of minimizing abuse is the rate-limiting of voting. Individual users can only read and evaluate so many work items per day. Any attempt to vote more frequently than this is a sign of automation and potential abuse. Through rate limiting, the votes of stakeholders who vote more frequently count for less than the votes of stakeholders who vote less frequently. Attempts to divide tokens among multiple accounts also divides influence and therefore does not result in a net increase in influence, nor does it bypass the rate limit imposed on voting.
 
-Users are allotted a fixed amount of voting power. Voting power is multiplied by a user’s vesting tokens to determine how much share in the reward pool should be allocated to a given work item. Every vote that is cast uses a percentage of their remaining voting power. Users can vote for more posts, but each vote will be worth less, and it will take longer to reach full voting power again. Voting power recharges at a fixed linear rate of 20% per day. 
+Users are allotted a fixed amount of voting mana. Voting mana is based on a user’s vesting tokens to determine how much share in the reward pool should be allocated to a given work item. Every vote that is cast uses a percentage of their remaining voting mana. Users can vote for more posts, but each vote will be worth less, and it will take longer to reach full voting mana again. Voting mana recharges at a fixed linear rate of 20% per day. 
 
 ### Payout Distribution
 
@@ -285,7 +285,7 @@ Conceptually, the consensus algorithm adopted by Steem is similar to the consens
 
 In the world of cryptocurrencies, the public record is commonly referred to as a _blockchain_. A _block_ is a group of signed transactions.  
 
-With Steem, block production is done in rounds. For each round, 21 witnesses are selected to create and sign blocks of transactions. Twenty (20) of these witnesses are selected by approval voting and one is timeshared by every witness that didn’t make it into the top 20 proportional to their total votes. The 21 active witnesses are shuffled every round to prevent any one witness from constantly ignoring blocks produced by the same witness placed before. Any witness who misses a block and hasn't produced in the last 24 hours will be disabled until they update their block signing key.
+With Steem, block production is done in rounds. For each round, 21 witnesses are selected to create and sign blocks of transactions. Twenty (20) of these witnesses are selected by approval voting and one is timeshared by every witness that didn’t make it into the top 20 proportional to their total votes. The 21 active witnesses are shuffled every round to prevent any one witness from constantly ignoring blocks produced by the same witness placed before.
 
 This process is designed to provide the best reliability while ensuring that everyone has the potential to participate in block production regardless of whether they are popular enough to get voted to the top. People have three options to overcome censorship by the top 20 elected witnesses: patiently wait in line with everyone else not in the top 20, or purchase more SP to improve voting power. Generally speaking, applying censorship is a good way for elected witnesses to lose their job and therefore, it is unlikely to be a real problem on the Steem network.  
 
@@ -313,11 +313,11 @@ Micropayments, like all payments, require a comparison: _“Is this much of X wo
 
 In the world of financial payments, small fees are acceptable because the value of the transaction is extremely high relative to the fee charged, and the buyer has already made a decision to buy. The world of potential blockchain applications is far greater than just financial payments and includes many necessary transactions for which fees are simply unacceptable to users.
 
-Systems like BitShares, Nxt, Ripple, Counter Party, and Stellar all allow users to place limit orders on the blockchain; all of them charge users a small fee to perform this action. Later if the user wishes to cancel their order, another fee is charged.   Systems like Ethereum take micropayments to a whole new level: charging per calculation.  All of these systems struggle to attract new mainstream users for the same reasons that a decentralized search engine would struggle to attract users from Google if it charged a small fee for every search. It doesn’t matter how good the service is, people expect certain things to be free. This is true even if a user ends up paying more overall under a different fee structure.
+Systems like BitShares, Nxt, Ripple, Counter Party, and Stellar all allow users to place limit orders on the blockchain; all of them charge users a small fee to perform this action. Later if the user wishes to cancel their order, another fee is charged. Systems like Ethereum take micropayments to a whole new level: charging per calculation. All of these systems struggle to attract new mainstream users for the same reasons that a decentralized search engine would struggle to attract users from Google if it charged a small fee for every search. It doesn’t matter how good the service is, people expect certain things to be free. This is true even if a user ends up paying more overall under a different fee structure.
 
 ### Fees are a Barrier to Entry
 
-Any fee creates a barrier to entry for new users. Before someone can experiment with Ethereum they must acquire some ETH tokens. Anyone wanting to build a decentralized application on Ethereum must pass on the cost to their customers.  Buying a cryptocurrency is not an easy task and rarely makes sense for amounts less than $10. This means that new users wanting to try out a new decentralized application must first be convinced to part with $10.
+Any fee creates a barrier to entry for new users. Before someone can experiment with Ethereum they must acquire some ETH tokens. Anyone wanting to build a decentralized application on Ethereum must pass on the cost to their customers. Buying a cryptocurrency is not an easy task and rarely makes sense for amounts less than $10. This means that new users wanting to try out a new decentralized application must first be convinced to part with $10.
 
 ### Changing Fees
 
@@ -337,17 +337,19 @@ The ISP has two choices, run a “full reserve” or a “fractional reserve” 
 
 Under a fractional reserve system the individual users could utilize more bandwidth than they are entitled to at any given point in time, so long as not everyone uses the internet at the same time. The problem with operating a fractional reserve is that congestion occurs any time too many people wish to use the network at the same time. The ISP needs a way to prioritize bandwidth during congested periods. In the most extreme case, a fully congested network must revert to a full reserve system. The challenge is setting the proper fractional reserve ratio.
 
-## Bandwidth Instead of Micropayment Channels
+## Resource Credits Instead of Micropayment Channels
 
-The solution to the problems with micropayments is in implementing _dynamic fractional reserves_.  Under this model the blockchain will automatically adjust the reserve ratio for the network during times of congestion. The blockchain will set a target utilization that leaves enough headroom for short-term surges in demand. Any time the surges are sustained, the blockchain reduces the maximum bandwidth-per-share. When a surge is over and there is surplus capacity the blockchain can slowly increase the bandwidth-per-share.
+The solution to the problems with micropayments is in implementing _dynamic fractional reserves_. Under this model, the blockchain will set target resource utilizations for sustainable usability of the blockchain over the long-term, and restrict usage based on how much of the available resources have been consumed.
 
-Bandwidth used by an individual user should be measured over a suitably long period of time to allow that user to time-shift their usage. Users tend to login, do many things at once, then logout. This means that their bandwidth over a short period of time may appear much higher than if viewed over a longer period of time. If the time window is stretched too far, then the reserve ratio will not adjust fast enough to respond to short-term surges; conversely, if the window is too short then clustering usage will have too big of an impact on normal users.
+It does this through the creation of “resource budget pools” which are established usage limits on each resource that is to be constrained over time (such as blockchain size, state size, computational load, etc.). Each pool can be viewed as the blockchain’s limited “stockpile” of the corresponding resource. 
 
-In our estimate it should be sufficient to measure the average weekly bandwidth usage of users. Every time a user signs a transaction, that transaction is factored into their own individual moving average. Any time a user’s moving average exceeds the current network limit, their transaction is delayed until their average falls below the limit.
+The cost of each transaction is calculated based on how many of the constrained resources it consumes. It is then assigned a price, measured in a unit called "Resource Credits" (RCs), using an internal market-based system that is based on the supply and demand of the remaining resources in each of the pools.
+
+Users are given a fixed amount of free, non-transferable RCs to "spend" on transactions. The amount of RCs an account has is directly proportional to the amount of Steem Power it has. Each time a user transacts on the blockchain, the price of the transaction (measured in RCs) will be deducted from their RC balance. If the account does not have sufficient RCs to cover the cost of the transaction, the transaction will be rejected. Spent RCs recharge linearly from 0% to 100% over a period of five days. 
 
 ### Impact of Capacity
 
-Blockchain capacity isn’t necessarily capped. It is well within the technological capability of internet infrastructure to increase the Bitcoin block size to 10MB, which in turn will reduce the minimum required balance by a factor of 10.  While Bitcoin currently supports about 3 transactions per second, alternative implementations are capable of over 1000 transactions per second.
+Blockchain capacity isn’t necessarily capped. It is well within the technological capability of internet infrastructure to increase the Bitcoin block size to 10MB, which in turn will reduce the minimum required balance by a factor of 10.  While Bitcoin currently supports about 3 transactions per second, alternative implementations are capable of over 1,000 transactions per second.
 
 ### Comparison to Fees
 
@@ -355,11 +357,9 @@ If we assume a user with $25 dollars' worth of BTC makes a transaction once per 
 
 ### Account Creation
 
-Steem’s account-based system with publicly known balances simplifies the implementation of the bandwidth-based rate limiting algorithm. Any account with a balance below the minimum required to make one transaction per week would be unable to make transactions. This implies that all new accounts should be funded with at least this minimum balance. It also implies that users wishing to make transactions in smaller amounts can, so long as they hold a larger balance and reuse the account.  
+Steem’s account-based system with publicly known balances simplifies the implementation of the Resource Credit based rate limiting algorithm. Any account with a balance below the minimum required to make one transaction per week would be unable to make transactions. This implies that all new accounts should be funded with at least this minimum balance. It also implies that users wishing to make transactions in smaller amounts can, so long as they hold a larger balance and reuse the account.
 
-It is possible for a low-balance account created during a time of low usage to become inaccessible if the network usage picks up. The funds could be recovered at any time by temporarily delegating a larger balance to the account.  
-
-In order to maintain a reasonable user experience with a minimum number of hung accounts, all new accounts should start out with a balance 10 times the minimum required to make weekly transactions. This way even if demand increases by a factor of 10 the account will remain viable.
+It is possible for a low-balance account to become inaccessible if the network usage picks up. The funds could be recovered at any time by temporarily delegating a larger balance to the account.
 
 Any initial account balance would have to come from the user creating the account and not from token creation, due to the potential for Sybil attacks.
 
@@ -375,7 +375,7 @@ Maintaining a minimum balance is effectively the same as making users pay transa
 
 Fortunately, the minimum balance required can be as low as a dollar and this is something users can understand and appreciate. The opportunity cost of lost interest doesn’t incur the cognitive cost of a micro-fee and is far more acceptable to users.  
 
-The STEEM used to pre-fund an account is powered up in the new account (i.e., converted to Steem Power). A portion of the SP used to fund a new account may be delegated from the creator of the account. When a user is delegated SP, they may use the SP for voting and bandwidth purposes as if it were their own, but the ownership of the SP remains with the user who delegated it. A user may remove the delegation at any time. After a cool-down period, the SP is returned to their account.
+The STEEM used to pre-fund an account is burned (i.e. destroyed) to discourage various forms of signup abuse, although the account is given an equivalent amount of Resource Credits as if the STEEM had been powered up into the new account.
 
 ### Effectiveness Relative to Fees
 
@@ -407,7 +407,7 @@ Decentralized rate limiting of transactions can enable new types of decentralize
 
 # Performance and Scalability
 
-The Steem network is built upon Graphene, the same technology that powers BitShares. Graphene has been publicly demonstrated to sustain over 1000 transactions per second on a distributed test network.  Graphene can easily scale to 10,000 or more transactions per second with relatively straightforward improvements to server capacity and communication protocols.
+The Steem network is based on Graphene, the same technology that powers BitShares. Graphene has been publicly demonstrated to sustain over 1,000 transactions per second on a distributed test network. Graphene can easily scale to 10,000 or more transactions per second with relatively straightforward improvements to server capacity and communication protocols.
 
 ## Reddit Scale 
 
@@ -448,7 +448,7 @@ Contribution Rewards:
 
 ### Power Rewards:
 
-- Steem Power rewards:  For each STEEM created by the above rewards, 9 STEEM are divided among all Steem Power holders.
+- Steem Power rewards: For each STEEM created by the above rewards, 9 STEEM are divided among all Steem Power holders.
 
 ### SBD operations:
 
@@ -486,7 +486,7 @@ _We already face a multitude of choices every day with regards to what to access
 
 -The Case Against Micropayments[^fn19]
 
-Under Steem, micropayments are paid to content producers, but those who vote for the content do not pay.  Instead, the cost of the reward  is financed via new tokens. Someone can join the system, vote to pay someone, and then exit the system with more money than they started with (assuming the market valuation of the Steem system remains constant). In other words, the micropayment solution provided by Steem provides a user experience similar to many widely used websites that have user-moderated content.
+Under Steem, micropayments are paid to content producers, but those who vote for the content do not pay. Instead, the cost of the reward is financed via new tokens. Someone can join the system, vote to pay someone, and then exit the system with more money than they started with (assuming the market valuation of the Steem system remains constant). In other words, the micropayment solution provided by Steem provides a user experience similar to many widely used websites that have user-moderated content.
 
 Furthermore, Steem pays people to figure out who should be paid! This kind of thinking is revolutionary.
 
@@ -504,7 +504,7 @@ By incentivizing curation, the Steem network is able to use automated algorithms
 
 It isn’t easy to get into cryptocurrency.[^fn20] Someone who discovers Bitcoin and wants to try it out quickly learns that they will need to sign up with an exchange and fund their account with a credit card or wire transfer. What would Facebook’s adoption rate have been like if you had to fork over money and two forms of ID?   
 
-Steem solves this problem by giving everyone a way to get paid for doing simple, but valuable, tasks.   This will help to widely distribute STEEM tokens.  This is helpful because cryptocurrencies have a network effect (i.e., more users make it more useful; for an extreme example, consider that if Satoshi had kept 100% of Bitcoin for himself, Bitcoin would be worthless.)
+Steem solves this problem by giving everyone a way to get paid for doing simple, but valuable, tasks. This will help to widely distribute STEEM tokens. This is helpful because cryptocurrencies have a network effect (i.e., more users make it more useful; for an extreme example, consider that if Satoshi had kept 100% of Bitcoin for himself, Bitcoin would be worthless.)
 
 ## Solving the Cryptocurrency Liquidation Problem
 
@@ -512,11 +512,11 @@ A currency that is difficult to use or impossible to sell has little value. Some
 
 Buying from merchants gives users a way to quickly convert their cryptocurrency into tangible goods and services. The presence of merchants improves the system by creating an off-ramp for users to exit the system without going to the trouble of using an exchange. For their part, merchants will accept any currency if it increases their sales. They need a currency pegged to their unit of account, normally dollars. Accepting a volatile currency introduces significant accounting overhead, as well. Having a large user base with a stable currency such as SBD lowers the barrier to entry for merchants.
 
-Another way that people can liquidate the small amounts of cryptocurrency they receive from participating on the Steem platform is through _tipping_ others. This is like leaving the small change as a tip for your waiter. When enough people leave small tips it adds up to a meaningful amount.  You and the waiter each gain a benefit from the tip.
+Another way that people can liquidate the small amounts of cryptocurrency they receive from participating on the Steem platform is through _tipping_ others. This is like leaving the small change as a tip for your waiter. When enough people leave small tips it adds up to a meaningful amount. You and the waiter each gain a benefit from the tip.
 
 ## Censorship
 
-Steem is a decentralized network that is operated by witnesses in jurisdictions around the world. All user actions are publicly recorded on the  blockchain, and can be publicly verified. This means that there is no single entity that can censor content that is valued by STEEM holders. 
+Steem is a decentralized network that is operated by witnesses in jurisdictions around the world. All user actions are publicly recorded on the blockchain, and can be publicly verified. This means that there is no single entity that can censor content that is valued by STEEM holders. 
 
 Individual websites such as steemit.com may censor content on their particular site, but content published on the blockchain is inherently broadcast traffic and mirrors all around the world may continue to make it available.
 
@@ -528,9 +528,9 @@ Most cryptocurrencies generate little value for those who are not actively using
 
 ## Shifting toward Blockchain-based Attribution
 
-The internet represents the easiest medium for distributing information in the world.  With that said, it can be a frightening place for content creators who would like to own their content and have it shared with proper attribution. On current social media platforms, attribution is something that can be lost overnight - a posted video or image can be replicated and re-shared without consent or regard for the creator.
+The internet represents the easiest medium for distributing information in the world. With that said, it can be a frightening place for content creators who would like to own their content and have it shared with proper attribution. On current social media platforms, attribution is something that can be lost overnight - a posted video or image can be replicated and re-shared without consent or regard for the creator.
 
-Under blockchain-based social media, a creator or author would always be able to point to a public record and timestamp showing proof of their content origination.  In a circumstance where a creator would like to address those who have re-shared without permission or attribution, blockchain-based records provide public proof that the content was posted by a particular user at a particular time. In the future, blockchain-based attribution could come to be recognized by governments for its authenticity and could hold weight in court, which would give content creators greater power to control the dissemination of their work.
+Under blockchain-based social media, a creator or author would always be able to point to a public record and timestamp showing proof of their content origination. In a circumstance where a creator would like to address those who have re-shared without permission or attribution, blockchain-based records provide public proof that the content was posted by a particular user at a particular time. In the future, blockchain-based attribution could come to be recognized by governments for its authenticity and could hold weight in court, which would give content creators greater power to control the dissemination of their work.
 
 A timestamping service can be built on almost any blockchain, and there are currently several efforts to build this kind of service on the Bitcoin network. However, Steem has a useful advantage in this realm because content publishers are “first class citizens”: that is, the Steem blockchain is built from the ground up around the use case of content publication, which allows content creators to have the blockchain validate their content at a certain point in time simply by writing their post using the same authoring tools used by other Steem users. 
 
