@@ -522,6 +522,33 @@ Individual websites such as steemit.com may censor content on their particular s
 
 Freedom of speech is the foundation of all other liberties and any infringement upon freedom of speech undermines the only peaceful means of reaching consensus: discussion. Without free discussion voters cannot be fully informed, and uninformed voters are a greater threat to society than losing the right to vote. Censorship is a means of stealing votes through limiting public discourse. Steem is committed to enabling free speech and building a free society.
 
+## Social Commerce with Escrow Payments
+
+Steem's blockchain infrastructure enables a new form of social commerce where trust is established through decentralized escrow payments. In traditional social commerce platforms, buyers and sellers often face trust issues that can hinder transactions. Steem solves this problem by introducing a built-in escrow system that:
+
+1. **Buyer Protection**: Funds are held in smart contract escrow until goods/services are delivered and verified
+2. **Seller Protection**: Payment is guaranteed once delivery is confirmed
+3. **Dispute Resolution**: Community-elected mediators can resolve disputes using blockchain evidence
+4. **Low Fees**: Eliminates middlemen and their associated fees
+
+The escrow payment flow works as follows:
+1. Buyer initiates payment to escrow smart contract
+2. Seller provides proof of shipment/delivery (tracking numbers for physical goods, cryptographic proofs for digital goods)
+3. Funds are automatically released after delivery confirmation period
+4. For disputed transactions, mediators review blockchain evidence and vote on resolution
+
+This system is particularly valuable for:
+- Influencer-driven commerce where creators sell directly to followers
+- Peer-to-peer marketplaces within social networks
+- Digital goods and services exchanges
+- Cross-border transactions where traditional escrow services are unavailable
+
+By integrating escrow payments into the social platform, Steem enables:
+- Safe transactions between community members
+- New monetization options for content creators
+- Reduced fraud in social commerce
+- Increased utility and demand for STEEM and SBD as transaction currencies
+
 ## Solving Organic Discovery via Search Engine Optimization
 
 Most cryptocurrencies generate little value for those who are not actively using the network. Steem, by contrast, generates content and encourages users to share it. This content gets indexed by search engines and ultimately will bring value to a large number of passive users. This search traffic creates organic advertising for the Steem network and grows the network effect.
@@ -604,4 +631,3 @@ http://www.openp2p.com/pub/a/p2p/2000/12/19/micropayments.html
 [^fn20]: Dailydot, Jon Southurst, “It’s Still Too Hard to Get Your First Bitcoin,” April 2015.
 \hfill\break
 http://www.dailydot.com/opinion/bitcoin-cryptocurrency-adoption-hard
-
