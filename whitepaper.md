@@ -524,19 +524,19 @@ Freedom of speech is the foundation of all other liberties and any infringement 
 
 ## Social Commerce with Escrow Payments
 
-Steem's blockchain infrastructure enables a new form of social commerce where trust is established through trusted third-party escrow accounts. In traditional social commerce platforms, buyers and sellers often face trust issues that can hinder transactions. Steem solves this problem by utilizing a community-based escrow system that:
+Steem's blockchain infrastructure enables a new form of social commerce where trust is established through trusted third-party agent platform accounts. In traditional social commerce platforms, buyers and sellers often face trust issues that can hinder transactions. Steem solves this problem by utilizing a community-based escrow system that:
 
-1. **Buyer Protection**: Funds are held in a trusted third-party account until goods/services are delivered and verified
-2. **Seller Protection**: Payment is guaranteed once delivery is confirmed by the escrow provider
-3. **Dispute Resolution**: Community-elected mediators can resolve disputes based on transaction evidence
+1. **Buyer Protection**: Funds are held in a trusted third-party agent platform account until goods/services are delivered and verified
+2. **Seller Protection**: Payment is guaranteed once delivery is confirmed by the thiud-party agent platform
+3. **Dispute Resolution**: The third-party agent platform can resolve disputes based on transaction evidence
 4. **Low Fees**: Significantly lower than traditional escrow services
 
 The escrow payment flow works as follows:
 
-1. Buyer sends payment to a designated escrow account operated by a trusted community member
-2. Seller provides proof of shipment/delivery to the escrow provider
-3. Escrow provider releases funds to seller after confirming delivery
-4. For disputed transactions, mediators review evidence and instruct escrow provider on fund distribution
+1. Buyer sends payment to a trusted third-party agent account operated by a trusted community member
+2. Seller provides proof of shipment/delivery to the agent
+3. Agent releases funds to seller after confirming delivery
+4. For disputed transactions, agent review evidence and instruct escrow provider on fund distribution
 
 This system is particularly valuable for:
 
