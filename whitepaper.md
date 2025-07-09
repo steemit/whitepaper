@@ -121,13 +121,13 @@ There is significant value to having long-term commitment, because it enables co
 
 In the cryptocurrency space, speculators jump from cryptocurrency to cryptocurrency based mostly on which one is expected to have short-term growth. Steem wants to build a community that is mostly owned and entirely controlled by those with a long-term perspective.
 
-Users are able to commit their STEEM to a thirteen-week vesting schedule, providing them with additional benefits within the platform. STEEM that has been committed to a thirteen-week vesting schedule is called Steem Power (SP). SP balances are non-transferable and non-divisible except via the automatically recurring conversion requests. This means that SP cannot be easily traded on cryptocurrency exchanges.
+Users are able to commit their STEEM to a four-week vesting schedule, providing them with additional benefits within the platform. STEEM that has been committed to a four-week vesting schedule is called Steem Power (SP). SP balances are non-transferable and non-divisible except via the automatically recurring conversion requests. This means that SP cannot be easily traded on cryptocurrency exchanges.
 
 When users vote on content, their influence over the distribution of the rewards pool is directly proportional to the amount of SP that they have. Users with more SP have more influence on the distribution of rewards. This means that SP is an access token that grants its holders exclusive powers within the Steem platform.
 
 SP holders also earn new tokens based on the balance of SP that remains vested. SP holders are paid 15% of the yearly inflation. The amount of new tokens they receive is directly proportional to the amount of SP they hold relative to the total amount of vested SP across all users.
 
-Transferring from STEEM to SP is referred to as “powering up,” while transferring from SP to STEEM is referred to as “powering down.” SP that is powered down is returned to the user over a period of thirteen weeks, via 13 equal weekly payments, starting one week after the power down is initiated.
+Transferring from STEEM to SP is referred to as “powering up,” while transferring from SP to STEEM is referred to as “powering down.” SP that is powered down is returned to the user over a period of four weeks, via 13 equal weekly payments, starting one week after the power down is initiated.
 
 ## Steem Dollars (SBD)
 
