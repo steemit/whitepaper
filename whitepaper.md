@@ -431,7 +431,7 @@ Keeping everything in memory is increasingly viable given the recent introductio
 
 Starting with the network's 16th hard fork in December 2016, Steem began creating new tokens at an annual inflation rate of 9.5%. The inflation rate decreases at a rate of 0.01% every 250,000 blocks, or about 0.5% per year. The inflation will continue decreasing at this pace until the overall inflation rate reaches 0.95%. This will take about 20.5 years from the time hard fork 16 went into effect.
 
-Of the new tokens that are generated, 75% go to fund the reward pool, which is split between authors and curators. Another 15% of the new tokens are awarded to holders of SP. The remaining 10% pays for the witnesses to power the blockchain.
+Of the new tokens that are generated, 65% go to fund the reward pool, which is split between authors and curators. Another 15% of the new tokens are awarded to holders of SP. Another 10% of the new tokens are awarded to Proposals which commit by Steem Proposal System (SPS). The remaining 10% pays for the witnesses to power the blockchain.
 
 ## Initial Allocation & Supply
 
