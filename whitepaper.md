@@ -127,7 +127,7 @@ When users vote on content, their influence over the distribution of the rewards
 
 SP holders also earn new tokens based on the balance of SP that remains vested. SP holders are paid 15% of the yearly inflation. The amount of new tokens they receive is directly proportional to the amount of SP they hold relative to the total amount of vested SP across all users.
 
-Transferring from STEEM to SP is referred to as “powering up,” while transferring from SP to STEEM is referred to as “powering down.” SP that is powered down is returned to the user over a period of four weeks, via 13 equal weekly payments, starting one week after the power down is initiated.
+Transferring from STEEM to SP is referred to as “powering up,” while transferring from SP to STEEM is referred to as “powering down.” SP that is powered down is returned to the user over a period of four weeks, via 4 equal weekly payments, starting one week after the power down is initiated.
 
 ## Steem Dollars (SBD)
 
