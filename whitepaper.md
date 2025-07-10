@@ -121,13 +121,13 @@ There is significant value to having long-term commitment, because it enables co
 
 In the cryptocurrency space, speculators jump from cryptocurrency to cryptocurrency based mostly on which one is expected to have short-term growth. Steem wants to build a community that is mostly owned and entirely controlled by those with a long-term perspective.
 
-Users are able to commit their STEEM to a thirteen-week vesting schedule, providing them with additional benefits within the platform. STEEM that has been committed to a thirteen-week vesting schedule is called Steem Power (SP). SP balances are non-transferable and non-divisible except via the automatically recurring conversion requests. This means that SP cannot be easily traded on cryptocurrency exchanges.
+Users are able to commit their STEEM to a four-week vesting schedule, providing them with additional benefits within the platform. STEEM that has been committed to a four-week vesting schedule is called Steem Power (SP). SP balances are non-transferable and non-divisible except via the automatically recurring conversion requests. This means that SP cannot be easily traded on cryptocurrency exchanges.
 
 When users vote on content, their influence over the distribution of the rewards pool is directly proportional to the amount of SP that they have. Users with more SP have more influence on the distribution of rewards. This means that SP is an access token that grants its holders exclusive powers within the Steem platform.
 
 SP holders also earn new tokens based on the balance of SP that remains vested. SP holders are paid 15% of the yearly inflation. The amount of new tokens they receive is directly proportional to the amount of SP they hold relative to the total amount of vested SP across all users.
 
-Transferring from STEEM to SP is referred to as “powering up,” while transferring from SP to STEEM is referred to as “powering down.” SP that is powered down is returned to the user over a period of thirteen weeks, via 13 equal weekly payments, starting one week after the power down is initiated.
+Transferring from STEEM to SP is referred to as “powering up,” while transferring from SP to STEEM is referred to as “powering down.” SP that is powered down is returned to the user over a period of four weeks, via 4 equal weekly payments, starting one week after the power down is initiated.
 
 ## Steem Dollars (SBD)
 
@@ -431,7 +431,7 @@ Keeping everything in memory is increasingly viable given the recent introductio
 
 Starting with the network's 16th hard fork in December 2016, Steem began creating new tokens at an annual inflation rate of 9.5%. The inflation rate decreases at a rate of 0.01% every 250,000 blocks, or about 0.5% per year. The inflation will continue decreasing at this pace until the overall inflation rate reaches 0.95%. This will take about 20.5 years from the time hard fork 16 went into effect.
 
-Of the new tokens that are generated, 75% go to fund the reward pool, which is split between authors and curators. Another 15% of the new tokens are awarded to holders of SP. The remaining 10% pays for the witnesses to power the blockchain.
+Of the new tokens that are generated, 65% go to fund the reward pool, which is split between authors and curators. Another 15% of the new tokens are awarded to holders of SP. Another 10% of the new tokens are awarded to Proposals which commit by Steem Proposal System (SPS). The remaining 10% pays for the witnesses to power the blockchain.
 
 ## Initial Allocation & Supply
 
@@ -522,6 +522,36 @@ Individual websites such as steemit.com may censor content on their particular s
 
 Freedom of speech is the foundation of all other liberties and any infringement upon freedom of speech undermines the only peaceful means of reaching consensus: discussion. Without free discussion voters cannot be fully informed, and uninformed voters are a greater threat to society than losing the right to vote. Censorship is a means of stealing votes through limiting public discourse. Steem is committed to enabling free speech and building a free society.
 
+## Social Commerce with Escrow Payments
+
+Steem's blockchain infrastructure enables a new form of social commerce where trust is established through trusted third-party agent platform accounts. In traditional social commerce platforms, buyers and sellers often face trust issues that can hinder transactions. Steem solves this problem by utilizing a community-based escrow system that:
+
+1. **Buyer Protection**: Funds are held in a trusted third-party agent platform account until goods/services are delivered and verified
+2. **Seller Protection**: Payment is guaranteed once delivery is confirmed by the thiud-party agent platform
+3. **Dispute Resolution**: The third-party agent platform can resolve disputes based on transaction evidence
+4. **Low Fees**: Significantly lower than traditional escrow services
+
+The escrow payment flow works as follows:
+
+1. Buyer sends payment to a trusted third-party agent account operated by a trusted community member
+2. Seller provides proof of shipment/delivery to the agent
+3. Agent releases funds to seller after confirming delivery
+4. For disputed transactions, agent review evidence and instruct escrow provider on fund distribution
+
+This system is particularly valuable for:
+
+- Influencer-driven commerce where creators sell directly to followers
+- Peer-to-peer marketplaces within social networks
+- Digital goods and services exchanges
+- Cross-border transactions where traditional escrow services are unavailable
+
+By integrating escrow payments into the social platform, Steem enables:
+
+- Safe transactions between community members
+- New monetization options for content creators
+- Reduced fraud in social commerce
+- Increased utility and demand for STEEM and SBD as transaction currencies
+
 ## Solving Organic Discovery via Search Engine Optimization
 
 Most cryptocurrencies generate little value for those who are not actively using the network. Steem, by contrast, generates content and encourages users to share it. This content gets indexed by search engines and ultimately will bring value to a large number of passive users. This search traffic creates organic advertising for the Steem network and grows the network effect.
@@ -604,4 +634,3 @@ http://www.openp2p.com/pub/a/p2p/2000/12/19/micropayments.html
 [^fn20]: Dailydot, Jon Southurst, “It’s Still Too Hard to Get Your First Bitcoin,” April 2015.
 \hfill\break
 http://www.dailydot.com/opinion/bitcoin-cryptocurrency-adoption-hard
-
